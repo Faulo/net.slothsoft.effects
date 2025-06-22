@@ -2,7 +2,7 @@ using NUnit.Framework;
 using Slothsoft.TestRunner;
 using UnityEngine;
 
-namespace Slothsoft.Events.Tests.PlayMode {
+namespace Slothsoft.Effects.Tests.PlayMode {
     [TestFixture(TestOf = typeof(CollisionIdentifier))]
     sealed class CollisionIdentifierTests {
         [Test]

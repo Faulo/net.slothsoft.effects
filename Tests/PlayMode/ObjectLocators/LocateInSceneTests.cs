@@ -1,8 +1,8 @@
 using NUnit.Framework;
-using Slothsoft.Events.ObjectLocators;
+using Slothsoft.Effects.ObjectLocators;
 using Slothsoft.TestRunner;
 
-namespace Slothsoft.Events.Tests.PlayMode.ObjectLocators {
+namespace Slothsoft.Effects.Tests.PlayMode.ObjectLocators {
     [TestFixture(TestOf = typeof(LocateInScene))]
     sealed class LocateInSceneTests {
         [TestCase(false)]

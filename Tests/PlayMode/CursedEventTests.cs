@@ -6,7 +6,7 @@ using Slothsoft.TestRunner;
 using UnityEditor;
 using UnityEngine;
 
-namespace Slothsoft.Events.Tests.PlayMode {
+namespace Slothsoft.Effects.Tests.PlayMode {
     [TestFixture(TestOf = typeof(EffectEvent))]
     sealed class CursedEventTests {
         sealed class CursedEventBridge : MonoBehaviour {

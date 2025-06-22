@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Slothsoft.Events {
+namespace Slothsoft.Effects {
     public interface IEffect {
         void Invoke();
         void Invoke(GameObject context);

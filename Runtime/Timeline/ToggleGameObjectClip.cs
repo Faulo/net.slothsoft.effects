@@ -1,9 +1,9 @@
 using System.Text;
-using Slothsoft.Events.ObjectLocators;
+using Slothsoft.Effects.ObjectLocators;
 using UnityEngine;
 using UnityEngine.Playables;
 
-namespace Slothsoft.Events.Timeline {
+namespace Slothsoft.Effects.Timeline {
     sealed class ToggleGameObjectClip : PlayableClipBase<ToggleGameObjectClip, ToggleGameObjectClip.Behavior, GameObject> {
         public sealed class Behavior : PlayableBehaviorBase<ToggleGameObjectClip, GameObject> {
             protected override void OnStateEnter(in Playable playable, in FrameData info) {

@@ -3,7 +3,7 @@ using Slothsoft.UnityExtensions;
 using UnityEngine;
 using UnityEngine.Events;
 
-namespace Slothsoft.Events.Effects {
+namespace Slothsoft.Effects.Effects {
     [ImplementationFor(typeof(IEffect), nameof(InvokeUnityEventWithGameObject))]
     [Serializable]
     sealed class InvokeUnityEventWithGameObject : IEffect {

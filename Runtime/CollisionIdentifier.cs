@@ -2,7 +2,7 @@ using System;
 using UnityEngine;
 using UnityEngine.Assertions;
 
-namespace Slothsoft.Events {
+namespace Slothsoft.Effects {
     public readonly struct CollisionIdentifier : IEquatable<CollisionIdentifier> {
         public readonly GameObject gameObject;
         public readonly CollisionMaterial material;

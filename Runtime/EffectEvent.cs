@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-namespace Slothsoft.Events {
+namespace Slothsoft.Effects {
     [Serializable]
     public sealed class EffectEvent {
         event Action onGlobal;

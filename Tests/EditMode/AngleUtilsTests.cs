@@ -1,6 +1,6 @@
 using NUnit.Framework;
 using UnityEngine;
-namespace Slothsoft.Events.Tests.EditMode {
+namespace Slothsoft.Effects.Tests.EditMode {
     [TestFixture(TestOf = typeof(AngleUtils))]
     sealed class AngleUtilsTests {
         [TestCase(-720, 0)]

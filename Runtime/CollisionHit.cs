@@ -1,5 +1,5 @@
 using UnityEngine;
-namespace Slothsoft.Events {
+namespace Slothsoft.Effects {
     readonly struct CollisionHit : ICollisionHit {
         public Vector2 point { get; }
 

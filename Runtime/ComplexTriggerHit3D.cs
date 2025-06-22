@@ -1,6 +1,6 @@
 using Slothsoft.UnityExtensions;
 using UnityEngine;
-namespace Slothsoft.Events {
+namespace Slothsoft.Effects {
     public readonly struct ComplexTriggerHit3D : ITriggerHit {
         public Vector2 pointSum { get; }
         public int pointCount { get; }

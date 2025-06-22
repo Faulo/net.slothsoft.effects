@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.Assertions;
 
-namespace Slothsoft.Events {
+namespace Slothsoft.Effects {
     public static class AngleUtils {
         public static float NormalizeAngle(float angle) {
             while (angle >= 360) {

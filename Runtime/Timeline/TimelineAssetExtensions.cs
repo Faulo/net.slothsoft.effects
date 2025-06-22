@@ -1,6 +1,6 @@
 using UnityEngine.Timeline;
 
-namespace Slothsoft.Events.Timeline {
+namespace Slothsoft.Effects.Timeline {
     public static class TimelineAssetExtensions {
         public static void SetAllClipDurations(this TimelineAsset timeline, double duration) {
             foreach (var track in timeline.GetRootTracks()) {

@@ -1,11 +1,11 @@
 using System;
 using MyBox;
-using Slothsoft.Events.ObjectLocators;
+using Slothsoft.Effects.ObjectLocators;
 using Slothsoft.UnityExtensions;
 using UnityEngine;
 using UnityObject = UnityEngine.Object;
 
-namespace Slothsoft.Events.Effects {
+namespace Slothsoft.Effects.Effects {
     [ImplementationFor(typeof(IEffect), nameof(InstantiatePrefab))]
     [Serializable]
     sealed class InstantiatePrefab : IEffect {

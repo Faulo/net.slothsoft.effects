@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Slothsoft.Events.ObjectLocators {
+namespace Slothsoft.Effects.ObjectLocators {
     public interface ITransformLocator {
         bool TryLocate(GameObject context, out Transform result);
     }

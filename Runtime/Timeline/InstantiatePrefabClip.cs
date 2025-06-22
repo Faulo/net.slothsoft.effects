@@ -1,10 +1,10 @@
 using System.Text;
 using MyBox;
-using Slothsoft.Events.ObjectLocators;
+using Slothsoft.Effects.ObjectLocators;
 using UnityEngine;
 using UnityEngine.Playables;
 
-namespace Slothsoft.Events.Timeline {
+namespace Slothsoft.Effects.Timeline {
     sealed class InstantiatePrefabClip : PlayableClipBase<InstantiatePrefabClip, InstantiatePrefabClip.Behavior, GameObject> {
         public sealed class Behavior : PlayableBehaviorBase<InstantiatePrefabClip, GameObject> {
             GameObject instance;

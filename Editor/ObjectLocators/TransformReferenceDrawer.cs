@@ -1,11 +1,11 @@
 using System.Collections.Generic;
 using System.Linq;
-using Slothsoft.Events.ObjectLocators;
+using Slothsoft.Effects.ObjectLocators;
 using Slothsoft.UnityExtensions;
 using UnityEditor;
 using UnityEngine;
 
-namespace Slothsoft.Events.Editor.ObjectLocators {
+namespace Slothsoft.Effects.Editor.ObjectLocators {
     [CustomPropertyDrawer(typeof(TransformReference))]
     sealed class TransformReferenceDrawer : PropertyDrawer {
         static readonly ImplementationLocator<ITransformLocator> locator = new();

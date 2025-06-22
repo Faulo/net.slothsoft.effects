@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-namespace Slothsoft.Events.ObjectLocators {
+namespace Slothsoft.Effects.ObjectLocators {
     [Serializable]
     public sealed class TransformReference {
         [SerializeReference]

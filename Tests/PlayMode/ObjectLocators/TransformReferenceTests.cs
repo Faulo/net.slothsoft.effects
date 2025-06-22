@@ -1,9 +1,9 @@
 using NSubstitute;
 using NUnit.Framework;
 using NUnit.Framework.Internal;
-using Slothsoft.Events.ObjectLocators;
+using Slothsoft.Effects.ObjectLocators;
 
-namespace Slothsoft.Events.Tests.PlayMode.ObjectLocators {
+namespace Slothsoft.Effects.Tests.PlayMode.ObjectLocators {
     [TestFixture(TestOf = typeof(TransformReference))]
     sealed class TransformReferenceTests {
         [Test]

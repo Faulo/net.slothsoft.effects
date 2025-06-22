@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.Playables;
 using UnityEngine.Timeline;
 
-namespace Slothsoft.Events.Timeline {
+namespace Slothsoft.Effects.Timeline {
     public abstract class PlayableClipBase<TSettings, TBehaviour, TTarget> : PlayableAsset, IClip<TTarget>, IExpandableClip
 #if UNITY_EDITOR
         , ISerializationCallbackReceiver

@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.Playables;
 
-namespace Slothsoft.Events.Timeline {
+namespace Slothsoft.Effects.Timeline {
     sealed class EffectClip : PlayableClipBase<EffectClip, EffectClip.Behavior, GameObject> {
         public sealed class Behavior : PlayableBehaviorBase<EffectClip, GameObject> {
             protected override void OnStateEnter(in Playable playable, in FrameData info) {

@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Timeline;
 
-namespace Slothsoft.Events.Timeline {
+namespace Slothsoft.Effects.Timeline {
     public abstract class TrackBase : PlayableTrack {
 #if UNITY_EDITOR
         protected override void OnBeforeTrackSerialize() {

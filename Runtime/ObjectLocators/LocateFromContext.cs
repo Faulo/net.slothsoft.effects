@@ -2,7 +2,7 @@ using System;
 using Slothsoft.UnityExtensions;
 using UnityEngine;
 
-namespace Slothsoft.Events.ObjectLocators {
+namespace Slothsoft.Effects.ObjectLocators {
     [ImplementationFor(typeof(ITransformLocator), "Use context GameObject", -1)]
     [Serializable]
     sealed class LocateFromContext : ITransformLocator {

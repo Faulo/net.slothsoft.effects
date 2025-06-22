@@ -1,12 +1,11 @@
 using System.Collections.Generic;
 using NUnit.Framework;
-using Slothsoft.Events;
 using Slothsoft.UnityExtensions;
 using UnityEditor;
 using UnityEditorInternal;
 using UnityEngine;
 
-namespace CursedBroom.Events.Editor {
+namespace Slothsoft.Effects.Editor {
     [CustomPropertyDrawer(typeof(EffectEvent))]
     sealed class EffectEventDrawer : PropertyDrawer {
         #region EffectCreator

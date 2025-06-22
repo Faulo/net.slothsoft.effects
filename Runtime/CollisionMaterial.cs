@@ -2,7 +2,7 @@ using MyBox;
 using Slothsoft.UnityExtensions;
 using UnityEngine;
 
-namespace Slothsoft.Events {
+namespace Slothsoft.Effects {
     public sealed class CollisionMaterial {
         public bool IsMaterial(PhysicsMaterial2D material)
             => material2D == material;

@@ -1,4 +1,4 @@
-namespace Slothsoft.Events.Timeline {
+namespace Slothsoft.Effects.Timeline {
     public interface IExpandableClip {
         bool inheritDuration { get; }
     }

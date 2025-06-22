@@ -1,4 +1,4 @@
-﻿namespace Slothsoft.Events {
+﻿namespace Slothsoft.Effects {
     public interface ICollisionProvider {
         CollisionInfo collision { get; }
     }

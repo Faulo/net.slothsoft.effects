@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Slothsoft.Events {
+namespace Slothsoft.Effects {
     public readonly struct CollisionInfo {
         public static readonly CollisionInfo empty = new();
 

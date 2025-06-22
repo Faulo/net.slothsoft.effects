@@ -2,7 +2,7 @@ using System.Text;
 using UnityEngine;
 using UnityEngine.Playables;
 
-namespace Slothsoft.Events.Timeline {
+namespace Slothsoft.Effects.Timeline {
     sealed class RotateGameObjectToVelocityClip : PlayableClipBase<RotateGameObjectToVelocityClip, RotateGameObjectToVelocityClip.Behavior, GameObject> {
         public sealed class Behavior : PlayableBehaviorBase<RotateGameObjectToVelocityClip, GameObject> {
             Vector3 previousPosition;

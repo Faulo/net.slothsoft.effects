@@ -1,11 +1,11 @@
 using System.Runtime.CompilerServices;
-using Slothsoft.Events;
+using Slothsoft.Effects;
 
 [assembly: InternalsVisibleTo(AssemblyInfo.NAMESPACE_EDITOR)]
 [assembly: InternalsVisibleTo(AssemblyInfo.NAMESPACE_TESTS_EDITMODE)]
 [assembly: InternalsVisibleTo(AssemblyInfo.NAMESPACE_TESTS_PLAYMODE)]
 
-namespace Slothsoft.Events {
+namespace Slothsoft.Effects {
     static class AssemblyInfo {
         public const string ID = "net.slothsoft.test-runner";
 

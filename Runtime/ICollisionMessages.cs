@@ -1,4 +1,4 @@
-namespace Slothsoft.Events {
+namespace Slothsoft.Effects {
     public interface ICollisionMessages {
         /// <summary>
         /// Gets called any time this actor enters a collider or trigger.

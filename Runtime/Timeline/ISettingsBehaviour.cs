@@ -1,6 +1,6 @@
 using UnityEngine.Playables;
 
-namespace Slothsoft.Events.Timeline {
+namespace Slothsoft.Effects.Timeline {
     public interface ISettingsBehaviour<in TSettings>
         where TSettings : IPlayableAsset {
 

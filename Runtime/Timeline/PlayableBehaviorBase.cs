@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.Playables;
 
-namespace Slothsoft.Events.Timeline {
+namespace Slothsoft.Effects.Timeline {
     public abstract class PlayableBehaviorBase<TSettings, TTarget> : PlayableBehaviour, ISettingsBehaviour<TSettings>
         where TSettings : IPlayableAsset
         where TTarget : Object {
