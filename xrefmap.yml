@@ -128,12 +128,12 @@ references:
   commentId: T:Slothsoft.Events.CollisionIdentifier
   fullName: Slothsoft.Events.CollisionIdentifier
   nameWithType: CollisionIdentifier
-- uid: Slothsoft.Events.CollisionIdentifier.#ctor(GameObject,PhysicsMaterial,Vector2Int)
-  name: CollisionIdentifier(GameObject, PhysicsMaterial, Vector2Int)
-  href: api/Slothsoft.Events.CollisionIdentifier.html#Slothsoft_Events_CollisionIdentifier__ctor_GameObject_PhysicsMaterial_Vector2Int_
-  commentId: M:Slothsoft.Events.CollisionIdentifier.#ctor(GameObject,PhysicsMaterial,Vector2Int)
-  fullName: Slothsoft.Events.CollisionIdentifier.CollisionIdentifier(GameObject, PhysicsMaterial, Vector2Int)
-  nameWithType: CollisionIdentifier.CollisionIdentifier(GameObject, PhysicsMaterial, Vector2Int)
+- uid: Slothsoft.Events.CollisionIdentifier.#ctor(GameObject,Slothsoft.Events.CollisionMaterial,Vector2Int)
+  name: CollisionIdentifier(GameObject, CollisionMaterial, Vector2Int)
+  href: api/Slothsoft.Events.CollisionIdentifier.html#Slothsoft_Events_CollisionIdentifier__ctor_GameObject_Slothsoft_Events_CollisionMaterial_Vector2Int_
+  commentId: M:Slothsoft.Events.CollisionIdentifier.#ctor(GameObject,Slothsoft.Events.CollisionMaterial,Vector2Int)
+  fullName: Slothsoft.Events.CollisionIdentifier.CollisionIdentifier(GameObject, Slothsoft.Events.CollisionMaterial, Vector2Int)
+  nameWithType: CollisionIdentifier.CollisionIdentifier(GameObject, CollisionMaterial, Vector2Int)
 - uid: Slothsoft.Events.CollisionIdentifier.#ctor*
   name: CollisionIdentifier
   href: api/Slothsoft.Events.CollisionIdentifier.html#Slothsoft_Events_CollisionIdentifier__ctor_
