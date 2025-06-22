@@ -24,9 +24,6 @@ namespace Slothsoft.Events {
             collider.sharedMaterial = material3D;
         }
 
-        [Header("Material")]
-        public MaterialType type = default;
-
         [Header("Physics")]
         [SerializeField, Range(0, 10)]
         public float dynamicFriction = 0;

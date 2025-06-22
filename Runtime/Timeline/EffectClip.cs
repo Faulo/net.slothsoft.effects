@@ -2,8 +2,8 @@ using UnityEngine;
 using UnityEngine.Playables;
 
 namespace Slothsoft.Events.Timeline {
-    sealed class CursedActionClip : PlayableClipBase<CursedActionClip, CursedActionClip.Behavior, GameObject> {
-        public sealed class Behavior : PlayableBehaviorBase<CursedActionClip, GameObject> {
+    sealed class EffectClip : PlayableClipBase<EffectClip, EffectClip.Behavior, GameObject> {
+        public sealed class Behavior : PlayableBehaviorBase<EffectClip, GameObject> {
             protected override void OnStateEnter(in Playable playable, in FrameData info) {
                 RaiseEffects(settings.onStateEnter);
             }
@@ -15,7 +15,7 @@ namespace Slothsoft.Events.Timeline {
             protected override void OnStateExit(in Playable playable, in FrameData info) {
                 RaiseEffects(settings.onStateExit);
             }
-            void RaiseEffects(CursedEvent eve) {
+            void RaiseEffects(EffectEvent eve) {
                 if (!eve.hasPersistentListeners) {
                     return;
                 }
@@ -26,16 +26,16 @@ namespace Slothsoft.Events.Timeline {
 
         [Header("Settings")]
         [SerializeField]
-        CursedEvent onStateEnter = new();
+        EffectEvent onStateEnter = new();
         [SerializeField]
-        CursedEvent onStateAbort = new();
+        EffectEvent onStateAbort = new();
         [SerializeField]
-        CursedEvent onStateExit = new();
+        EffectEvent onStateExit = new();
 
 #if UNITY_EDITOR
         public override string displayName {
             get {
-                return nameof(CursedActionClip);
+                return nameof(EffectClip);
             }
         }
 #endif

@@ -3,19 +3,19 @@ using UnityEngine;
 
 namespace Slothsoft.Events {
     [Serializable]
-    public sealed class CursedEvent {
+    public sealed class EffectEvent {
         event Action onGlobal;
         event Action<GameObject> onGameObject;
         event Action<CollisionInfo> onCollision;
 
         [SerializeReference]
-        public ICursedAction[] actions = Array.Empty<ICursedAction>();
+        public IEffect[] effects = Array.Empty<IEffect>();
 
-        public bool hasPersistentListeners => actions.Length > 0;
+        public bool hasPersistentListeners => effects.Length > 0;
 
         public void Invoke() {
-            for (int i = 0; i < actions.Length; i++) {
-                actions[i].Invoke();
+            for (int i = 0; i < effects.Length; i++) {
+                effects[i].Invoke();
             }
 
             onGlobal?.Invoke();
@@ -24,8 +24,8 @@ namespace Slothsoft.Events {
         }
 
         public void Invoke(GameObject gameObject) {
-            for (int i = 0; i < actions.Length; i++) {
-                actions[i].Invoke(gameObject);
+            for (int i = 0; i < effects.Length; i++) {
+                effects[i].Invoke(gameObject);
             }
 
             onGlobal?.Invoke();
@@ -34,8 +34,8 @@ namespace Slothsoft.Events {
         }
 
         public void Invoke(CollisionInfo collision) {
-            for (int i = 0; i < actions.Length; i++) {
-                actions[i].Invoke(collision);
+            for (int i = 0; i < effects.Length; i++) {
+                effects[i].Invoke(collision);
             }
 
             onGlobal?.Invoke();

@@ -1,6 +1,6 @@
 {
-  "name": "net.slothsoft.events",
-  "displayName": "Slothsoft's Serializable Events",
+  "name": "net.slothsoft.effects",
+  "displayName": "Slothsoft's Serializable Effects",
   "version": "1.0.0-pre.0",
   "unity": "6000.0",
   "unityRelease": "44f1",

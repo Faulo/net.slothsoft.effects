@@ -8,20 +8,18 @@ namespace Slothsoft.Events {
 
         public readonly GameObject gameObject => id.gameObject;
         public readonly Vector2Int normal => id.normal;
-        public readonly Quaternion normalRotation => AngleUtil.DirectionalRotation(id.normal);
+        public readonly Quaternion normalRotation => AngleUtils.DirectionalRotation(id.normal);
         public readonly CollisionMaterial material => id.material;
         public readonly Vector3 point;
         public readonly float impulse;
-        public readonly IActor actor;
 
-        public CollisionInfo(CollisionIdentifier id, Vector3 point, float impulse, IActor actor = null) {
+        public CollisionInfo(CollisionIdentifier id, Vector3 point, float impulse) {
             this.id = id;
             this.point = point;
             this.impulse = impulse;
-            this.actor = actor;
         }
 
-        public CollisionInfo(GameObject gameObject, IActor actor = null) : this(new(gameObject), gameObject.transform.position, 0, actor) {
+        public CollisionInfo(GameObject gameObject) : this(new(gameObject), gameObject.transform.position, 0) {
         }
 
         public void SendCollisionMessage(string name) {

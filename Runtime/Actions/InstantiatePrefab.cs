@@ -5,17 +5,13 @@ using Slothsoft.UnityExtensions;
 using UnityEngine;
 using UnityObject = UnityEngine.Object;
 
-namespace Slothsoft.Events {
-    [ImplementationFor(typeof(ICursedAction), nameof(InstantiatePrefabAction))]
+namespace Slothsoft.Events.Effects {
+    [ImplementationFor(typeof(IEffect), nameof(InstantiatePrefab))]
     [Serializable]
-    sealed class InstantiatePrefabAction : ICursedAction, ISerializationCallbackReceiver {
-        [Header("Settings")]
+    sealed class InstantiatePrefab : IEffect {
         [SerializeField]
         internal GameObject prefab;
-        [SerializeField, ReadOnly]
-        internal bool isParticleSystem = false;
-        [SerializeField, ReadOnly, ConditionalField(nameof(isParticleSystem))]
-        internal ParticleSystem particleSystemPrefab = default;
+
         [Space]
         [SerializeField]
         internal bool parentToContext = false;
@@ -26,8 +22,9 @@ namespace Slothsoft.Events {
 
         [Space]
         [SerializeField]
+        [Tooltip("Destroy the instantiated prefab after x seconds")]
         internal bool useDestructionDelay = false;
-        [SerializeField, ConditionalField(nameof(useDestructionDelay)), Range(0, 10)]
+        [SerializeField, ConditionalField(nameof(useDestructionDelay))]
         internal float destructionDelay = 0;
 
         public void Invoke() => SetUp(default);
@@ -55,7 +52,6 @@ namespace Slothsoft.Events {
 
             Debug.LogError($"Failed to find transform for {this}");
             return false;
-
         }
 
         void Spawn(in Vector3 position, in Quaternion rotation, Transform context) {
@@ -63,29 +59,9 @@ namespace Slothsoft.Events {
                 ? context
                 : null;
 
-            if (isParticleSystem) {
-                var instance = UnityObject.Instantiate(particleSystemPrefab, position, rotation, parent);
-                if (useDestructionDelay) {
-                    UnityObject.Destroy(instance.gameObject, destructionDelay);
-                }
-            } else {
-                var instance = UnityObject.Instantiate(prefab, position, rotation, parent);
-                if (useDestructionDelay) {
-                    UnityObject.Destroy(instance, destructionDelay);
-                }
-            }
-        }
-
-        public void OnBeforeSerialize() {
-            Validate();
-        }
-        public void OnAfterDeserialize() {
-        }
-
-        void Validate() {
-            isParticleSystem = prefab && prefab.TryGetComponent(out particleSystemPrefab);
-            if (!isParticleSystem) {
-                particleSystemPrefab = null;
+            var instance = UnityObject.Instantiate(prefab, position, rotation, parent);
+            if (useDestructionDelay) {
+                UnityObject.Destroy(instance, destructionDelay);
             }
         }
     }

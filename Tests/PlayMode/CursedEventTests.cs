@@ -7,14 +7,14 @@ using UnityEditor;
 using UnityEngine;
 
 namespace Slothsoft.Events.Tests.PlayMode {
-    [TestFixture(TestOf = typeof(CursedEvent))]
+    [TestFixture(TestOf = typeof(EffectEvent))]
     sealed class CursedEventTests {
         sealed class CursedEventBridge : MonoBehaviour {
             [SerializeField]
-            public CursedEvent onTrigger = new();
+            public EffectEvent onTrigger = new();
         }
         [Serializable]
-        sealed class CursedActionStub : ICursedAction {
+        sealed class CursedActionStub : IEffect {
             internal event Action onGlobal;
             internal event Action<GameObject> onGameObject;
             internal event Action<CollisionInfo> onCollision;
@@ -36,8 +36,8 @@ namespace Slothsoft.Events.Tests.PlayMode {
         [TestCase(0, false)]
         [TestCase(1, true)]
         public void GivenActions_WhenCallHasPersistentListeners_ThenReturn(int count, bool expected) {
-            var sut = new CursedEvent {
-                actions = new ICursedAction[count]
+            var sut = new EffectEvent {
+                effects = new IEffect[count]
             };
 
             Assert.That(sut.hasPersistentListeners, Is.EqualTo(expected));
@@ -47,7 +47,7 @@ namespace Slothsoft.Events.Tests.PlayMode {
         public void TestCursedAction([ValueSource(nameof(eventTypes))] EventType triggerType) {
             using var test = new TestGameObject<CursedEventBridge>();
             var material = new CollisionMaterial();
-            var collision = new CollisionInfo(new(test.gameObject, material), Vector3.one, 1, default);
+            var collision = new CollisionInfo(new(test.gameObject, material), Vector3.one, 1);
 
             var substitute = new CursedActionStub();
 
@@ -103,7 +103,7 @@ namespace Slothsoft.Events.Tests.PlayMode {
         public void TestAddListener([ValueSource(nameof(eventTypes))] EventType actionType, [ValueSource(nameof(eventTypes))] EventType triggerType) {
             using var test = new TestGameObject();
             var material = new CollisionMaterial();
-            var collision = new CollisionInfo(new(test.gameObject, material), Vector3.one, 1, default);
+            var collision = new CollisionInfo(new(test.gameObject, material), Vector3.one, 1);
 
             object action = actionType switch {
                 EventType.Global => Substitute.For<Action>(),
@@ -112,7 +112,7 @@ namespace Slothsoft.Events.Tests.PlayMode {
                 _ => throw new NotImplementedException(actionType.ToString()),
             };
 
-            var sut = new CursedEvent();
+            var sut = new EffectEvent();
 
             switch (actionType) {
                 case EventType.Global:
@@ -165,7 +165,7 @@ namespace Slothsoft.Events.Tests.PlayMode {
         public void TestRemoveActionListener([ValueSource(nameof(eventTypes))] EventType actionType, [ValueSource(nameof(eventTypes))] EventType triggerType) {
             using var test = new TestGameObject();
             var material = new CollisionMaterial();
-            var collision = new CollisionInfo(new(test.gameObject, material), Vector3.one, 1, default);
+            var collision = new CollisionInfo(new(test.gameObject, material), Vector3.one, 1);
 
             object action = actionType switch {
                 EventType.Global => Substitute.For<Action>(),
@@ -174,7 +174,7 @@ namespace Slothsoft.Events.Tests.PlayMode {
                 _ => throw new NotImplementedException(actionType.ToString()),
             };
 
-            var sut = new CursedEvent();
+            var sut = new EffectEvent();
 
             switch (actionType) {
                 case EventType.Global:

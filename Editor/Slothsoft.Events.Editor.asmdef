@@ -1,0 +1,22 @@
+{
+    "name": "Slothsoft.Events.Editor",
+    "rootNamespace": "",
+    "references": [
+        "MyBox",
+        "Slothsoft.UnityExtensions",
+        "UnityEditor.UI",
+        "UnityEngine.UI",
+        "Slothsoft.Events"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
