@@ -2,7 +2,11 @@
     "name": "Slothsoft.Events",
     "rootNamespace": "",
     "references": [
-        "TNRD.NSubstitute"
+        "MyBox",
+        "Slothsoft.UnityExtensions",
+        "Unity.Timeline",
+        "Unity.Addressables",
+        "Unity.ResourceManager"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

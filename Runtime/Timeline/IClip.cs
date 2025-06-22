@@ -1,0 +1,7 @@
+namespace Slothsoft.Events.Timeline {
+    public interface IClip<out T> {
+#if UNITY_EDITOR
+        string displayName { get; }
+#endif
+    }
+}
