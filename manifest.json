@@ -5,35 +5,11 @@
   "files": [
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Slothsoft.Events.AngleUtil.yml",
+      "source_relative_path": "api/Slothsoft.Events.AngleUtils.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Slothsoft.Events.AngleUtil.html",
-          "hash": "JxM2WRLoFWFGEsRcxpJZrA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slothsoft.Events.BindingSearch.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slothsoft.Events.BindingSearch.html",
-          "hash": "SufwxO5uy1AELk1zqYOCWw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slothsoft.Events.CollisionAction.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slothsoft.Events.CollisionAction.html",
-          "hash": "g8mpZJDzE9UGQ8pQ6FedFg=="
+          "relative_path": "api/Slothsoft.Events.AngleUtils.html",
+          "hash": "hEYKVrgUym2r0LAEQKShog=="
         }
       },
       "is_incremental": false,
@@ -57,7 +33,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Slothsoft.Events.CollisionInfo.html",
-          "hash": "jLw9dB4aSY7GdNOg1sonkQ=="
+          "hash": "4vISuijk/D+ilMgMrMrypQ=="
         }
       },
       "is_incremental": false,
@@ -69,7 +45,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Slothsoft.Events.CollisionMaterial.html",
-          "hash": "yH+Z9kbYKzF9q+7tZQrhaA=="
+          "hash": "LRYLKSGzRJK0rPlmPsh2SQ=="
         }
       },
       "is_incremental": false,
@@ -101,23 +77,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Slothsoft.Events.CursedEvent.yml",
+      "source_relative_path": "api/Slothsoft.Events.EffectEvent.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Slothsoft.Events.CursedEvent.html",
-          "hash": "hSHbqX8n55FPDZAznpgiEg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slothsoft.Events.IActor.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slothsoft.Events.IActor.html",
-          "hash": "B4oBQLmpLIfneEJsQYk7Kg=="
+          "relative_path": "api/Slothsoft.Events.EffectEvent.html",
+          "hash": "KXDwCwUZzhdwA3RVDNWMmg=="
         }
       },
       "is_incremental": false,
@@ -149,11 +113,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Slothsoft.Events.ICursedAction.yml",
+      "source_relative_path": "api/Slothsoft.Events.IEffect.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Slothsoft.Events.ICursedAction.html",
-          "hash": "9FxzJcJsiffT4376ld9EYg=="
+          "relative_path": "api/Slothsoft.Events.IEffect.html",
+          "hash": "gAV3qmChY+1IImIkl6LA+A=="
         }
       },
       "is_incremental": false,
@@ -166,18 +130,6 @@
         ".html": {
           "relative_path": "api/Slothsoft.Events.ITriggerHit.html",
           "hash": "PWTMLDpNo7u4AtK7nTgPYw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slothsoft.Events.MaterialType.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slothsoft.Events.MaterialType.html",
-          "hash": "wSLsGYZGBVXYkjD4UKTCvA=="
         }
       },
       "is_incremental": false,
@@ -333,7 +285,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Slothsoft.Events.html",
-          "hash": "Z/MxhtMCtv7SKqrm0nXBRA=="
+          "hash": "ioBjkvkSFSGV6MB/pqCPtQ=="
         }
       },
       "is_incremental": false,
@@ -357,7 +309,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "LvV4yuj7OeJSC0SJeuapYA=="
+          "hash": "TkoGuvZl2HVbglpfv9z7mQ=="
         }
       },
       "is_incremental": false,
@@ -408,7 +360,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 28,
+          "total_file_count": 24,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
