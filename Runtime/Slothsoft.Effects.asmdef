@@ -1,16 +1,12 @@
 {
-    "name": "Slothsoft.Events.Editor",
+    "name": "Slothsoft.Effects",
     "rootNamespace": "",
     "references": [
         "MyBox",
         "Slothsoft.UnityExtensions",
-        "UnityEditor.UI",
-        "UnityEngine.UI",
-        "Slothsoft.Events"
+        "Unity.Timeline"
     ],
-    "includePlatforms": [
-        "Editor"
-    ],
+    "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,

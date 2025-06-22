@@ -1,14 +1,16 @@
 {
-    "name": "Slothsoft.Events.Tests.PlayMode",
+    "name": "Slothsoft.Effects.Tests.EditMode",
     "rootNamespace": "",
     "references": [
-        "Slothsoft.Events",
+        "Slothsoft.Effects",
         "Slothsoft.TestRunner",
         "UnityEngine.TestRunner",
         "UnityEditor.TestRunner",
         "TNRD.NSubstitute"
     ],
-    "includePlatforms": [],
+    "includePlatforms": [
+        "Editor"
+    ],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": true,
