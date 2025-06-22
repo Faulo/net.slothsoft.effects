@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class AngleUtils
+    <title>Class CollisionMaterial
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class AngleUtils
+    <meta name="title" content="Class CollisionMaterial
    ">
     <meta name="generator" content="docfx 2.56.7.0">
     
@@ -68,17 +68,17 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Slothsoft.Events.AngleUtils">
+            <article class="content wrap" id="_content" data-uid="Slothsoft.Effects.CollisionMaterial">
   
   
-  <h1 id="Slothsoft_Events_AngleUtils" data-uid="Slothsoft.Events.AngleUtils" class="text-break">Class AngleUtils
+  <h1 id="Slothsoft_Effects_CollisionMaterial" data-uid="Slothsoft.Effects.CollisionMaterial" class="text-break">Class CollisionMaterial
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">AngleUtils</span></div>
+    <div class="level1"><span class="xref">CollisionMaterial</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -104,23 +104,97 @@
       <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Slothsoft.Events.html">Slothsoft.Events</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Slothsoft.Effects.html">Slothsoft.Effects</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="Slothsoft_Events_AngleUtils_syntax">Syntax</h5>
+  <h5 id="Slothsoft_Effects_CollisionMaterial_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class AngleUtils</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed class CollisionMaterial</code></pre>
   </div>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="Slothsoft_Effects_CollisionMaterial_bounciness" data-uid="Slothsoft.Effects.CollisionMaterial.bounciness">bounciness</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float bounciness</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Slothsoft_Effects_CollisionMaterial_dynamicFriction" data-uid="Slothsoft.Effects.CollisionMaterial.dynamicFriction">dynamicFriction</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float dynamicFriction</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Slothsoft_Effects_CollisionMaterial_staticFriction" data-uid="Slothsoft.Effects.CollisionMaterial.staticFriction">staticFriction</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float staticFriction</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="methods">Methods
   </h3>
   
   
-  <a id="Slothsoft_Events_AngleUtils_Alignment_" data-uid="Slothsoft.Events.AngleUtils.Alignment*"></a>
-  <h4 id="Slothsoft_Events_AngleUtils_Alignment_Quaternion_Quaternion_" data-uid="Slothsoft.Events.AngleUtils.Alignment(Quaternion,Quaternion)">Alignment(Quaternion, Quaternion)</h4>
+  <a id="Slothsoft_Effects_CollisionMaterial_ApplyTo_" data-uid="Slothsoft.Effects.CollisionMaterial.ApplyTo*"></a>
+  <h4 id="Slothsoft_Effects_CollisionMaterial_ApplyTo_Collider_" data-uid="Slothsoft.Effects.CollisionMaterial.ApplyTo(Collider)">ApplyTo(Collider)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static float Alignment(Quaternion firstRotation, Quaternion secondRotation)</code></pre>
+    <pre><code class="lang-csharp hljs">public void ApplyTo(Collider collider)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -133,13 +207,89 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Quaternion</span></td>
-        <td><span class="parametername">firstRotation</span></td>
+        <td><span class="xref">Collider</span></td>
+        <td><span class="parametername">collider</span></td>
         <td></td>
       </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Slothsoft_Effects_CollisionMaterial_ApplyTo_" data-uid="Slothsoft.Effects.CollisionMaterial.ApplyTo*"></a>
+  <h4 id="Slothsoft_Effects_CollisionMaterial_ApplyTo_Collider2D_" data-uid="Slothsoft.Effects.CollisionMaterial.ApplyTo(Collider2D)">ApplyTo(Collider2D)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ApplyTo(Collider2D collider)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
       <tr>
-        <td><span class="xref">Quaternion</span></td>
-        <td><span class="parametername">secondRotation</span></td>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Collider2D</span></td>
+        <td><span class="parametername">collider</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Slothsoft_Effects_CollisionMaterial_ApplyTo_" data-uid="Slothsoft.Effects.CollisionMaterial.ApplyTo*"></a>
+  <h4 id="Slothsoft_Effects_CollisionMaterial_ApplyTo_Rigidbody2D_" data-uid="Slothsoft.Effects.CollisionMaterial.ApplyTo(Rigidbody2D)">ApplyTo(Rigidbody2D)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ApplyTo(Rigidbody2D rigidbody)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Rigidbody2D</span></td>
+        <td><span class="parametername">rigidbody</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Slothsoft_Effects_CollisionMaterial_IsMaterial_" data-uid="Slothsoft.Effects.CollisionMaterial.IsMaterial*"></a>
+  <h4 id="Slothsoft_Effects_CollisionMaterial_IsMaterial_PhysicsMaterial_" data-uid="Slothsoft.Effects.CollisionMaterial.IsMaterial(PhysicsMaterial)">IsMaterial(PhysicsMaterial)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsMaterial(PhysicsMaterial material)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">PhysicsMaterial</span></td>
+        <td><span class="parametername">material</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -154,20 +304,20 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Single</span></td>
+        <td><span class="xref">System.Boolean</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Slothsoft_Events_AngleUtils_DirectionalAngle_" data-uid="Slothsoft.Events.AngleUtils.DirectionalAngle*"></a>
-  <h4 id="Slothsoft_Events_AngleUtils_DirectionalAngle_Vector2_" data-uid="Slothsoft.Events.AngleUtils.DirectionalAngle(Vector2)">DirectionalAngle(Vector2)</h4>
+  <a id="Slothsoft_Effects_CollisionMaterial_IsMaterial_" data-uid="Slothsoft.Effects.CollisionMaterial.IsMaterial*"></a>
+  <h4 id="Slothsoft_Effects_CollisionMaterial_IsMaterial_PhysicsMaterial2D_" data-uid="Slothsoft.Effects.CollisionMaterial.IsMaterial(PhysicsMaterial2D)">IsMaterial(PhysicsMaterial2D)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static float DirectionalAngle(Vector2 direction)</code></pre>
+    <pre><code class="lang-csharp hljs">public bool IsMaterial(PhysicsMaterial2D material)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -180,8 +330,8 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Vector2</span></td>
-        <td><span class="parametername">direction</span></td>
+        <td><span class="xref">PhysicsMaterial2D</span></td>
+        <td><span class="parametername">material</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -196,20 +346,22 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Single</span></td>
+        <td><span class="xref">System.Boolean</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
+  <h3 id="operators">Operators
+  </h3>
   
   
-  <a id="Slothsoft_Events_AngleUtils_DirectionalRotation_" data-uid="Slothsoft.Events.AngleUtils.DirectionalRotation*"></a>
-  <h4 id="Slothsoft_Events_AngleUtils_DirectionalRotation_Vector2_" data-uid="Slothsoft.Events.AngleUtils.DirectionalRotation(Vector2)">DirectionalRotation(Vector2)</h4>
+  <a id="Slothsoft_Effects_CollisionMaterial_op_Implicit_" data-uid="Slothsoft.Effects.CollisionMaterial.op_Implicit*"></a>
+  <h4 id="Slothsoft_Effects_CollisionMaterial_op_Implicit_PhysicsMaterial__Slothsoft_Effects_CollisionMaterial" data-uid="Slothsoft.Effects.CollisionMaterial.op_Implicit(PhysicsMaterial)~Slothsoft.Effects.CollisionMaterial">Implicit(PhysicsMaterial to CollisionMaterial)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Quaternion DirectionalRotation(Vector2 direction)</code></pre>
+    <pre><code class="lang-csharp hljs">public static implicit operator CollisionMaterial(PhysicsMaterial material)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -222,8 +374,8 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Vector2</span></td>
-        <td><span class="parametername">direction</span></td>
+        <td><span class="xref">PhysicsMaterial</span></td>
+        <td><span class="parametername">material</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -238,20 +390,20 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Quaternion</span></td>
+        <td><a class="xref" href="Slothsoft.Effects.CollisionMaterial.html">CollisionMaterial</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Slothsoft_Events_AngleUtils_HorizontalAngle_" data-uid="Slothsoft.Events.AngleUtils.HorizontalAngle*"></a>
-  <h4 id="Slothsoft_Events_AngleUtils_HorizontalAngle_System_Int32_" data-uid="Slothsoft.Events.AngleUtils.HorizontalAngle(System.Int32)">HorizontalAngle(Int32)</h4>
+  <a id="Slothsoft_Effects_CollisionMaterial_op_Implicit_" data-uid="Slothsoft.Effects.CollisionMaterial.op_Implicit*"></a>
+  <h4 id="Slothsoft_Effects_CollisionMaterial_op_Implicit_PhysicsMaterial2D__Slothsoft_Effects_CollisionMaterial" data-uid="Slothsoft.Effects.CollisionMaterial.op_Implicit(PhysicsMaterial2D)~Slothsoft.Effects.CollisionMaterial">Implicit(PhysicsMaterial2D to CollisionMaterial)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static float HorizontalAngle(int sign)</code></pre>
+    <pre><code class="lang-csharp hljs">public static implicit operator CollisionMaterial(PhysicsMaterial2D material)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -264,8 +416,8 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">sign</span></td>
+        <td><span class="xref">PhysicsMaterial2D</span></td>
+        <td><span class="parametername">material</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -280,180 +432,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Single</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Slothsoft_Events_AngleUtils_HorizontalSign_" data-uid="Slothsoft.Events.AngleUtils.HorizontalSign*"></a>
-  <h4 id="Slothsoft_Events_AngleUtils_HorizontalSign_System_Single_" data-uid="Slothsoft.Events.AngleUtils.HorizontalSign(System.Single)">HorizontalSign(Single)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static int HorizontalSign(float angle)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Single</span></td>
-        <td><span class="parametername">angle</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Slothsoft_Events_AngleUtils_HorizontalSign_" data-uid="Slothsoft.Events.AngleUtils.HorizontalSign*"></a>
-  <h4 id="Slothsoft_Events_AngleUtils_HorizontalSign_Vector2_" data-uid="Slothsoft.Events.AngleUtils.HorizontalSign(Vector2)">HorizontalSign(Vector2)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static int HorizontalSign(Vector2 direction)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Vector2</span></td>
-        <td><span class="parametername">direction</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Slothsoft_Events_AngleUtils_NormalizeAngle_" data-uid="Slothsoft.Events.AngleUtils.NormalizeAngle*"></a>
-  <h4 id="Slothsoft_Events_AngleUtils_NormalizeAngle_System_Single_" data-uid="Slothsoft.Events.AngleUtils.NormalizeAngle(System.Single)">NormalizeAngle(Single)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static float NormalizeAngle(float angle)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Single</span></td>
-        <td><span class="parametername">angle</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Single</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Slothsoft_Events_AngleUtils_RoundAngle_" data-uid="Slothsoft.Events.AngleUtils.RoundAngle*"></a>
-  <h4 id="Slothsoft_Events_AngleUtils_RoundAngle_System_Single_System_Int32_" data-uid="Slothsoft.Events.AngleUtils.RoundAngle(System.Single,System.Int32)">RoundAngle(Single, Int32)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static float RoundAngle(float angle, int numberOfDirections)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Single</span></td>
-        <td><span class="parametername">angle</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">numberOfDirections</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Single</span></td>
+        <td><a class="xref" href="Slothsoft.Effects.CollisionMaterial.html">CollisionMaterial</a></td>
         <td></td>
       </tr>
     </tbody>

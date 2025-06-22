@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Struct CollisionIdentifier
+    <title>Struct CollisionInfo
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Struct CollisionIdentifier
+    <meta name="title" content="Struct CollisionInfo
    ">
     <meta name="generator" content="docfx 2.56.7.0">
     
@@ -68,21 +68,20 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Slothsoft.Events.CollisionIdentifier">
+            <article class="content wrap" id="_content" data-uid="Slothsoft.Effects.CollisionInfo">
   
   
-  <h1 id="Slothsoft_Events_CollisionIdentifier" data-uid="Slothsoft.Events.CollisionIdentifier" class="text-break">Struct CollisionIdentifier
+  <h1 id="Slothsoft_Effects_CollisionInfo" data-uid="Slothsoft.Effects.CollisionInfo" class="text-break">Struct CollisionInfo
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
-  <div classs="implements">
-    <h5>Implements</h5>
-    <div><span class="xref">IEquatable</span>&lt;<a class="xref" href="Slothsoft.Events.CollisionIdentifier.html">CollisionIdentifier</a>&gt;</div>
-  </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
-      <span class="xref">System.ValueType.ToString()</span>
+      <span class="xref">System.ValueType.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.ValueType.GetHashCode()</span>
     </div>
     <div>
       <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
@@ -94,23 +93,23 @@
       <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Slothsoft.Events.html">Slothsoft.Events</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Slothsoft.Effects.html">Slothsoft.Effects</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="Slothsoft_Events_CollisionIdentifier_syntax">Syntax</h5>
+  <h5 id="Slothsoft_Effects_CollisionInfo_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public struct CollisionIdentifier : IEquatable&lt;CollisionIdentifier&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public struct CollisionInfo</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
   
   
-  <a id="Slothsoft_Events_CollisionIdentifier__ctor_" data-uid="Slothsoft.Events.CollisionIdentifier.#ctor*"></a>
-  <h4 id="Slothsoft_Events_CollisionIdentifier__ctor_GameObject_Slothsoft_Events_CollisionMaterial_Vector2Int_" data-uid="Slothsoft.Events.CollisionIdentifier.#ctor(GameObject,Slothsoft.Events.CollisionMaterial,Vector2Int)">CollisionIdentifier(GameObject, CollisionMaterial, Vector2Int)</h4>
+  <a id="Slothsoft_Effects_CollisionInfo__ctor_" data-uid="Slothsoft.Effects.CollisionInfo.#ctor*"></a>
+  <h4 id="Slothsoft_Effects_CollisionInfo__ctor_GameObject_" data-uid="Slothsoft.Effects.CollisionInfo.#ctor(GameObject)">CollisionInfo(GameObject)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public CollisionIdentifier(GameObject gameObject, CollisionMaterial material, Vector2Int normal = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public CollisionInfo(GameObject gameObject)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -127,14 +126,41 @@
         <td><span class="parametername">gameObject</span></td>
         <td></td>
       </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Slothsoft_Effects_CollisionInfo__ctor_" data-uid="Slothsoft.Effects.CollisionInfo.#ctor*"></a>
+  <h4 id="Slothsoft_Effects_CollisionInfo__ctor_Slothsoft_Effects_CollisionIdentifier_Vector3_System_Single_" data-uid="Slothsoft.Effects.CollisionInfo.#ctor(Slothsoft.Effects.CollisionIdentifier,Vector3,System.Single)">CollisionInfo(CollisionIdentifier, Vector3, Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CollisionInfo(CollisionIdentifier id, Vector3 point, float impulse)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
       <tr>
-        <td><a class="xref" href="Slothsoft.Events.CollisionMaterial.html">CollisionMaterial</a></td>
-        <td><span class="parametername">material</span></td>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Slothsoft.Effects.CollisionIdentifier.html">CollisionIdentifier</a></td>
+        <td><span class="parametername">id</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">Vector2Int</span></td>
-        <td><span class="parametername">normal</span></td>
+        <td><span class="xref">Vector3</span></td>
+        <td><span class="parametername">point</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">impulse</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -143,14 +169,89 @@
   </h3>
   
   
-  <h4 id="Slothsoft_Events_CollisionIdentifier_gameObject" data-uid="Slothsoft.Events.CollisionIdentifier.gameObject">gameObject</h4>
+  <h4 id="Slothsoft_Effects_CollisionInfo_empty" data-uid="Slothsoft.Effects.CollisionInfo.empty">empty</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public readonly GameObject gameObject</code></pre>
+    <pre><code class="lang-csharp hljs">public static readonly CollisionInfo empty</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Slothsoft.Effects.CollisionInfo.html">CollisionInfo</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Slothsoft_Effects_CollisionInfo_impulse" data-uid="Slothsoft.Effects.CollisionInfo.impulse">impulse</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly float impulse</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Slothsoft_Effects_CollisionInfo_point" data-uid="Slothsoft.Effects.CollisionInfo.point">point</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly Vector3 point</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="Slothsoft_Effects_CollisionInfo_gameObject_" data-uid="Slothsoft.Effects.CollisionInfo.gameObject*"></a>
+  <h4 id="Slothsoft_Effects_CollisionInfo_gameObject" data-uid="Slothsoft.Effects.CollisionInfo.gameObject">gameObject</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GameObject gameObject { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -167,14 +268,15 @@
   </table>
   
   
-  <h4 id="Slothsoft_Events_CollisionIdentifier_isValid" data-uid="Slothsoft.Events.CollisionIdentifier.isValid">isValid</h4>
+  <a id="Slothsoft_Effects_CollisionInfo_material_" data-uid="Slothsoft.Effects.CollisionInfo.material*"></a>
+  <h4 id="Slothsoft_Effects_CollisionInfo_material" data-uid="Slothsoft.Effects.CollisionInfo.material">material</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public readonly bool isValid</code></pre>
+    <pre><code class="lang-csharp hljs">public CollisionMaterial material { get; }</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -184,45 +286,22 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
+        <td><a class="xref" href="Slothsoft.Effects.CollisionMaterial.html">CollisionMaterial</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="Slothsoft_Events_CollisionIdentifier_material" data-uid="Slothsoft.Events.CollisionIdentifier.material">material</h4>
+  <a id="Slothsoft_Effects_CollisionInfo_normal_" data-uid="Slothsoft.Effects.CollisionInfo.normal*"></a>
+  <h4 id="Slothsoft_Effects_CollisionInfo_normal" data-uid="Slothsoft.Effects.CollisionInfo.normal">normal</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public readonly CollisionMaterial material</code></pre>
+    <pre><code class="lang-csharp hljs">public Vector2Int normal { get; }</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Slothsoft.Events.CollisionMaterial.html">CollisionMaterial</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Slothsoft_Events_CollisionIdentifier_normal" data-uid="Slothsoft.Events.CollisionIdentifier.normal">normal</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public readonly Vector2Int normal</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -237,17 +316,42 @@
       </tr>
     </tbody>
   </table>
+  
+  
+  <a id="Slothsoft_Effects_CollisionInfo_normalRotation_" data-uid="Slothsoft.Effects.CollisionInfo.normalRotation*"></a>
+  <h4 id="Slothsoft_Effects_CollisionInfo_normalRotation" data-uid="Slothsoft.Effects.CollisionInfo.normalRotation">normalRotation</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Quaternion normalRotation { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Quaternion</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="methods">Methods
   </h3>
   
   
-  <a id="Slothsoft_Events_CollisionIdentifier_Equals_" data-uid="Slothsoft.Events.CollisionIdentifier.Equals*"></a>
-  <h4 id="Slothsoft_Events_CollisionIdentifier_Equals_Slothsoft_Events_CollisionIdentifier_" data-uid="Slothsoft.Events.CollisionIdentifier.Equals(Slothsoft.Events.CollisionIdentifier)">Equals(CollisionIdentifier)</h4>
+  <a id="Slothsoft_Effects_CollisionInfo_BroadcastCollisionMessage_" data-uid="Slothsoft.Effects.CollisionInfo.BroadcastCollisionMessage*"></a>
+  <h4 id="Slothsoft_Effects_CollisionInfo_BroadcastCollisionMessage_System_String_" data-uid="Slothsoft.Effects.CollisionInfo.BroadcastCollisionMessage(System.String)">BroadcastCollisionMessage(String)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool Equals(CollisionIdentifier other)</code></pre>
+    <pre><code class="lang-csharp hljs">public void BroadcastCollisionMessage(string name)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -260,36 +364,21 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Slothsoft.Events.CollisionIdentifier.html">CollisionIdentifier</a></td>
-        <td><span class="parametername">other</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Slothsoft_Events_CollisionIdentifier_Equals_" data-uid="Slothsoft.Events.CollisionIdentifier.Equals*"></a>
-  <h4 id="Slothsoft_Events_CollisionIdentifier_Equals_System_Object_" data-uid="Slothsoft.Events.CollisionIdentifier.Equals(System.Object)">Equals(Object)</h4>
+  <a id="Slothsoft_Effects_CollisionInfo_SendCollisionMessage_" data-uid="Slothsoft.Effects.CollisionInfo.SendCollisionMessage*"></a>
+  <h4 id="Slothsoft_Effects_CollisionInfo_SendCollisionMessage_System_String_" data-uid="Slothsoft.Effects.CollisionInfo.SendCollisionMessage(System.String)">SendCollisionMessage(String)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override bool Equals(object obj)</code></pre>
+    <pre><code class="lang-csharp hljs">public void SendCollisionMessage(string name)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -302,12 +391,22 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Object</span></td>
-        <td><span class="parametername">obj</span></td>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
+  
+  
+  <a id="Slothsoft_Effects_CollisionInfo_ToString_" data-uid="Slothsoft.Effects.CollisionInfo.ToString*"></a>
+  <h4 id="Slothsoft_Effects_CollisionInfo_ToString" data-uid="Slothsoft.Effects.CollisionInfo.ToString">ToString()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -318,140 +417,13 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="xref">System.String</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.ValueType.Equals(System.Object)</span></div>
-  
-  
-  <a id="Slothsoft_Events_CollisionIdentifier_GetHashCode_" data-uid="Slothsoft.Events.CollisionIdentifier.GetHashCode*"></a>
-  <h4 id="Slothsoft_Events_CollisionIdentifier_GetHashCode" data-uid="Slothsoft.Events.CollisionIdentifier.GetHashCode">GetHashCode()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.ValueType.GetHashCode()</span></div>
-  <h3 id="operators">Operators
-  </h3>
-  
-  
-  <a id="Slothsoft_Events_CollisionIdentifier_op_Equality_" data-uid="Slothsoft.Events.CollisionIdentifier.op_Equality*"></a>
-  <h4 id="Slothsoft_Events_CollisionIdentifier_op_Equality_Slothsoft_Events_CollisionIdentifier_Slothsoft_Events_CollisionIdentifier_" data-uid="Slothsoft.Events.CollisionIdentifier.op_Equality(Slothsoft.Events.CollisionIdentifier,Slothsoft.Events.CollisionIdentifier)">Equality(CollisionIdentifier, CollisionIdentifier)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool operator ==(CollisionIdentifier left, CollisionIdentifier right)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Slothsoft.Events.CollisionIdentifier.html">CollisionIdentifier</a></td>
-        <td><span class="parametername">left</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="Slothsoft.Events.CollisionIdentifier.html">CollisionIdentifier</a></td>
-        <td><span class="parametername">right</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Slothsoft_Events_CollisionIdentifier_op_Inequality_" data-uid="Slothsoft.Events.CollisionIdentifier.op_Inequality*"></a>
-  <h4 id="Slothsoft_Events_CollisionIdentifier_op_Inequality_Slothsoft_Events_CollisionIdentifier_Slothsoft_Events_CollisionIdentifier_" data-uid="Slothsoft.Events.CollisionIdentifier.op_Inequality(Slothsoft.Events.CollisionIdentifier,Slothsoft.Events.CollisionIdentifier)">Inequality(CollisionIdentifier, CollisionIdentifier)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool operator !=(CollisionIdentifier left, CollisionIdentifier right)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Slothsoft.Events.CollisionIdentifier.html">CollisionIdentifier</a></td>
-        <td><span class="parametername">left</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="Slothsoft.Events.CollisionIdentifier.html">CollisionIdentifier</a></td>
-        <td><span class="parametername">right</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="implements">Implements</h3>
-  <div>
-      <span class="xref">IEquatable&lt;&gt;</span>
-  </div>
+  <div><span class="xref">System.ValueType.ToString()</span></div>
 </article>
           </div>
           

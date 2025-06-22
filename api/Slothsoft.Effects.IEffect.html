@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Interface ITriggerHit
+    <title>Interface IEffect
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Interface ITriggerHit
+    <meta name="title" content="Interface IEffect
    ">
     <meta name="generator" content="docfx 2.56.7.0">
     
@@ -68,67 +68,81 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Slothsoft.Events.ITriggerHit">
+            <article class="content wrap" id="_content" data-uid="Slothsoft.Effects.IEffect">
   
   
-  <h1 id="Slothsoft_Events_ITriggerHit" data-uid="Slothsoft.Events.ITriggerHit" class="text-break">Interface ITriggerHit
+  <h1 id="Slothsoft_Effects_IEffect" data-uid="Slothsoft.Effects.IEffect" class="text-break">Interface IEffect
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Slothsoft.Events.html">Slothsoft.Events</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Slothsoft.Effects.html">Slothsoft.Effects</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="Slothsoft_Events_ITriggerHit_syntax">Syntax</h5>
+  <h5 id="Slothsoft_Effects_IEffect_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface ITriggerHit</code></pre>
+    <pre><code class="lang-csharp hljs">public interface IEffect</code></pre>
   </div>
-  <h3 id="properties">Properties
+  <h3 id="methods">Methods
   </h3>
   
   
-  <a id="Slothsoft_Events_ITriggerHit_pointCount_" data-uid="Slothsoft.Events.ITriggerHit.pointCount*"></a>
-  <h4 id="Slothsoft_Events_ITriggerHit_pointCount" data-uid="Slothsoft.Events.ITriggerHit.pointCount">pointCount</h4>
+  <a id="Slothsoft_Effects_IEffect_Invoke_" data-uid="Slothsoft.Effects.IEffect.Invoke*"></a>
+  <h4 id="Slothsoft_Effects_IEffect_Invoke" data-uid="Slothsoft.Effects.IEffect.Invoke">Invoke()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">int pointCount { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">void Invoke()</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  
+  
+  <a id="Slothsoft_Effects_IEffect_Invoke_" data-uid="Slothsoft.Effects.IEffect.Invoke*"></a>
+  <h4 id="Slothsoft_Effects_IEffect_Invoke_GameObject_" data-uid="Slothsoft.Effects.IEffect.Invoke(GameObject)">Invoke(GameObject)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Invoke(GameObject context)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
+        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
+        <td><span class="xref">GameObject</span></td>
+        <td><span class="parametername">context</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Slothsoft_Events_ITriggerHit_pointSum_" data-uid="Slothsoft.Events.ITriggerHit.pointSum*"></a>
-  <h4 id="Slothsoft_Events_ITriggerHit_pointSum" data-uid="Slothsoft.Events.ITriggerHit.pointSum">pointSum</h4>
+  <a id="Slothsoft_Effects_IEffect_Invoke_" data-uid="Slothsoft.Effects.IEffect.Invoke*"></a>
+  <h4 id="Slothsoft_Effects_IEffect_Invoke_Slothsoft_Effects_CollisionInfo_" data-uid="Slothsoft.Effects.IEffect.Invoke(Slothsoft.Effects.CollisionInfo)">Invoke(CollisionInfo)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Vector2 pointSum { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">void Invoke(CollisionInfo collision)</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
+        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Vector2</span></td>
+        <td><a class="xref" href="Slothsoft.Effects.CollisionInfo.html">CollisionInfo</a></td>
+        <td><span class="parametername">collision</span></td>
         <td></td>
       </tr>
     </tbody>

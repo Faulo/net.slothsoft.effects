@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Struct ComplexTriggerHit3D
+    <title>Interface ICollisionMessages
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Struct ComplexTriggerHit3D
+    <meta name="title" content="Interface ICollisionMessages
    ">
     <meta name="generator" content="docfx 2.56.7.0">
     
@@ -68,55 +68,31 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Slothsoft.Events.ComplexTriggerHit3D">
+            <article class="content wrap" id="_content" data-uid="Slothsoft.Effects.ICollisionMessages">
   
   
-  <h1 id="Slothsoft_Events_ComplexTriggerHit3D" data-uid="Slothsoft.Events.ComplexTriggerHit3D" class="text-break">Struct ComplexTriggerHit3D
+  <h1 id="Slothsoft_Effects_ICollisionMessages" data-uid="Slothsoft.Effects.ICollisionMessages" class="text-break">Interface ICollisionMessages
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
-  <div classs="implements">
-    <h5>Implements</h5>
-    <div><a class="xref" href="Slothsoft.Events.ITriggerHit.html">ITriggerHit</a></div>
-  </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <span class="xref">System.ValueType.Equals(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.ValueType.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.ValueType.ToString()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-  </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Slothsoft.Events.html">Slothsoft.Events</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Slothsoft.Effects.html">Slothsoft.Effects</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="Slothsoft_Events_ComplexTriggerHit3D_syntax">Syntax</h5>
+  <h5 id="Slothsoft_Effects_ICollisionMessages_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public struct ComplexTriggerHit3D : ITriggerHit</code></pre>
+    <pre><code class="lang-csharp hljs">public interface ICollisionMessages</code></pre>
   </div>
-  <h3 id="constructors">Constructors
+  <h3 id="methods">Methods
   </h3>
   
   
-  <a id="Slothsoft_Events_ComplexTriggerHit3D__ctor_" data-uid="Slothsoft.Events.ComplexTriggerHit3D.#ctor*"></a>
-  <h4 id="Slothsoft_Events_ComplexTriggerHit3D__ctor_Collider_Collider_" data-uid="Slothsoft.Events.ComplexTriggerHit3D.#ctor(Collider,Collider)">ComplexTriggerHit3D(Collider, Collider)</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="Slothsoft_Effects_ICollisionMessages_OnAvatarEnter_" data-uid="Slothsoft.Effects.ICollisionMessages.OnAvatarEnter*"></a>
+  <h4 id="Slothsoft_Effects_ICollisionMessages_OnAvatarEnter_Slothsoft_Effects_CollisionInfo_" data-uid="Slothsoft.Effects.ICollisionMessages.OnAvatarEnter(Slothsoft.Effects.CollisionInfo)">OnAvatarEnter(CollisionInfo)</h4>
+  <div class="markdown level1 summary"><p>Gets called any time this actor enters a collider or trigger.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ComplexTriggerHit3D(Collider colliderA, Collider colliderB)</code></pre>
+    <pre><code class="lang-csharp hljs">void OnAvatarEnter(CollisionInfo collision)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -129,73 +105,40 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Collider</span></td>
-        <td><span class="parametername">colliderA</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">Collider</span></td>
-        <td><span class="parametername">colliderB</span></td>
+        <td><a class="xref" href="Slothsoft.Effects.CollisionInfo.html">CollisionInfo</a></td>
+        <td><span class="parametername">collision</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h3 id="properties">Properties
-  </h3>
   
   
-  <a id="Slothsoft_Events_ComplexTriggerHit3D_pointCount_" data-uid="Slothsoft.Events.ComplexTriggerHit3D.pointCount*"></a>
-  <h4 id="Slothsoft_Events_ComplexTriggerHit3D_pointCount" data-uid="Slothsoft.Events.ComplexTriggerHit3D.pointCount">pointCount</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="Slothsoft_Effects_ICollisionMessages_OnAvatarExit_" data-uid="Slothsoft.Effects.ICollisionMessages.OnAvatarExit*"></a>
+  <h4 id="Slothsoft_Effects_ICollisionMessages_OnAvatarExit_Slothsoft_Effects_CollisionInfo_" data-uid="Slothsoft.Effects.ICollisionMessages.OnAvatarExit(Slothsoft.Effects.CollisionInfo)">OnAvatarExit(CollisionInfo)</h4>
+  <div class="markdown level1 summary"><p>Gets called any time this actor exits a trigger.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int pointCount { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">void OnAvatarExit(CollisionInfo collision)</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
+        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
+        <td><a class="xref" href="Slothsoft.Effects.CollisionInfo.html">CollisionInfo</a></td>
+        <td><span class="parametername">collision</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  
-  
-  <a id="Slothsoft_Events_ComplexTriggerHit3D_pointSum_" data-uid="Slothsoft.Events.ComplexTriggerHit3D.pointSum*"></a>
-  <h4 id="Slothsoft_Events_ComplexTriggerHit3D_pointSum" data-uid="Slothsoft.Events.ComplexTriggerHit3D.pointSum">pointSum</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Vector2 pointSum { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Vector2</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="implements">Implements</h3>
-  <div>
-      <a class="xref" href="Slothsoft.Events.ITriggerHit.html">ITriggerHit</a>
-  </div>
 </article>
           </div>
           

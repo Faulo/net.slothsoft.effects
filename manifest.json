@@ -5,11 +5,11 @@
   "files": [
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Slothsoft.Events.AngleUtils.yml",
+      "source_relative_path": "api/Slothsoft.Effects.AngleUtils.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Slothsoft.Events.AngleUtils.html",
-          "hash": "hEYKVrgUym2r0LAEQKShog=="
+          "relative_path": "api/Slothsoft.Effects.AngleUtils.html",
+          "hash": "4MdUjwwwlqMy5P5b0FeORQ=="
         }
       },
       "is_incremental": false,
@@ -17,11 +17,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Slothsoft.Events.CollisionIdentifier.yml",
+      "source_relative_path": "api/Slothsoft.Effects.CollisionIdentifier.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Slothsoft.Events.CollisionIdentifier.html",
-          "hash": "40POXb0dIeB86ukPbsWjiw=="
+          "relative_path": "api/Slothsoft.Effects.CollisionIdentifier.html",
+          "hash": "GA8lglZrGHpMTI2iaA8irQ=="
         }
       },
       "is_incremental": false,
@@ -29,11 +29,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Slothsoft.Events.CollisionInfo.yml",
+      "source_relative_path": "api/Slothsoft.Effects.CollisionInfo.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Slothsoft.Events.CollisionInfo.html",
-          "hash": "4vISuijk/D+ilMgMrMrypQ=="
+          "relative_path": "api/Slothsoft.Effects.CollisionInfo.html",
+          "hash": "2cjSafD3z5cBY/1D71ez+w=="
         }
       },
       "is_incremental": false,
@@ -41,11 +41,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Slothsoft.Events.CollisionMaterial.yml",
+      "source_relative_path": "api/Slothsoft.Effects.CollisionMaterial.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Slothsoft.Events.CollisionMaterial.html",
-          "hash": "LRYLKSGzRJK0rPlmPsh2SQ=="
+          "relative_path": "api/Slothsoft.Effects.CollisionMaterial.html",
+          "hash": "pPjZR48E9EaB6uMT6VPAIA=="
         }
       },
       "is_incremental": false,
@@ -53,11 +53,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Slothsoft.Events.CollisionProviderComponent.yml",
+      "source_relative_path": "api/Slothsoft.Effects.CollisionProviderComponent.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Slothsoft.Events.CollisionProviderComponent.html",
-          "hash": "uugjCk5Qv6OsfGyCtNJ1Kw=="
+          "relative_path": "api/Slothsoft.Effects.CollisionProviderComponent.html",
+          "hash": "XuS0n5Ak0RhkdJvVmwTyCQ=="
         }
       },
       "is_incremental": false,
@@ -65,11 +65,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Slothsoft.Events.ComplexTriggerHit3D.yml",
+      "source_relative_path": "api/Slothsoft.Effects.ComplexTriggerHit3D.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Slothsoft.Events.ComplexTriggerHit3D.html",
-          "hash": "f9jyPiYeAZVAwddvNOrYXw=="
+          "relative_path": "api/Slothsoft.Effects.ComplexTriggerHit3D.html",
+          "hash": "W4xBHr3aVyM0ioCE596u3Q=="
         }
       },
       "is_incremental": false,
@@ -77,11 +77,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Slothsoft.Events.EffectEvent.yml",
+      "source_relative_path": "api/Slothsoft.Effects.EffectEvent.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Slothsoft.Events.EffectEvent.html",
-          "hash": "KXDwCwUZzhdwA3RVDNWMmg=="
+          "relative_path": "api/Slothsoft.Effects.EffectEvent.html",
+          "hash": "mM+w7aCQuEaJjn/uutzpXQ=="
         }
       },
       "is_incremental": false,
@@ -89,11 +89,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Slothsoft.Events.ICollisionMessages.yml",
+      "source_relative_path": "api/Slothsoft.Effects.ICollisionMessages.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Slothsoft.Events.ICollisionMessages.html",
-          "hash": "oLtrAwW0N+lkUCHBN2490A=="
+          "relative_path": "api/Slothsoft.Effects.ICollisionMessages.html",
+          "hash": "08DDUINFY4qs+/xRvLesXA=="
         }
       },
       "is_incremental": false,
@@ -101,11 +101,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Slothsoft.Events.ICollisionProvider.yml",
+      "source_relative_path": "api/Slothsoft.Effects.ICollisionProvider.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Slothsoft.Events.ICollisionProvider.html",
-          "hash": "D34HDPgBj2BtEJ+yoqcnMg=="
+          "relative_path": "api/Slothsoft.Effects.ICollisionProvider.html",
+          "hash": "hyi6Qxd81RqU753fguDsQA=="
         }
       },
       "is_incremental": false,
@@ -113,11 +113,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Slothsoft.Events.IEffect.yml",
+      "source_relative_path": "api/Slothsoft.Effects.IEffect.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Slothsoft.Events.IEffect.html",
-          "hash": "gAV3qmChY+1IImIkl6LA+A=="
+          "relative_path": "api/Slothsoft.Effects.IEffect.html",
+          "hash": "/4aI+xbptRBst53YEwHrVg=="
         }
       },
       "is_incremental": false,
@@ -125,11 +125,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Slothsoft.Events.ITriggerHit.yml",
+      "source_relative_path": "api/Slothsoft.Effects.ITriggerHit.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Slothsoft.Events.ITriggerHit.html",
-          "hash": "PWTMLDpNo7u4AtK7nTgPYw=="
+          "relative_path": "api/Slothsoft.Effects.ITriggerHit.html",
+          "hash": "5Z7rrhzlomTkXIghDTLTvQ=="
         }
       },
       "is_incremental": false,
@@ -137,11 +137,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Slothsoft.Events.ObjectLocators.ITransformLocator.yml",
+      "source_relative_path": "api/Slothsoft.Effects.ObjectLocators.ITransformLocator.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Slothsoft.Events.ObjectLocators.ITransformLocator.html",
-          "hash": "TYIC3bptFZuR+88GfTnJVA=="
+          "relative_path": "api/Slothsoft.Effects.ObjectLocators.ITransformLocator.html",
+          "hash": "0jT2jQrLhXkJPV3ynbCpsA=="
         }
       },
       "is_incremental": false,
@@ -149,11 +149,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Slothsoft.Events.ObjectLocators.TransformReference.yml",
+      "source_relative_path": "api/Slothsoft.Effects.ObjectLocators.TransformReference.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Slothsoft.Events.ObjectLocators.TransformReference.html",
-          "hash": "zn6xvtfMzV+CAS29pjuqEw=="
+          "relative_path": "api/Slothsoft.Effects.ObjectLocators.TransformReference.html",
+          "hash": "M0F3vKHTKBTzxskt3RfiYA=="
         }
       },
       "is_incremental": false,
@@ -161,11 +161,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Slothsoft.Events.ObjectLocators.yml",
+      "source_relative_path": "api/Slothsoft.Effects.ObjectLocators.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Slothsoft.Events.ObjectLocators.html",
-          "hash": "1ikED2X7TAMr2aDLNevNZw=="
+          "relative_path": "api/Slothsoft.Effects.ObjectLocators.html",
+          "hash": "nP2uDmjJX2xN3X/Y4WkioA=="
         }
       },
       "is_incremental": false,
@@ -173,11 +173,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Slothsoft.Events.Timeline.GameObjectTrack.yml",
+      "source_relative_path": "api/Slothsoft.Effects.Timeline.GameObjectTrack.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Slothsoft.Events.Timeline.GameObjectTrack.html",
-          "hash": "mrPcMrGVHu89yA9Tx9RH+g=="
+          "relative_path": "api/Slothsoft.Effects.Timeline.GameObjectTrack.html",
+          "hash": "8zXo/YZTm0msXhaO6hq+9Q=="
         }
       },
       "is_incremental": false,
@@ -185,11 +185,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Slothsoft.Events.Timeline.IClip-1.yml",
+      "source_relative_path": "api/Slothsoft.Effects.Timeline.IClip-1.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Slothsoft.Events.Timeline.IClip-1.html",
-          "hash": "qBA3w4FRem405rdGKJvuRg=="
+          "relative_path": "api/Slothsoft.Effects.Timeline.IClip-1.html",
+          "hash": "V9DA/8CtqxssOEIkK7Y3uA=="
         }
       },
       "is_incremental": false,
@@ -197,11 +197,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Slothsoft.Events.Timeline.IExpandableClip.yml",
+      "source_relative_path": "api/Slothsoft.Effects.Timeline.IExpandableClip.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Slothsoft.Events.Timeline.IExpandableClip.html",
-          "hash": "sfB9EbrOi2bTDGlj8J0EWg=="
+          "relative_path": "api/Slothsoft.Effects.Timeline.IExpandableClip.html",
+          "hash": "JGtS6wzU9YgO3vl86xGyvA=="
         }
       },
       "is_incremental": false,
@@ -209,11 +209,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Slothsoft.Events.Timeline.ISettingsBehaviour-1.yml",
+      "source_relative_path": "api/Slothsoft.Effects.Timeline.ISettingsBehaviour-1.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Slothsoft.Events.Timeline.ISettingsBehaviour-1.html",
-          "hash": "J/k3POGNgESmFw4rLul+Sg=="
+          "relative_path": "api/Slothsoft.Effects.Timeline.ISettingsBehaviour-1.html",
+          "hash": "n4D5q1Wkdyvwm3vrO7+e7A=="
         }
       },
       "is_incremental": false,
@@ -221,11 +221,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Slothsoft.Events.Timeline.PlayableBehaviorBase-2.yml",
+      "source_relative_path": "api/Slothsoft.Effects.Timeline.PlayableBehaviorBase-2.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Slothsoft.Events.Timeline.PlayableBehaviorBase-2.html",
-          "hash": "wNNPmZNob0MIJPziC1ESbA=="
+          "relative_path": "api/Slothsoft.Effects.Timeline.PlayableBehaviorBase-2.html",
+          "hash": "T9KxsWz40ikPdrEGTpqllQ=="
         }
       },
       "is_incremental": false,
@@ -233,11 +233,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Slothsoft.Events.Timeline.PlayableClipBase-3.yml",
+      "source_relative_path": "api/Slothsoft.Effects.Timeline.PlayableClipBase-3.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Slothsoft.Events.Timeline.PlayableClipBase-3.html",
-          "hash": "pB4BZ9iOPtqOVz5ASICHPw=="
+          "relative_path": "api/Slothsoft.Effects.Timeline.PlayableClipBase-3.html",
+          "hash": "4bxr2ZHNTQrdrj2ZL46GOg=="
         }
       },
       "is_incremental": false,
@@ -245,11 +245,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Slothsoft.Events.Timeline.TimelineAssetExtensions.yml",
+      "source_relative_path": "api/Slothsoft.Effects.Timeline.TimelineAssetExtensions.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Slothsoft.Events.Timeline.TimelineAssetExtensions.html",
-          "hash": "T0kWp5dKkSlHVHiGZBOPig=="
+          "relative_path": "api/Slothsoft.Effects.Timeline.TimelineAssetExtensions.html",
+          "hash": "im4BY9QXwNZ43oQeXxymHw=="
         }
       },
       "is_incremental": false,
@@ -257,11 +257,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Slothsoft.Events.Timeline.TrackBase.yml",
+      "source_relative_path": "api/Slothsoft.Effects.Timeline.TrackBase.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Slothsoft.Events.Timeline.TrackBase.html",
-          "hash": "1nNIiLSDNGBA/jZRpmIKaQ=="
+          "relative_path": "api/Slothsoft.Effects.Timeline.TrackBase.html",
+          "hash": "aLy7pi3beQTiQ+yKvCpEUA=="
         }
       },
       "is_incremental": false,
@@ -269,11 +269,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Slothsoft.Events.Timeline.yml",
+      "source_relative_path": "api/Slothsoft.Effects.Timeline.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Slothsoft.Events.Timeline.html",
-          "hash": "sqnbnLqaTfl8zIkoSNRYoQ=="
+          "relative_path": "api/Slothsoft.Effects.Timeline.html",
+          "hash": "LEc9S3o7nkwfcRDskuKZTQ=="
         }
       },
       "is_incremental": false,
@@ -281,11 +281,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Slothsoft.Events.yml",
+      "source_relative_path": "api/Slothsoft.Effects.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Slothsoft.Events.html",
-          "hash": "ioBjkvkSFSGV6MB/pqCPtQ=="
+          "relative_path": "api/Slothsoft.Effects.html",
+          "hash": "OdOP/XIEddfZiBYqoY8cQw=="
         }
       },
       "is_incremental": false,
@@ -297,7 +297,7 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "CVkbUoIt8TcExb7vgeZ3Jw=="
+          "hash": "PP7FZtlzCN+jk2HXLdRfxg=="
         }
       },
       "is_incremental": false,
@@ -309,7 +309,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "TkoGuvZl2HVbglpfv9z7mQ=="
+          "hash": "C5eWnE/PEwQZC22cF93CgA=="
         }
       },
       "is_incremental": false,
@@ -321,7 +321,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "UvUnEFRLNEvHNJINDld+ng=="
+          "hash": "oz6+T+gQSzyYQB5hsnSDsQ=="
         }
       },
       "is_incremental": false,
