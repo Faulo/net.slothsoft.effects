@@ -9,7 +9,7 @@ namespace Slothsoft.Effects.Editor.Triggers {
     /// <summary>
     /// <seealso cref="UnityEditor.EventSystems.EventTriggerEditor"/>
     /// </summary>
-    [CustomEditor(typeof(EventSystemEffectTrigger))]
+    [CustomEditor(typeof(EffectTriggerBase<>), true)]
     sealed class EventSystemEffectTriggerEditor : UEditor {
         SerializedProperty m_DelegatesProperty;
 
@@ -27,7 +27,7 @@ namespace Slothsoft.Effects.Editor.Triggers {
                 tooltip = "Remove all events in this list."
             };
 
-            string[] eventNames = Enum.GetNames(typeof(EventTriggerType));
+            string[] eventNames = Enum.GetNames(typeof(PhysicsTriggerType));
             m_EventTypes = new GUIContent[eventNames.Length];
             for (int i = 0; i < eventNames.Length; ++i) {
                 m_EventTypes[i] = new GUIContent(eventNames[i]);
