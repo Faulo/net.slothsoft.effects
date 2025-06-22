@@ -1,0 +1,16 @@
+{
+    "name": "Slothsoft.Events",
+    "rootNamespace": "",
+    "references": [
+        "TNRD.NSubstitute"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

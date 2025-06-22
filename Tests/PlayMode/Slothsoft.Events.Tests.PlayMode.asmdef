@@ -1,0 +1,23 @@
+{
+    "name": "Slothsoft.Events.Tests.PlayMode",
+    "rootNamespace": "",
+    "references": [
+        "Slothsoft.Events",
+        "UnityEngine.TestRunner",
+        "UnityEditor.TestRunner",
+        "TNRD.NSubstitute"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "nunit.framework.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
