@@ -9,7 +9,7 @@ namespace Slothsoft.Effects {
         event Action<CollisionInfo> onCollision;
 
         [SerializeReference]
-        public IEffect[] effects = Array.Empty<IEffect>();
+        internal IEffect[] effects = Array.Empty<IEffect>();
 
         public bool hasPersistentListeners => effects.Length > 0;
 

@@ -8,13 +8,13 @@ using UnityEngine;
 
 namespace Slothsoft.Effects.Tests.PlayMode {
     [TestFixture(TestOf = typeof(EffectEvent))]
-    sealed class CursedEventTests {
-        sealed class CursedEventBridge : MonoBehaviour {
+    sealed class EffectEventTests {
+        sealed class StubTrigger : MonoBehaviour {
             [SerializeField]
             public EffectEvent onTrigger = new();
         }
         [Serializable]
-        sealed class CursedActionStub : IEffect {
+        sealed class StubEffect : IEffect {
             internal event Action onGlobal;
             internal event Action<GameObject> onGameObject;
             internal event Action<CollisionInfo> onCollision;
@@ -45,18 +45,18 @@ namespace Slothsoft.Effects.Tests.PlayMode {
 
         [Test]
         public void TestCursedAction([ValueSource(nameof(eventTypes))] EventType triggerType) {
-            using var test = new TestGameObject<CursedEventBridge>();
+            using var test = new TestGameObject<StubTrigger>();
             var material = new CollisionMaterial();
             var collision = new CollisionInfo(new(test.gameObject, material), Vector3.one, 1);
 
-            var substitute = new CursedActionStub();
+            var substitute = new StubEffect();
 
             var obj = new SerializedObject(test.sut);
-            var property = obj.FindProperty(nameof(CursedEventBridge.onTrigger));
-            Assert.IsNotNull(property, "failed to find CursedEvent");
+            var property = obj.FindProperty(nameof(StubTrigger.onTrigger));
+            Assert.IsNotNull(property, $"Failed to find: {nameof(StubTrigger.onTrigger)}");
 
-            var actions = property.FindPropertyRelative("actions");
-            Assert.IsNotNull(actions, "failed to find actions");
+            var actions = property.FindPropertyRelative(nameof(EffectEvent.effects));
+            Assert.IsNotNull(actions, $"Failed to find: {nameof(EffectEvent.effects)}");
 
             actions.InsertArrayElementAtIndex(0);
             var action = actions.GetArrayElementAtIndex(0);
