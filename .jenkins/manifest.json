@@ -7,8 +7,14 @@
       "name": "OpenUPM",
       "url": "https://package.openupm.com",
       "scopes": [
-	    "net.slothsoft.unity-extensions",
         "net.tnrd.nsubstitute"
+      ]
+    },
+    {
+      "name": "Slothsoft",
+      "url": "https://packages.slothsoft.net",
+      "scopes": [
+	    "net.slothsoft"
       ]
     }
   ]
