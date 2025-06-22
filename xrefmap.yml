@@ -7,109 +7,6 @@ references:
   commentId: N:Slothsoft.Effects
   fullName: Slothsoft.Effects
   nameWithType: Slothsoft.Effects
-- uid: Slothsoft.Effects.AngleUtils
-  name: AngleUtils
-  href: api/Slothsoft.Effects.AngleUtils.html
-  commentId: T:Slothsoft.Effects.AngleUtils
-  fullName: Slothsoft.Effects.AngleUtils
-  nameWithType: AngleUtils
-- uid: Slothsoft.Effects.AngleUtils.Alignment(Quaternion,Quaternion)
-  name: Alignment(Quaternion, Quaternion)
-  href: api/Slothsoft.Effects.AngleUtils.html#Slothsoft_Effects_AngleUtils_Alignment_Quaternion_Quaternion_
-  commentId: M:Slothsoft.Effects.AngleUtils.Alignment(Quaternion,Quaternion)
-  fullName: Slothsoft.Effects.AngleUtils.Alignment(Quaternion, Quaternion)
-  nameWithType: AngleUtils.Alignment(Quaternion, Quaternion)
-- uid: Slothsoft.Effects.AngleUtils.Alignment*
-  name: Alignment
-  href: api/Slothsoft.Effects.AngleUtils.html#Slothsoft_Effects_AngleUtils_Alignment_
-  commentId: Overload:Slothsoft.Effects.AngleUtils.Alignment
-  isSpec: "True"
-  fullName: Slothsoft.Effects.AngleUtils.Alignment
-  nameWithType: AngleUtils.Alignment
-- uid: Slothsoft.Effects.AngleUtils.DirectionalAngle(Vector2)
-  name: DirectionalAngle(Vector2)
-  href: api/Slothsoft.Effects.AngleUtils.html#Slothsoft_Effects_AngleUtils_DirectionalAngle_Vector2_
-  commentId: M:Slothsoft.Effects.AngleUtils.DirectionalAngle(Vector2)
-  fullName: Slothsoft.Effects.AngleUtils.DirectionalAngle(Vector2)
-  nameWithType: AngleUtils.DirectionalAngle(Vector2)
-- uid: Slothsoft.Effects.AngleUtils.DirectionalAngle*
-  name: DirectionalAngle
-  href: api/Slothsoft.Effects.AngleUtils.html#Slothsoft_Effects_AngleUtils_DirectionalAngle_
-  commentId: Overload:Slothsoft.Effects.AngleUtils.DirectionalAngle
-  isSpec: "True"
-  fullName: Slothsoft.Effects.AngleUtils.DirectionalAngle
-  nameWithType: AngleUtils.DirectionalAngle
-- uid: Slothsoft.Effects.AngleUtils.DirectionalRotation(Vector2)
-  name: DirectionalRotation(Vector2)
-  href: api/Slothsoft.Effects.AngleUtils.html#Slothsoft_Effects_AngleUtils_DirectionalRotation_Vector2_
-  commentId: M:Slothsoft.Effects.AngleUtils.DirectionalRotation(Vector2)
-  fullName: Slothsoft.Effects.AngleUtils.DirectionalRotation(Vector2)
-  nameWithType: AngleUtils.DirectionalRotation(Vector2)
-- uid: Slothsoft.Effects.AngleUtils.DirectionalRotation*
-  name: DirectionalRotation
-  href: api/Slothsoft.Effects.AngleUtils.html#Slothsoft_Effects_AngleUtils_DirectionalRotation_
-  commentId: Overload:Slothsoft.Effects.AngleUtils.DirectionalRotation
-  isSpec: "True"
-  fullName: Slothsoft.Effects.AngleUtils.DirectionalRotation
-  nameWithType: AngleUtils.DirectionalRotation
-- uid: Slothsoft.Effects.AngleUtils.HorizontalAngle(System.Int32)
-  name: HorizontalAngle(Int32)
-  href: api/Slothsoft.Effects.AngleUtils.html#Slothsoft_Effects_AngleUtils_HorizontalAngle_System_Int32_
-  commentId: M:Slothsoft.Effects.AngleUtils.HorizontalAngle(System.Int32)
-  fullName: Slothsoft.Effects.AngleUtils.HorizontalAngle(System.Int32)
-  nameWithType: AngleUtils.HorizontalAngle(Int32)
-- uid: Slothsoft.Effects.AngleUtils.HorizontalAngle*
-  name: HorizontalAngle
-  href: api/Slothsoft.Effects.AngleUtils.html#Slothsoft_Effects_AngleUtils_HorizontalAngle_
-  commentId: Overload:Slothsoft.Effects.AngleUtils.HorizontalAngle
-  isSpec: "True"
-  fullName: Slothsoft.Effects.AngleUtils.HorizontalAngle
-  nameWithType: AngleUtils.HorizontalAngle
-- uid: Slothsoft.Effects.AngleUtils.HorizontalSign(System.Single)
-  name: HorizontalSign(Single)
-  href: api/Slothsoft.Effects.AngleUtils.html#Slothsoft_Effects_AngleUtils_HorizontalSign_System_Single_
-  commentId: M:Slothsoft.Effects.AngleUtils.HorizontalSign(System.Single)
-  fullName: Slothsoft.Effects.AngleUtils.HorizontalSign(System.Single)
-  nameWithType: AngleUtils.HorizontalSign(Single)
-- uid: Slothsoft.Effects.AngleUtils.HorizontalSign(Vector2)
-  name: HorizontalSign(Vector2)
-  href: api/Slothsoft.Effects.AngleUtils.html#Slothsoft_Effects_AngleUtils_HorizontalSign_Vector2_
-  commentId: M:Slothsoft.Effects.AngleUtils.HorizontalSign(Vector2)
-  fullName: Slothsoft.Effects.AngleUtils.HorizontalSign(Vector2)
-  nameWithType: AngleUtils.HorizontalSign(Vector2)
-- uid: Slothsoft.Effects.AngleUtils.HorizontalSign*
-  name: HorizontalSign
-  href: api/Slothsoft.Effects.AngleUtils.html#Slothsoft_Effects_AngleUtils_HorizontalSign_
-  commentId: Overload:Slothsoft.Effects.AngleUtils.HorizontalSign
-  isSpec: "True"
-  fullName: Slothsoft.Effects.AngleUtils.HorizontalSign
-  nameWithType: AngleUtils.HorizontalSign
-- uid: Slothsoft.Effects.AngleUtils.NormalizeAngle(System.Single)
-  name: NormalizeAngle(Single)
-  href: api/Slothsoft.Effects.AngleUtils.html#Slothsoft_Effects_AngleUtils_NormalizeAngle_System_Single_
-  commentId: M:Slothsoft.Effects.AngleUtils.NormalizeAngle(System.Single)
-  fullName: Slothsoft.Effects.AngleUtils.NormalizeAngle(System.Single)
-  nameWithType: AngleUtils.NormalizeAngle(Single)
-- uid: Slothsoft.Effects.AngleUtils.NormalizeAngle*
-  name: NormalizeAngle
-  href: api/Slothsoft.Effects.AngleUtils.html#Slothsoft_Effects_AngleUtils_NormalizeAngle_
-  commentId: Overload:Slothsoft.Effects.AngleUtils.NormalizeAngle
-  isSpec: "True"
-  fullName: Slothsoft.Effects.AngleUtils.NormalizeAngle
-  nameWithType: AngleUtils.NormalizeAngle
-- uid: Slothsoft.Effects.AngleUtils.RoundAngle(System.Single,System.Int32)
-  name: RoundAngle(Single, Int32)
-  href: api/Slothsoft.Effects.AngleUtils.html#Slothsoft_Effects_AngleUtils_RoundAngle_System_Single_System_Int32_
-  commentId: M:Slothsoft.Effects.AngleUtils.RoundAngle(System.Single,System.Int32)
-  fullName: Slothsoft.Effects.AngleUtils.RoundAngle(System.Single, System.Int32)
-  nameWithType: AngleUtils.RoundAngle(Single, Int32)
-- uid: Slothsoft.Effects.AngleUtils.RoundAngle*
-  name: RoundAngle
-  href: api/Slothsoft.Effects.AngleUtils.html#Slothsoft_Effects_AngleUtils_RoundAngle_
-  commentId: Overload:Slothsoft.Effects.AngleUtils.RoundAngle
-  isSpec: "True"
-  fullName: Slothsoft.Effects.AngleUtils.RoundAngle
-  nameWithType: AngleUtils.RoundAngle
 - uid: Slothsoft.Effects.CollisionIdentifier
   name: CollisionIdentifier
   href: api/Slothsoft.Effects.CollisionIdentifier.html
@@ -255,6 +152,32 @@ references:
   commentId: F:Slothsoft.Effects.CollisionInfo.empty
   fullName: Slothsoft.Effects.CollisionInfo.empty
   nameWithType: CollisionInfo.empty
+- uid: Slothsoft.Effects.CollisionInfo.FromCollision(Collision)
+  name: FromCollision(Collision)
+  href: api/Slothsoft.Effects.CollisionInfo.html#Slothsoft_Effects_CollisionInfo_FromCollision_Collision_
+  commentId: M:Slothsoft.Effects.CollisionInfo.FromCollision(Collision)
+  fullName: Slothsoft.Effects.CollisionInfo.FromCollision(Collision)
+  nameWithType: CollisionInfo.FromCollision(Collision)
+- uid: Slothsoft.Effects.CollisionInfo.FromCollision*
+  name: FromCollision
+  href: api/Slothsoft.Effects.CollisionInfo.html#Slothsoft_Effects_CollisionInfo_FromCollision_
+  commentId: Overload:Slothsoft.Effects.CollisionInfo.FromCollision
+  isSpec: "True"
+  fullName: Slothsoft.Effects.CollisionInfo.FromCollision
+  nameWithType: CollisionInfo.FromCollision
+- uid: Slothsoft.Effects.CollisionInfo.FromTrigger(GameObject,Collider)
+  name: FromTrigger(GameObject, Collider)
+  href: api/Slothsoft.Effects.CollisionInfo.html#Slothsoft_Effects_CollisionInfo_FromTrigger_GameObject_Collider_
+  commentId: M:Slothsoft.Effects.CollisionInfo.FromTrigger(GameObject,Collider)
+  fullName: Slothsoft.Effects.CollisionInfo.FromTrigger(GameObject, Collider)
+  nameWithType: CollisionInfo.FromTrigger(GameObject, Collider)
+- uid: Slothsoft.Effects.CollisionInfo.FromTrigger*
+  name: FromTrigger
+  href: api/Slothsoft.Effects.CollisionInfo.html#Slothsoft_Effects_CollisionInfo_FromTrigger_
+  commentId: Overload:Slothsoft.Effects.CollisionInfo.FromTrigger
+  isSpec: "True"
+  fullName: Slothsoft.Effects.CollisionInfo.FromTrigger
+  nameWithType: CollisionInfo.FromTrigger
 - uid: Slothsoft.Effects.CollisionInfo.gameObject
   name: gameObject
   href: api/Slothsoft.Effects.CollisionInfo.html#Slothsoft_Effects_CollisionInfo_gameObject
@@ -441,25 +364,6 @@ references:
   commentId: F:Slothsoft.Effects.CollisionMaterial.staticFriction
   fullName: Slothsoft.Effects.CollisionMaterial.staticFriction
   nameWithType: CollisionMaterial.staticFriction
-- uid: Slothsoft.Effects.CollisionProviderComponent
-  name: CollisionProviderComponent
-  href: api/Slothsoft.Effects.CollisionProviderComponent.html
-  commentId: T:Slothsoft.Effects.CollisionProviderComponent
-  fullName: Slothsoft.Effects.CollisionProviderComponent
-  nameWithType: CollisionProviderComponent
-- uid: Slothsoft.Effects.CollisionProviderComponent.collision
-  name: collision
-  href: api/Slothsoft.Effects.CollisionProviderComponent.html#Slothsoft_Effects_CollisionProviderComponent_collision
-  commentId: P:Slothsoft.Effects.CollisionProviderComponent.collision
-  fullName: Slothsoft.Effects.CollisionProviderComponent.collision
-  nameWithType: CollisionProviderComponent.collision
-- uid: Slothsoft.Effects.CollisionProviderComponent.collision*
-  name: collision
-  href: api/Slothsoft.Effects.CollisionProviderComponent.html#Slothsoft_Effects_CollisionProviderComponent_collision_
-  commentId: Overload:Slothsoft.Effects.CollisionProviderComponent.collision
-  isSpec: "True"
-  fullName: Slothsoft.Effects.CollisionProviderComponent.collision
-  nameWithType: CollisionProviderComponent.collision
 - uid: Slothsoft.Effects.ComplexTriggerHit3D
   name: ComplexTriggerHit3D
   href: api/Slothsoft.Effects.ComplexTriggerHit3D.html
@@ -643,25 +547,6 @@ references:
   isSpec: "True"
   fullName: Slothsoft.Effects.ICollisionMessages.OnAvatarExit
   nameWithType: ICollisionMessages.OnAvatarExit
-- uid: Slothsoft.Effects.ICollisionProvider
-  name: ICollisionProvider
-  href: api/Slothsoft.Effects.ICollisionProvider.html
-  commentId: T:Slothsoft.Effects.ICollisionProvider
-  fullName: Slothsoft.Effects.ICollisionProvider
-  nameWithType: ICollisionProvider
-- uid: Slothsoft.Effects.ICollisionProvider.collision
-  name: collision
-  href: api/Slothsoft.Effects.ICollisionProvider.html#Slothsoft_Effects_ICollisionProvider_collision
-  commentId: P:Slothsoft.Effects.ICollisionProvider.collision
-  fullName: Slothsoft.Effects.ICollisionProvider.collision
-  nameWithType: ICollisionProvider.collision
-- uid: Slothsoft.Effects.ICollisionProvider.collision*
-  name: collision
-  href: api/Slothsoft.Effects.ICollisionProvider.html#Slothsoft_Effects_ICollisionProvider_collision_
-  commentId: Overload:Slothsoft.Effects.ICollisionProvider.collision
-  isSpec: "True"
-  fullName: Slothsoft.Effects.ICollisionProvider.collision
-  nameWithType: ICollisionProvider.collision
 - uid: Slothsoft.Effects.IEffect
   name: IEffect
   href: api/Slothsoft.Effects.IEffect.html
@@ -1132,3 +1017,51 @@ references:
   commentId: T:Slothsoft.Effects.Timeline.TrackBase
   fullName: Slothsoft.Effects.Timeline.TrackBase
   nameWithType: TrackBase
+- uid: Slothsoft.Effects.Triggers
+  name: Slothsoft.Effects.Triggers
+  href: api/Slothsoft.Effects.Triggers.html
+  commentId: N:Slothsoft.Effects.Triggers
+  fullName: Slothsoft.Effects.Triggers
+  nameWithType: Slothsoft.Effects.Triggers
+- uid: Slothsoft.Effects.Triggers.EffectTriggerBase`1
+  name: EffectTriggerBase<T>
+  href: api/Slothsoft.Effects.Triggers.EffectTriggerBase-1.html
+  commentId: T:Slothsoft.Effects.Triggers.EffectTriggerBase`1
+  name.vb: EffectTriggerBase(Of T)
+  fullName: Slothsoft.Effects.Triggers.EffectTriggerBase<T>
+  fullName.vb: Slothsoft.Effects.Triggers.EffectTriggerBase(Of T)
+  nameWithType: EffectTriggerBase<T>
+  nameWithType.vb: EffectTriggerBase(Of T)
+- uid: Slothsoft.Effects.Triggers.EffectTriggerBase`1.Execute(`0)
+  name: Execute(T)
+  href: api/Slothsoft.Effects.Triggers.EffectTriggerBase-1.html#Slothsoft_Effects_Triggers_EffectTriggerBase_1_Execute__0_
+  commentId: M:Slothsoft.Effects.Triggers.EffectTriggerBase`1.Execute(`0)
+  fullName: Slothsoft.Effects.Triggers.EffectTriggerBase<T>.Execute(T)
+  fullName.vb: Slothsoft.Effects.Triggers.EffectTriggerBase(Of T).Execute(T)
+  nameWithType: EffectTriggerBase<T>.Execute(T)
+  nameWithType.vb: EffectTriggerBase(Of T).Execute(T)
+- uid: Slothsoft.Effects.Triggers.EffectTriggerBase`1.Execute(`0,GameObject)
+  name: Execute(T, GameObject)
+  href: api/Slothsoft.Effects.Triggers.EffectTriggerBase-1.html#Slothsoft_Effects_Triggers_EffectTriggerBase_1_Execute__0_GameObject_
+  commentId: M:Slothsoft.Effects.Triggers.EffectTriggerBase`1.Execute(`0,GameObject)
+  fullName: Slothsoft.Effects.Triggers.EffectTriggerBase<T>.Execute(T, GameObject)
+  fullName.vb: Slothsoft.Effects.Triggers.EffectTriggerBase(Of T).Execute(T, GameObject)
+  nameWithType: EffectTriggerBase<T>.Execute(T, GameObject)
+  nameWithType.vb: EffectTriggerBase(Of T).Execute(T, GameObject)
+- uid: Slothsoft.Effects.Triggers.EffectTriggerBase`1.Execute(`0,Slothsoft.Effects.CollisionInfo)
+  name: Execute(T, CollisionInfo)
+  href: api/Slothsoft.Effects.Triggers.EffectTriggerBase-1.html#Slothsoft_Effects_Triggers_EffectTriggerBase_1_Execute__0_Slothsoft_Effects_CollisionInfo_
+  commentId: M:Slothsoft.Effects.Triggers.EffectTriggerBase`1.Execute(`0,Slothsoft.Effects.CollisionInfo)
+  fullName: Slothsoft.Effects.Triggers.EffectTriggerBase<T>.Execute(T, Slothsoft.Effects.CollisionInfo)
+  fullName.vb: Slothsoft.Effects.Triggers.EffectTriggerBase(Of T).Execute(T, Slothsoft.Effects.CollisionInfo)
+  nameWithType: EffectTriggerBase<T>.Execute(T, CollisionInfo)
+  nameWithType.vb: EffectTriggerBase(Of T).Execute(T, CollisionInfo)
+- uid: Slothsoft.Effects.Triggers.EffectTriggerBase`1.Execute*
+  name: Execute
+  href: api/Slothsoft.Effects.Triggers.EffectTriggerBase-1.html#Slothsoft_Effects_Triggers_EffectTriggerBase_1_Execute_
+  commentId: Overload:Slothsoft.Effects.Triggers.EffectTriggerBase`1.Execute
+  isSpec: "True"
+  fullName: Slothsoft.Effects.Triggers.EffectTriggerBase<T>.Execute
+  fullName.vb: Slothsoft.Effects.Triggers.EffectTriggerBase(Of T).Execute
+  nameWithType: EffectTriggerBase<T>.Execute
+  nameWithType.vb: EffectTriggerBase(Of T).Execute

@@ -5,18 +5,6 @@
   "files": [
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Slothsoft.Effects.AngleUtils.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slothsoft.Effects.AngleUtils.html",
-          "hash": "4MdUjwwwlqMy5P5b0FeORQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/Slothsoft.Effects.CollisionIdentifier.yml",
       "output": {
         ".html": {
@@ -33,7 +21,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Slothsoft.Effects.CollisionInfo.html",
-          "hash": "2cjSafD3z5cBY/1D71ez+w=="
+          "hash": "VLo7R/e+IkpFu4ifbgZ5GA=="
         }
       },
       "is_incremental": false,
@@ -46,18 +34,6 @@
         ".html": {
           "relative_path": "api/Slothsoft.Effects.CollisionMaterial.html",
           "hash": "pPjZR48E9EaB6uMT6VPAIA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slothsoft.Effects.CollisionProviderComponent.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slothsoft.Effects.CollisionProviderComponent.html",
-          "hash": "XuS0n5Ak0RhkdJvVmwTyCQ=="
         }
       },
       "is_incremental": false,
@@ -94,18 +70,6 @@
         ".html": {
           "relative_path": "api/Slothsoft.Effects.ICollisionMessages.html",
           "hash": "08DDUINFY4qs+/xRvLesXA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slothsoft.Effects.ICollisionProvider.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slothsoft.Effects.ICollisionProvider.html",
-          "hash": "hyi6Qxd81RqU753fguDsQA=="
         }
       },
       "is_incremental": false,
@@ -281,11 +245,35 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Slothsoft.Effects.Triggers.EffectTriggerBase-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slothsoft.Effects.Triggers.EffectTriggerBase-1.html",
+          "hash": "m8FkfaI0RKzg72OTJmSBVQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slothsoft.Effects.Triggers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slothsoft.Effects.Triggers.html",
+          "hash": "FPBIYOOfwhI6QuK15wBuug=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Slothsoft.Effects.yml",
       "output": {
         ".html": {
           "relative_path": "api/Slothsoft.Effects.html",
-          "hash": "OdOP/XIEddfZiBYqoY8cQw=="
+          "hash": "tI7KSArDAyk+GcfV84yy5w=="
         }
       },
       "is_incremental": false,
@@ -309,7 +297,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "C5eWnE/PEwQZC22cF93CgA=="
+          "hash": "X0S+/SDf1SEqODJGR6fQZA=="
         }
       },
       "is_incremental": false,
@@ -360,7 +348,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 24,
+          "total_file_count": 23,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
