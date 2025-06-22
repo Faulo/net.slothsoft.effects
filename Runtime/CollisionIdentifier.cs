@@ -5,13 +5,13 @@ using UnityEngine.Assertions;
 namespace Slothsoft.Events {
     public readonly struct CollisionIdentifier : IEquatable<CollisionIdentifier> {
         public readonly GameObject gameObject;
-        public readonly PhysicsMaterial material;
+        public readonly CollisionMaterial material;
         public readonly Vector2Int normal;
         public readonly bool isValid;
 
-        public CollisionIdentifier(GameObject gameObject, PhysicsMaterial material, Vector2Int normal = default) {
+        public CollisionIdentifier(GameObject gameObject, CollisionMaterial material, Vector2Int normal = default) {
             Assert.IsTrue(gameObject);
-            Assert.IsTrue(material);
+            Assert.IsNotNull(material);
 
             this.gameObject = gameObject;
             this.material = material;

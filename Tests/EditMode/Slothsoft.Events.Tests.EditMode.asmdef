@@ -3,6 +3,7 @@
     "rootNamespace": "",
     "references": [
         "Slothsoft.Events",
+        "Slothsoft.TestRunner",
         "UnityEngine.TestRunner",
         "UnityEditor.TestRunner",
         "TNRD.NSubstitute"
