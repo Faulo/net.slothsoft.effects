@@ -542,12 +542,6 @@ references:
   isSpec: "True"
   fullName: Slothsoft.Effects.EffectEvent.AddListener
   nameWithType: EffectEvent.AddListener
-- uid: Slothsoft.Effects.EffectEvent.effects
-  name: effects
-  href: api/Slothsoft.Effects.EffectEvent.html#Slothsoft_Effects_EffectEvent_effects
-  commentId: F:Slothsoft.Effects.EffectEvent.effects
-  fullName: Slothsoft.Effects.EffectEvent.effects
-  nameWithType: EffectEvent.effects
 - uid: Slothsoft.Effects.EffectEvent.hasPersistentListeners
   name: hasPersistentListeners
   href: api/Slothsoft.Effects.EffectEvent.html#Slothsoft_Effects_EffectEvent_hasPersistentListeners
