@@ -1,0 +1,440 @@
+{
+  "homepages": [],
+  "source_base_path": "/github/workspace/.docfx",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slothsoft.Events.AngleUtil.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slothsoft.Events.AngleUtil.html",
+          "hash": "JxM2WRLoFWFGEsRcxpJZrA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slothsoft.Events.BindingSearch.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slothsoft.Events.BindingSearch.html",
+          "hash": "SufwxO5uy1AELk1zqYOCWw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slothsoft.Events.CollisionAction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slothsoft.Events.CollisionAction.html",
+          "hash": "g8mpZJDzE9UGQ8pQ6FedFg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slothsoft.Events.CollisionIdentifier.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slothsoft.Events.CollisionIdentifier.html",
+          "hash": "b5Oob218+hQYXtjiY0iMIQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slothsoft.Events.CollisionInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slothsoft.Events.CollisionInfo.html",
+          "hash": "jLw9dB4aSY7GdNOg1sonkQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slothsoft.Events.CollisionMaterial.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slothsoft.Events.CollisionMaterial.html",
+          "hash": "yH+Z9kbYKzF9q+7tZQrhaA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slothsoft.Events.CollisionProviderComponent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slothsoft.Events.CollisionProviderComponent.html",
+          "hash": "uugjCk5Qv6OsfGyCtNJ1Kw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slothsoft.Events.ComplexTriggerHit3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slothsoft.Events.ComplexTriggerHit3D.html",
+          "hash": "f9jyPiYeAZVAwddvNOrYXw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slothsoft.Events.CursedEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slothsoft.Events.CursedEvent.html",
+          "hash": "hSHbqX8n55FPDZAznpgiEg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slothsoft.Events.IActor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slothsoft.Events.IActor.html",
+          "hash": "B4oBQLmpLIfneEJsQYk7Kg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slothsoft.Events.ICollisionMessages.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slothsoft.Events.ICollisionMessages.html",
+          "hash": "oLtrAwW0N+lkUCHBN2490A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slothsoft.Events.ICollisionProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slothsoft.Events.ICollisionProvider.html",
+          "hash": "D34HDPgBj2BtEJ+yoqcnMg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slothsoft.Events.ICursedAction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slothsoft.Events.ICursedAction.html",
+          "hash": "9FxzJcJsiffT4376ld9EYg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slothsoft.Events.ITriggerHit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slothsoft.Events.ITriggerHit.html",
+          "hash": "PWTMLDpNo7u4AtK7nTgPYw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slothsoft.Events.MaterialType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slothsoft.Events.MaterialType.html",
+          "hash": "wSLsGYZGBVXYkjD4UKTCvA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slothsoft.Events.ObjectLocators.ITransformLocator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slothsoft.Events.ObjectLocators.ITransformLocator.html",
+          "hash": "TYIC3bptFZuR+88GfTnJVA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slothsoft.Events.ObjectLocators.TransformReference.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slothsoft.Events.ObjectLocators.TransformReference.html",
+          "hash": "zn6xvtfMzV+CAS29pjuqEw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slothsoft.Events.ObjectLocators.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slothsoft.Events.ObjectLocators.html",
+          "hash": "1ikED2X7TAMr2aDLNevNZw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slothsoft.Events.Timeline.GameObjectTrack.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slothsoft.Events.Timeline.GameObjectTrack.html",
+          "hash": "mrPcMrGVHu89yA9Tx9RH+g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slothsoft.Events.Timeline.IClip-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slothsoft.Events.Timeline.IClip-1.html",
+          "hash": "qBA3w4FRem405rdGKJvuRg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slothsoft.Events.Timeline.IExpandableClip.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slothsoft.Events.Timeline.IExpandableClip.html",
+          "hash": "sfB9EbrOi2bTDGlj8J0EWg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slothsoft.Events.Timeline.ISettingsBehaviour-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slothsoft.Events.Timeline.ISettingsBehaviour-1.html",
+          "hash": "J/k3POGNgESmFw4rLul+Sg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slothsoft.Events.Timeline.PlayableBehaviorBase-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slothsoft.Events.Timeline.PlayableBehaviorBase-2.html",
+          "hash": "wNNPmZNob0MIJPziC1ESbA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slothsoft.Events.Timeline.PlayableClipBase-3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slothsoft.Events.Timeline.PlayableClipBase-3.html",
+          "hash": "pB4BZ9iOPtqOVz5ASICHPw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slothsoft.Events.Timeline.TimelineAssetExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slothsoft.Events.Timeline.TimelineAssetExtensions.html",
+          "hash": "T0kWp5dKkSlHVHiGZBOPig=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slothsoft.Events.Timeline.TrackBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slothsoft.Events.Timeline.TrackBase.html",
+          "hash": "1nNIiLSDNGBA/jZRpmIKaQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slothsoft.Events.Timeline.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slothsoft.Events.Timeline.html",
+          "hash": "sqnbnLqaTfl8zIkoSNRYoQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slothsoft.Events.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slothsoft.Events.html",
+          "hash": "Z/MxhtMCtv7SKqrm0nXBRA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "CVkbUoIt8TcExb7vgeZ3Jw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "LvV4yuj7OeJSC0SJeuapYA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "UvUnEFRLNEvHNJINDld+ng=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "P93n2iGsJrpwh2jVEwNj6g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 2,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 28,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: last post processor info is null.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

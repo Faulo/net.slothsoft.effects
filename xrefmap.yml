@@ -1,0 +1,1314 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: Slothsoft.Events
+  name: Slothsoft.Events
+  href: api/Slothsoft.Events.html
+  commentId: N:Slothsoft.Events
+  fullName: Slothsoft.Events
+  nameWithType: Slothsoft.Events
+- uid: Slothsoft.Events.AngleUtil
+  name: AngleUtil
+  href: api/Slothsoft.Events.AngleUtil.html
+  commentId: T:Slothsoft.Events.AngleUtil
+  fullName: Slothsoft.Events.AngleUtil
+  nameWithType: AngleUtil
+- uid: Slothsoft.Events.AngleUtil.Alignment(Quaternion,Quaternion)
+  name: Alignment(Quaternion, Quaternion)
+  href: api/Slothsoft.Events.AngleUtil.html#Slothsoft_Events_AngleUtil_Alignment_Quaternion_Quaternion_
+  commentId: M:Slothsoft.Events.AngleUtil.Alignment(Quaternion,Quaternion)
+  fullName: Slothsoft.Events.AngleUtil.Alignment(Quaternion, Quaternion)
+  nameWithType: AngleUtil.Alignment(Quaternion, Quaternion)
+- uid: Slothsoft.Events.AngleUtil.Alignment*
+  name: Alignment
+  href: api/Slothsoft.Events.AngleUtil.html#Slothsoft_Events_AngleUtil_Alignment_
+  commentId: Overload:Slothsoft.Events.AngleUtil.Alignment
+  isSpec: "True"
+  fullName: Slothsoft.Events.AngleUtil.Alignment
+  nameWithType: AngleUtil.Alignment
+- uid: Slothsoft.Events.AngleUtil.DirectionalAngle(Vector2)
+  name: DirectionalAngle(Vector2)
+  href: api/Slothsoft.Events.AngleUtil.html#Slothsoft_Events_AngleUtil_DirectionalAngle_Vector2_
+  commentId: M:Slothsoft.Events.AngleUtil.DirectionalAngle(Vector2)
+  fullName: Slothsoft.Events.AngleUtil.DirectionalAngle(Vector2)
+  nameWithType: AngleUtil.DirectionalAngle(Vector2)
+- uid: Slothsoft.Events.AngleUtil.DirectionalAngle*
+  name: DirectionalAngle
+  href: api/Slothsoft.Events.AngleUtil.html#Slothsoft_Events_AngleUtil_DirectionalAngle_
+  commentId: Overload:Slothsoft.Events.AngleUtil.DirectionalAngle
+  isSpec: "True"
+  fullName: Slothsoft.Events.AngleUtil.DirectionalAngle
+  nameWithType: AngleUtil.DirectionalAngle
+- uid: Slothsoft.Events.AngleUtil.DirectionalRotation(Vector2)
+  name: DirectionalRotation(Vector2)
+  href: api/Slothsoft.Events.AngleUtil.html#Slothsoft_Events_AngleUtil_DirectionalRotation_Vector2_
+  commentId: M:Slothsoft.Events.AngleUtil.DirectionalRotation(Vector2)
+  fullName: Slothsoft.Events.AngleUtil.DirectionalRotation(Vector2)
+  nameWithType: AngleUtil.DirectionalRotation(Vector2)
+- uid: Slothsoft.Events.AngleUtil.DirectionalRotation*
+  name: DirectionalRotation
+  href: api/Slothsoft.Events.AngleUtil.html#Slothsoft_Events_AngleUtil_DirectionalRotation_
+  commentId: Overload:Slothsoft.Events.AngleUtil.DirectionalRotation
+  isSpec: "True"
+  fullName: Slothsoft.Events.AngleUtil.DirectionalRotation
+  nameWithType: AngleUtil.DirectionalRotation
+- uid: Slothsoft.Events.AngleUtil.HorizontalAngle(System.Int32)
+  name: HorizontalAngle(Int32)
+  href: api/Slothsoft.Events.AngleUtil.html#Slothsoft_Events_AngleUtil_HorizontalAngle_System_Int32_
+  commentId: M:Slothsoft.Events.AngleUtil.HorizontalAngle(System.Int32)
+  fullName: Slothsoft.Events.AngleUtil.HorizontalAngle(System.Int32)
+  nameWithType: AngleUtil.HorizontalAngle(Int32)
+- uid: Slothsoft.Events.AngleUtil.HorizontalAngle*
+  name: HorizontalAngle
+  href: api/Slothsoft.Events.AngleUtil.html#Slothsoft_Events_AngleUtil_HorizontalAngle_
+  commentId: Overload:Slothsoft.Events.AngleUtil.HorizontalAngle
+  isSpec: "True"
+  fullName: Slothsoft.Events.AngleUtil.HorizontalAngle
+  nameWithType: AngleUtil.HorizontalAngle
+- uid: Slothsoft.Events.AngleUtil.HorizontalSign(System.Single)
+  name: HorizontalSign(Single)
+  href: api/Slothsoft.Events.AngleUtil.html#Slothsoft_Events_AngleUtil_HorizontalSign_System_Single_
+  commentId: M:Slothsoft.Events.AngleUtil.HorizontalSign(System.Single)
+  fullName: Slothsoft.Events.AngleUtil.HorizontalSign(System.Single)
+  nameWithType: AngleUtil.HorizontalSign(Single)
+- uid: Slothsoft.Events.AngleUtil.HorizontalSign(Vector2)
+  name: HorizontalSign(Vector2)
+  href: api/Slothsoft.Events.AngleUtil.html#Slothsoft_Events_AngleUtil_HorizontalSign_Vector2_
+  commentId: M:Slothsoft.Events.AngleUtil.HorizontalSign(Vector2)
+  fullName: Slothsoft.Events.AngleUtil.HorizontalSign(Vector2)
+  nameWithType: AngleUtil.HorizontalSign(Vector2)
+- uid: Slothsoft.Events.AngleUtil.HorizontalSign*
+  name: HorizontalSign
+  href: api/Slothsoft.Events.AngleUtil.html#Slothsoft_Events_AngleUtil_HorizontalSign_
+  commentId: Overload:Slothsoft.Events.AngleUtil.HorizontalSign
+  isSpec: "True"
+  fullName: Slothsoft.Events.AngleUtil.HorizontalSign
+  nameWithType: AngleUtil.HorizontalSign
+- uid: Slothsoft.Events.AngleUtil.NormalizeAngle(System.Single)
+  name: NormalizeAngle(Single)
+  href: api/Slothsoft.Events.AngleUtil.html#Slothsoft_Events_AngleUtil_NormalizeAngle_System_Single_
+  commentId: M:Slothsoft.Events.AngleUtil.NormalizeAngle(System.Single)
+  fullName: Slothsoft.Events.AngleUtil.NormalizeAngle(System.Single)
+  nameWithType: AngleUtil.NormalizeAngle(Single)
+- uid: Slothsoft.Events.AngleUtil.NormalizeAngle*
+  name: NormalizeAngle
+  href: api/Slothsoft.Events.AngleUtil.html#Slothsoft_Events_AngleUtil_NormalizeAngle_
+  commentId: Overload:Slothsoft.Events.AngleUtil.NormalizeAngle
+  isSpec: "True"
+  fullName: Slothsoft.Events.AngleUtil.NormalizeAngle
+  nameWithType: AngleUtil.NormalizeAngle
+- uid: Slothsoft.Events.AngleUtil.RoundAngle(System.Single,System.Int32)
+  name: RoundAngle(Single, Int32)
+  href: api/Slothsoft.Events.AngleUtil.html#Slothsoft_Events_AngleUtil_RoundAngle_System_Single_System_Int32_
+  commentId: M:Slothsoft.Events.AngleUtil.RoundAngle(System.Single,System.Int32)
+  fullName: Slothsoft.Events.AngleUtil.RoundAngle(System.Single, System.Int32)
+  nameWithType: AngleUtil.RoundAngle(Single, Int32)
+- uid: Slothsoft.Events.AngleUtil.RoundAngle*
+  name: RoundAngle
+  href: api/Slothsoft.Events.AngleUtil.html#Slothsoft_Events_AngleUtil_RoundAngle_
+  commentId: Overload:Slothsoft.Events.AngleUtil.RoundAngle
+  isSpec: "True"
+  fullName: Slothsoft.Events.AngleUtil.RoundAngle
+  nameWithType: AngleUtil.RoundAngle
+- uid: Slothsoft.Events.BindingSearch
+  name: BindingSearch
+  href: api/Slothsoft.Events.BindingSearch.html
+  commentId: T:Slothsoft.Events.BindingSearch
+  fullName: Slothsoft.Events.BindingSearch
+  nameWithType: BindingSearch
+- uid: Slothsoft.Events.CollisionAction
+  name: CollisionAction
+  href: api/Slothsoft.Events.CollisionAction.html
+  commentId: T:Slothsoft.Events.CollisionAction
+  fullName: Slothsoft.Events.CollisionAction
+  nameWithType: CollisionAction
+- uid: Slothsoft.Events.CollisionIdentifier
+  name: CollisionIdentifier
+  href: api/Slothsoft.Events.CollisionIdentifier.html
+  commentId: T:Slothsoft.Events.CollisionIdentifier
+  fullName: Slothsoft.Events.CollisionIdentifier
+  nameWithType: CollisionIdentifier
+- uid: Slothsoft.Events.CollisionIdentifier.#ctor(GameObject,PhysicsMaterial,Vector2Int)
+  name: CollisionIdentifier(GameObject, PhysicsMaterial, Vector2Int)
+  href: api/Slothsoft.Events.CollisionIdentifier.html#Slothsoft_Events_CollisionIdentifier__ctor_GameObject_PhysicsMaterial_Vector2Int_
+  commentId: M:Slothsoft.Events.CollisionIdentifier.#ctor(GameObject,PhysicsMaterial,Vector2Int)
+  fullName: Slothsoft.Events.CollisionIdentifier.CollisionIdentifier(GameObject, PhysicsMaterial, Vector2Int)
+  nameWithType: CollisionIdentifier.CollisionIdentifier(GameObject, PhysicsMaterial, Vector2Int)
+- uid: Slothsoft.Events.CollisionIdentifier.#ctor*
+  name: CollisionIdentifier
+  href: api/Slothsoft.Events.CollisionIdentifier.html#Slothsoft_Events_CollisionIdentifier__ctor_
+  commentId: Overload:Slothsoft.Events.CollisionIdentifier.#ctor
+  isSpec: "True"
+  fullName: Slothsoft.Events.CollisionIdentifier.CollisionIdentifier
+  nameWithType: CollisionIdentifier.CollisionIdentifier
+- uid: Slothsoft.Events.CollisionIdentifier.Equals(Slothsoft.Events.CollisionIdentifier)
+  name: Equals(CollisionIdentifier)
+  href: api/Slothsoft.Events.CollisionIdentifier.html#Slothsoft_Events_CollisionIdentifier_Equals_Slothsoft_Events_CollisionIdentifier_
+  commentId: M:Slothsoft.Events.CollisionIdentifier.Equals(Slothsoft.Events.CollisionIdentifier)
+  fullName: Slothsoft.Events.CollisionIdentifier.Equals(Slothsoft.Events.CollisionIdentifier)
+  nameWithType: CollisionIdentifier.Equals(CollisionIdentifier)
+- uid: Slothsoft.Events.CollisionIdentifier.Equals(System.Object)
+  name: Equals(Object)
+  href: api/Slothsoft.Events.CollisionIdentifier.html#Slothsoft_Events_CollisionIdentifier_Equals_System_Object_
+  commentId: M:Slothsoft.Events.CollisionIdentifier.Equals(System.Object)
+  fullName: Slothsoft.Events.CollisionIdentifier.Equals(System.Object)
+  nameWithType: CollisionIdentifier.Equals(Object)
+- uid: Slothsoft.Events.CollisionIdentifier.Equals*
+  name: Equals
+  href: api/Slothsoft.Events.CollisionIdentifier.html#Slothsoft_Events_CollisionIdentifier_Equals_
+  commentId: Overload:Slothsoft.Events.CollisionIdentifier.Equals
+  isSpec: "True"
+  fullName: Slothsoft.Events.CollisionIdentifier.Equals
+  nameWithType: CollisionIdentifier.Equals
+- uid: Slothsoft.Events.CollisionIdentifier.gameObject
+  name: gameObject
+  href: api/Slothsoft.Events.CollisionIdentifier.html#Slothsoft_Events_CollisionIdentifier_gameObject
+  commentId: F:Slothsoft.Events.CollisionIdentifier.gameObject
+  fullName: Slothsoft.Events.CollisionIdentifier.gameObject
+  nameWithType: CollisionIdentifier.gameObject
+- uid: Slothsoft.Events.CollisionIdentifier.GetHashCode
+  name: GetHashCode()
+  href: api/Slothsoft.Events.CollisionIdentifier.html#Slothsoft_Events_CollisionIdentifier_GetHashCode
+  commentId: M:Slothsoft.Events.CollisionIdentifier.GetHashCode
+  fullName: Slothsoft.Events.CollisionIdentifier.GetHashCode()
+  nameWithType: CollisionIdentifier.GetHashCode()
+- uid: Slothsoft.Events.CollisionIdentifier.GetHashCode*
+  name: GetHashCode
+  href: api/Slothsoft.Events.CollisionIdentifier.html#Slothsoft_Events_CollisionIdentifier_GetHashCode_
+  commentId: Overload:Slothsoft.Events.CollisionIdentifier.GetHashCode
+  isSpec: "True"
+  fullName: Slothsoft.Events.CollisionIdentifier.GetHashCode
+  nameWithType: CollisionIdentifier.GetHashCode
+- uid: Slothsoft.Events.CollisionIdentifier.isValid
+  name: isValid
+  href: api/Slothsoft.Events.CollisionIdentifier.html#Slothsoft_Events_CollisionIdentifier_isValid
+  commentId: F:Slothsoft.Events.CollisionIdentifier.isValid
+  fullName: Slothsoft.Events.CollisionIdentifier.isValid
+  nameWithType: CollisionIdentifier.isValid
+- uid: Slothsoft.Events.CollisionIdentifier.material
+  name: material
+  href: api/Slothsoft.Events.CollisionIdentifier.html#Slothsoft_Events_CollisionIdentifier_material
+  commentId: F:Slothsoft.Events.CollisionIdentifier.material
+  fullName: Slothsoft.Events.CollisionIdentifier.material
+  nameWithType: CollisionIdentifier.material
+- uid: Slothsoft.Events.CollisionIdentifier.normal
+  name: normal
+  href: api/Slothsoft.Events.CollisionIdentifier.html#Slothsoft_Events_CollisionIdentifier_normal
+  commentId: F:Slothsoft.Events.CollisionIdentifier.normal
+  fullName: Slothsoft.Events.CollisionIdentifier.normal
+  nameWithType: CollisionIdentifier.normal
+- uid: Slothsoft.Events.CollisionIdentifier.op_Equality(Slothsoft.Events.CollisionIdentifier,Slothsoft.Events.CollisionIdentifier)
+  name: Equality(CollisionIdentifier, CollisionIdentifier)
+  href: api/Slothsoft.Events.CollisionIdentifier.html#Slothsoft_Events_CollisionIdentifier_op_Equality_Slothsoft_Events_CollisionIdentifier_Slothsoft_Events_CollisionIdentifier_
+  commentId: M:Slothsoft.Events.CollisionIdentifier.op_Equality(Slothsoft.Events.CollisionIdentifier,Slothsoft.Events.CollisionIdentifier)
+  fullName: Slothsoft.Events.CollisionIdentifier.Equality(Slothsoft.Events.CollisionIdentifier, Slothsoft.Events.CollisionIdentifier)
+  nameWithType: CollisionIdentifier.Equality(CollisionIdentifier, CollisionIdentifier)
+- uid: Slothsoft.Events.CollisionIdentifier.op_Equality*
+  name: Equality
+  href: api/Slothsoft.Events.CollisionIdentifier.html#Slothsoft_Events_CollisionIdentifier_op_Equality_
+  commentId: Overload:Slothsoft.Events.CollisionIdentifier.op_Equality
+  isSpec: "True"
+  fullName: Slothsoft.Events.CollisionIdentifier.Equality
+  nameWithType: CollisionIdentifier.Equality
+- uid: Slothsoft.Events.CollisionIdentifier.op_Inequality(Slothsoft.Events.CollisionIdentifier,Slothsoft.Events.CollisionIdentifier)
+  name: Inequality(CollisionIdentifier, CollisionIdentifier)
+  href: api/Slothsoft.Events.CollisionIdentifier.html#Slothsoft_Events_CollisionIdentifier_op_Inequality_Slothsoft_Events_CollisionIdentifier_Slothsoft_Events_CollisionIdentifier_
+  commentId: M:Slothsoft.Events.CollisionIdentifier.op_Inequality(Slothsoft.Events.CollisionIdentifier,Slothsoft.Events.CollisionIdentifier)
+  fullName: Slothsoft.Events.CollisionIdentifier.Inequality(Slothsoft.Events.CollisionIdentifier, Slothsoft.Events.CollisionIdentifier)
+  nameWithType: CollisionIdentifier.Inequality(CollisionIdentifier, CollisionIdentifier)
+- uid: Slothsoft.Events.CollisionIdentifier.op_Inequality*
+  name: Inequality
+  href: api/Slothsoft.Events.CollisionIdentifier.html#Slothsoft_Events_CollisionIdentifier_op_Inequality_
+  commentId: Overload:Slothsoft.Events.CollisionIdentifier.op_Inequality
+  isSpec: "True"
+  fullName: Slothsoft.Events.CollisionIdentifier.Inequality
+  nameWithType: CollisionIdentifier.Inequality
+- uid: Slothsoft.Events.CollisionInfo
+  name: CollisionInfo
+  href: api/Slothsoft.Events.CollisionInfo.html
+  commentId: T:Slothsoft.Events.CollisionInfo
+  fullName: Slothsoft.Events.CollisionInfo
+  nameWithType: CollisionInfo
+- uid: Slothsoft.Events.CollisionInfo.#ctor(GameObject,Slothsoft.Events.IActor)
+  name: CollisionInfo(GameObject, IActor)
+  href: api/Slothsoft.Events.CollisionInfo.html#Slothsoft_Events_CollisionInfo__ctor_GameObject_Slothsoft_Events_IActor_
+  commentId: M:Slothsoft.Events.CollisionInfo.#ctor(GameObject,Slothsoft.Events.IActor)
+  fullName: Slothsoft.Events.CollisionInfo.CollisionInfo(GameObject, Slothsoft.Events.IActor)
+  nameWithType: CollisionInfo.CollisionInfo(GameObject, IActor)
+- uid: Slothsoft.Events.CollisionInfo.#ctor(Slothsoft.Events.CollisionIdentifier,Vector3,System.Single,Slothsoft.Events.IActor)
+  name: CollisionInfo(CollisionIdentifier, Vector3, Single, IActor)
+  href: api/Slothsoft.Events.CollisionInfo.html#Slothsoft_Events_CollisionInfo__ctor_Slothsoft_Events_CollisionIdentifier_Vector3_System_Single_Slothsoft_Events_IActor_
+  commentId: M:Slothsoft.Events.CollisionInfo.#ctor(Slothsoft.Events.CollisionIdentifier,Vector3,System.Single,Slothsoft.Events.IActor)
+  fullName: Slothsoft.Events.CollisionInfo.CollisionInfo(Slothsoft.Events.CollisionIdentifier, Vector3, System.Single, Slothsoft.Events.IActor)
+  nameWithType: CollisionInfo.CollisionInfo(CollisionIdentifier, Vector3, Single, IActor)
+- uid: Slothsoft.Events.CollisionInfo.#ctor*
+  name: CollisionInfo
+  href: api/Slothsoft.Events.CollisionInfo.html#Slothsoft_Events_CollisionInfo__ctor_
+  commentId: Overload:Slothsoft.Events.CollisionInfo.#ctor
+  isSpec: "True"
+  fullName: Slothsoft.Events.CollisionInfo.CollisionInfo
+  nameWithType: CollisionInfo.CollisionInfo
+- uid: Slothsoft.Events.CollisionInfo.actor
+  name: actor
+  href: api/Slothsoft.Events.CollisionInfo.html#Slothsoft_Events_CollisionInfo_actor
+  commentId: F:Slothsoft.Events.CollisionInfo.actor
+  fullName: Slothsoft.Events.CollisionInfo.actor
+  nameWithType: CollisionInfo.actor
+- uid: Slothsoft.Events.CollisionInfo.BroadcastCollisionMessage(System.String)
+  name: BroadcastCollisionMessage(String)
+  href: api/Slothsoft.Events.CollisionInfo.html#Slothsoft_Events_CollisionInfo_BroadcastCollisionMessage_System_String_
+  commentId: M:Slothsoft.Events.CollisionInfo.BroadcastCollisionMessage(System.String)
+  fullName: Slothsoft.Events.CollisionInfo.BroadcastCollisionMessage(System.String)
+  nameWithType: CollisionInfo.BroadcastCollisionMessage(String)
+- uid: Slothsoft.Events.CollisionInfo.BroadcastCollisionMessage*
+  name: BroadcastCollisionMessage
+  href: api/Slothsoft.Events.CollisionInfo.html#Slothsoft_Events_CollisionInfo_BroadcastCollisionMessage_
+  commentId: Overload:Slothsoft.Events.CollisionInfo.BroadcastCollisionMessage
+  isSpec: "True"
+  fullName: Slothsoft.Events.CollisionInfo.BroadcastCollisionMessage
+  nameWithType: CollisionInfo.BroadcastCollisionMessage
+- uid: Slothsoft.Events.CollisionInfo.empty
+  name: empty
+  href: api/Slothsoft.Events.CollisionInfo.html#Slothsoft_Events_CollisionInfo_empty
+  commentId: F:Slothsoft.Events.CollisionInfo.empty
+  fullName: Slothsoft.Events.CollisionInfo.empty
+  nameWithType: CollisionInfo.empty
+- uid: Slothsoft.Events.CollisionInfo.gameObject
+  name: gameObject
+  href: api/Slothsoft.Events.CollisionInfo.html#Slothsoft_Events_CollisionInfo_gameObject
+  commentId: P:Slothsoft.Events.CollisionInfo.gameObject
+  fullName: Slothsoft.Events.CollisionInfo.gameObject
+  nameWithType: CollisionInfo.gameObject
+- uid: Slothsoft.Events.CollisionInfo.gameObject*
+  name: gameObject
+  href: api/Slothsoft.Events.CollisionInfo.html#Slothsoft_Events_CollisionInfo_gameObject_
+  commentId: Overload:Slothsoft.Events.CollisionInfo.gameObject
+  isSpec: "True"
+  fullName: Slothsoft.Events.CollisionInfo.gameObject
+  nameWithType: CollisionInfo.gameObject
+- uid: Slothsoft.Events.CollisionInfo.impulse
+  name: impulse
+  href: api/Slothsoft.Events.CollisionInfo.html#Slothsoft_Events_CollisionInfo_impulse
+  commentId: F:Slothsoft.Events.CollisionInfo.impulse
+  fullName: Slothsoft.Events.CollisionInfo.impulse
+  nameWithType: CollisionInfo.impulse
+- uid: Slothsoft.Events.CollisionInfo.material
+  name: material
+  href: api/Slothsoft.Events.CollisionInfo.html#Slothsoft_Events_CollisionInfo_material
+  commentId: P:Slothsoft.Events.CollisionInfo.material
+  fullName: Slothsoft.Events.CollisionInfo.material
+  nameWithType: CollisionInfo.material
+- uid: Slothsoft.Events.CollisionInfo.material*
+  name: material
+  href: api/Slothsoft.Events.CollisionInfo.html#Slothsoft_Events_CollisionInfo_material_
+  commentId: Overload:Slothsoft.Events.CollisionInfo.material
+  isSpec: "True"
+  fullName: Slothsoft.Events.CollisionInfo.material
+  nameWithType: CollisionInfo.material
+- uid: Slothsoft.Events.CollisionInfo.normal
+  name: normal
+  href: api/Slothsoft.Events.CollisionInfo.html#Slothsoft_Events_CollisionInfo_normal
+  commentId: P:Slothsoft.Events.CollisionInfo.normal
+  fullName: Slothsoft.Events.CollisionInfo.normal
+  nameWithType: CollisionInfo.normal
+- uid: Slothsoft.Events.CollisionInfo.normal*
+  name: normal
+  href: api/Slothsoft.Events.CollisionInfo.html#Slothsoft_Events_CollisionInfo_normal_
+  commentId: Overload:Slothsoft.Events.CollisionInfo.normal
+  isSpec: "True"
+  fullName: Slothsoft.Events.CollisionInfo.normal
+  nameWithType: CollisionInfo.normal
+- uid: Slothsoft.Events.CollisionInfo.normalRotation
+  name: normalRotation
+  href: api/Slothsoft.Events.CollisionInfo.html#Slothsoft_Events_CollisionInfo_normalRotation
+  commentId: P:Slothsoft.Events.CollisionInfo.normalRotation
+  fullName: Slothsoft.Events.CollisionInfo.normalRotation
+  nameWithType: CollisionInfo.normalRotation
+- uid: Slothsoft.Events.CollisionInfo.normalRotation*
+  name: normalRotation
+  href: api/Slothsoft.Events.CollisionInfo.html#Slothsoft_Events_CollisionInfo_normalRotation_
+  commentId: Overload:Slothsoft.Events.CollisionInfo.normalRotation
+  isSpec: "True"
+  fullName: Slothsoft.Events.CollisionInfo.normalRotation
+  nameWithType: CollisionInfo.normalRotation
+- uid: Slothsoft.Events.CollisionInfo.point
+  name: point
+  href: api/Slothsoft.Events.CollisionInfo.html#Slothsoft_Events_CollisionInfo_point
+  commentId: F:Slothsoft.Events.CollisionInfo.point
+  fullName: Slothsoft.Events.CollisionInfo.point
+  nameWithType: CollisionInfo.point
+- uid: Slothsoft.Events.CollisionInfo.SendCollisionMessage(System.String)
+  name: SendCollisionMessage(String)
+  href: api/Slothsoft.Events.CollisionInfo.html#Slothsoft_Events_CollisionInfo_SendCollisionMessage_System_String_
+  commentId: M:Slothsoft.Events.CollisionInfo.SendCollisionMessage(System.String)
+  fullName: Slothsoft.Events.CollisionInfo.SendCollisionMessage(System.String)
+  nameWithType: CollisionInfo.SendCollisionMessage(String)
+- uid: Slothsoft.Events.CollisionInfo.SendCollisionMessage*
+  name: SendCollisionMessage
+  href: api/Slothsoft.Events.CollisionInfo.html#Slothsoft_Events_CollisionInfo_SendCollisionMessage_
+  commentId: Overload:Slothsoft.Events.CollisionInfo.SendCollisionMessage
+  isSpec: "True"
+  fullName: Slothsoft.Events.CollisionInfo.SendCollisionMessage
+  nameWithType: CollisionInfo.SendCollisionMessage
+- uid: Slothsoft.Events.CollisionInfo.ToString
+  name: ToString()
+  href: api/Slothsoft.Events.CollisionInfo.html#Slothsoft_Events_CollisionInfo_ToString
+  commentId: M:Slothsoft.Events.CollisionInfo.ToString
+  fullName: Slothsoft.Events.CollisionInfo.ToString()
+  nameWithType: CollisionInfo.ToString()
+- uid: Slothsoft.Events.CollisionInfo.ToString*
+  name: ToString
+  href: api/Slothsoft.Events.CollisionInfo.html#Slothsoft_Events_CollisionInfo_ToString_
+  commentId: Overload:Slothsoft.Events.CollisionInfo.ToString
+  isSpec: "True"
+  fullName: Slothsoft.Events.CollisionInfo.ToString
+  nameWithType: CollisionInfo.ToString
+- uid: Slothsoft.Events.CollisionMaterial
+  name: CollisionMaterial
+  href: api/Slothsoft.Events.CollisionMaterial.html
+  commentId: T:Slothsoft.Events.CollisionMaterial
+  fullName: Slothsoft.Events.CollisionMaterial
+  nameWithType: CollisionMaterial
+- uid: Slothsoft.Events.CollisionMaterial.ApplyTo(Collider)
+  name: ApplyTo(Collider)
+  href: api/Slothsoft.Events.CollisionMaterial.html#Slothsoft_Events_CollisionMaterial_ApplyTo_Collider_
+  commentId: M:Slothsoft.Events.CollisionMaterial.ApplyTo(Collider)
+  fullName: Slothsoft.Events.CollisionMaterial.ApplyTo(Collider)
+  nameWithType: CollisionMaterial.ApplyTo(Collider)
+- uid: Slothsoft.Events.CollisionMaterial.ApplyTo(Collider2D)
+  name: ApplyTo(Collider2D)
+  href: api/Slothsoft.Events.CollisionMaterial.html#Slothsoft_Events_CollisionMaterial_ApplyTo_Collider2D_
+  commentId: M:Slothsoft.Events.CollisionMaterial.ApplyTo(Collider2D)
+  fullName: Slothsoft.Events.CollisionMaterial.ApplyTo(Collider2D)
+  nameWithType: CollisionMaterial.ApplyTo(Collider2D)
+- uid: Slothsoft.Events.CollisionMaterial.ApplyTo(Rigidbody2D)
+  name: ApplyTo(Rigidbody2D)
+  href: api/Slothsoft.Events.CollisionMaterial.html#Slothsoft_Events_CollisionMaterial_ApplyTo_Rigidbody2D_
+  commentId: M:Slothsoft.Events.CollisionMaterial.ApplyTo(Rigidbody2D)
+  fullName: Slothsoft.Events.CollisionMaterial.ApplyTo(Rigidbody2D)
+  nameWithType: CollisionMaterial.ApplyTo(Rigidbody2D)
+- uid: Slothsoft.Events.CollisionMaterial.ApplyTo*
+  name: ApplyTo
+  href: api/Slothsoft.Events.CollisionMaterial.html#Slothsoft_Events_CollisionMaterial_ApplyTo_
+  commentId: Overload:Slothsoft.Events.CollisionMaterial.ApplyTo
+  isSpec: "True"
+  fullName: Slothsoft.Events.CollisionMaterial.ApplyTo
+  nameWithType: CollisionMaterial.ApplyTo
+- uid: Slothsoft.Events.CollisionMaterial.bounciness
+  name: bounciness
+  href: api/Slothsoft.Events.CollisionMaterial.html#Slothsoft_Events_CollisionMaterial_bounciness
+  commentId: F:Slothsoft.Events.CollisionMaterial.bounciness
+  fullName: Slothsoft.Events.CollisionMaterial.bounciness
+  nameWithType: CollisionMaterial.bounciness
+- uid: Slothsoft.Events.CollisionMaterial.dynamicFriction
+  name: dynamicFriction
+  href: api/Slothsoft.Events.CollisionMaterial.html#Slothsoft_Events_CollisionMaterial_dynamicFriction
+  commentId: F:Slothsoft.Events.CollisionMaterial.dynamicFriction
+  fullName: Slothsoft.Events.CollisionMaterial.dynamicFriction
+  nameWithType: CollisionMaterial.dynamicFriction
+- uid: Slothsoft.Events.CollisionMaterial.IsMaterial(PhysicsMaterial)
+  name: IsMaterial(PhysicsMaterial)
+  href: api/Slothsoft.Events.CollisionMaterial.html#Slothsoft_Events_CollisionMaterial_IsMaterial_PhysicsMaterial_
+  commentId: M:Slothsoft.Events.CollisionMaterial.IsMaterial(PhysicsMaterial)
+  fullName: Slothsoft.Events.CollisionMaterial.IsMaterial(PhysicsMaterial)
+  nameWithType: CollisionMaterial.IsMaterial(PhysicsMaterial)
+- uid: Slothsoft.Events.CollisionMaterial.IsMaterial(PhysicsMaterial2D)
+  name: IsMaterial(PhysicsMaterial2D)
+  href: api/Slothsoft.Events.CollisionMaterial.html#Slothsoft_Events_CollisionMaterial_IsMaterial_PhysicsMaterial2D_
+  commentId: M:Slothsoft.Events.CollisionMaterial.IsMaterial(PhysicsMaterial2D)
+  fullName: Slothsoft.Events.CollisionMaterial.IsMaterial(PhysicsMaterial2D)
+  nameWithType: CollisionMaterial.IsMaterial(PhysicsMaterial2D)
+- uid: Slothsoft.Events.CollisionMaterial.IsMaterial*
+  name: IsMaterial
+  href: api/Slothsoft.Events.CollisionMaterial.html#Slothsoft_Events_CollisionMaterial_IsMaterial_
+  commentId: Overload:Slothsoft.Events.CollisionMaterial.IsMaterial
+  isSpec: "True"
+  fullName: Slothsoft.Events.CollisionMaterial.IsMaterial
+  nameWithType: CollisionMaterial.IsMaterial
+- uid: Slothsoft.Events.CollisionMaterial.op_Implicit(PhysicsMaterial)~Slothsoft.Events.CollisionMaterial
+  name: Implicit(PhysicsMaterial to CollisionMaterial)
+  href: api/Slothsoft.Events.CollisionMaterial.html#Slothsoft_Events_CollisionMaterial_op_Implicit_PhysicsMaterial__Slothsoft_Events_CollisionMaterial
+  commentId: M:Slothsoft.Events.CollisionMaterial.op_Implicit(PhysicsMaterial)~Slothsoft.Events.CollisionMaterial
+  name.vb: Widening(PhysicsMaterial to CollisionMaterial)
+  fullName: Slothsoft.Events.CollisionMaterial.Implicit(PhysicsMaterial to Slothsoft.Events.CollisionMaterial)
+  fullName.vb: Slothsoft.Events.CollisionMaterial.Widening(PhysicsMaterial to Slothsoft.Events.CollisionMaterial)
+  nameWithType: CollisionMaterial.Implicit(PhysicsMaterial to CollisionMaterial)
+  nameWithType.vb: CollisionMaterial.Widening(PhysicsMaterial to CollisionMaterial)
+- uid: Slothsoft.Events.CollisionMaterial.op_Implicit(PhysicsMaterial2D)~Slothsoft.Events.CollisionMaterial
+  name: Implicit(PhysicsMaterial2D to CollisionMaterial)
+  href: api/Slothsoft.Events.CollisionMaterial.html#Slothsoft_Events_CollisionMaterial_op_Implicit_PhysicsMaterial2D__Slothsoft_Events_CollisionMaterial
+  commentId: M:Slothsoft.Events.CollisionMaterial.op_Implicit(PhysicsMaterial2D)~Slothsoft.Events.CollisionMaterial
+  name.vb: Widening(PhysicsMaterial2D to CollisionMaterial)
+  fullName: Slothsoft.Events.CollisionMaterial.Implicit(PhysicsMaterial2D to Slothsoft.Events.CollisionMaterial)
+  fullName.vb: Slothsoft.Events.CollisionMaterial.Widening(PhysicsMaterial2D to Slothsoft.Events.CollisionMaterial)
+  nameWithType: CollisionMaterial.Implicit(PhysicsMaterial2D to CollisionMaterial)
+  nameWithType.vb: CollisionMaterial.Widening(PhysicsMaterial2D to CollisionMaterial)
+- uid: Slothsoft.Events.CollisionMaterial.op_Implicit*
+  name: Implicit
+  href: api/Slothsoft.Events.CollisionMaterial.html#Slothsoft_Events_CollisionMaterial_op_Implicit_
+  commentId: Overload:Slothsoft.Events.CollisionMaterial.op_Implicit
+  isSpec: "True"
+  name.vb: Widening
+  fullName: Slothsoft.Events.CollisionMaterial.Implicit
+  fullName.vb: Slothsoft.Events.CollisionMaterial.Widening
+  nameWithType: CollisionMaterial.Implicit
+  nameWithType.vb: CollisionMaterial.Widening
+- uid: Slothsoft.Events.CollisionMaterial.staticFriction
+  name: staticFriction
+  href: api/Slothsoft.Events.CollisionMaterial.html#Slothsoft_Events_CollisionMaterial_staticFriction
+  commentId: F:Slothsoft.Events.CollisionMaterial.staticFriction
+  fullName: Slothsoft.Events.CollisionMaterial.staticFriction
+  nameWithType: CollisionMaterial.staticFriction
+- uid: Slothsoft.Events.CollisionMaterial.type
+  name: type
+  href: api/Slothsoft.Events.CollisionMaterial.html#Slothsoft_Events_CollisionMaterial_type
+  commentId: F:Slothsoft.Events.CollisionMaterial.type
+  fullName: Slothsoft.Events.CollisionMaterial.type
+  nameWithType: CollisionMaterial.type
+- uid: Slothsoft.Events.CollisionProviderComponent
+  name: CollisionProviderComponent
+  href: api/Slothsoft.Events.CollisionProviderComponent.html
+  commentId: T:Slothsoft.Events.CollisionProviderComponent
+  fullName: Slothsoft.Events.CollisionProviderComponent
+  nameWithType: CollisionProviderComponent
+- uid: Slothsoft.Events.CollisionProviderComponent.collision
+  name: collision
+  href: api/Slothsoft.Events.CollisionProviderComponent.html#Slothsoft_Events_CollisionProviderComponent_collision
+  commentId: P:Slothsoft.Events.CollisionProviderComponent.collision
+  fullName: Slothsoft.Events.CollisionProviderComponent.collision
+  nameWithType: CollisionProviderComponent.collision
+- uid: Slothsoft.Events.CollisionProviderComponent.collision*
+  name: collision
+  href: api/Slothsoft.Events.CollisionProviderComponent.html#Slothsoft_Events_CollisionProviderComponent_collision_
+  commentId: Overload:Slothsoft.Events.CollisionProviderComponent.collision
+  isSpec: "True"
+  fullName: Slothsoft.Events.CollisionProviderComponent.collision
+  nameWithType: CollisionProviderComponent.collision
+- uid: Slothsoft.Events.ComplexTriggerHit3D
+  name: ComplexTriggerHit3D
+  href: api/Slothsoft.Events.ComplexTriggerHit3D.html
+  commentId: T:Slothsoft.Events.ComplexTriggerHit3D
+  fullName: Slothsoft.Events.ComplexTriggerHit3D
+  nameWithType: ComplexTriggerHit3D
+- uid: Slothsoft.Events.ComplexTriggerHit3D.#ctor(Collider,Collider)
+  name: ComplexTriggerHit3D(Collider, Collider)
+  href: api/Slothsoft.Events.ComplexTriggerHit3D.html#Slothsoft_Events_ComplexTriggerHit3D__ctor_Collider_Collider_
+  commentId: M:Slothsoft.Events.ComplexTriggerHit3D.#ctor(Collider,Collider)
+  fullName: Slothsoft.Events.ComplexTriggerHit3D.ComplexTriggerHit3D(Collider, Collider)
+  nameWithType: ComplexTriggerHit3D.ComplexTriggerHit3D(Collider, Collider)
+- uid: Slothsoft.Events.ComplexTriggerHit3D.#ctor*
+  name: ComplexTriggerHit3D
+  href: api/Slothsoft.Events.ComplexTriggerHit3D.html#Slothsoft_Events_ComplexTriggerHit3D__ctor_
+  commentId: Overload:Slothsoft.Events.ComplexTriggerHit3D.#ctor
+  isSpec: "True"
+  fullName: Slothsoft.Events.ComplexTriggerHit3D.ComplexTriggerHit3D
+  nameWithType: ComplexTriggerHit3D.ComplexTriggerHit3D
+- uid: Slothsoft.Events.ComplexTriggerHit3D.pointCount
+  name: pointCount
+  href: api/Slothsoft.Events.ComplexTriggerHit3D.html#Slothsoft_Events_ComplexTriggerHit3D_pointCount
+  commentId: P:Slothsoft.Events.ComplexTriggerHit3D.pointCount
+  fullName: Slothsoft.Events.ComplexTriggerHit3D.pointCount
+  nameWithType: ComplexTriggerHit3D.pointCount
+- uid: Slothsoft.Events.ComplexTriggerHit3D.pointCount*
+  name: pointCount
+  href: api/Slothsoft.Events.ComplexTriggerHit3D.html#Slothsoft_Events_ComplexTriggerHit3D_pointCount_
+  commentId: Overload:Slothsoft.Events.ComplexTriggerHit3D.pointCount
+  isSpec: "True"
+  fullName: Slothsoft.Events.ComplexTriggerHit3D.pointCount
+  nameWithType: ComplexTriggerHit3D.pointCount
+- uid: Slothsoft.Events.ComplexTriggerHit3D.pointSum
+  name: pointSum
+  href: api/Slothsoft.Events.ComplexTriggerHit3D.html#Slothsoft_Events_ComplexTriggerHit3D_pointSum
+  commentId: P:Slothsoft.Events.ComplexTriggerHit3D.pointSum
+  fullName: Slothsoft.Events.ComplexTriggerHit3D.pointSum
+  nameWithType: ComplexTriggerHit3D.pointSum
+- uid: Slothsoft.Events.ComplexTriggerHit3D.pointSum*
+  name: pointSum
+  href: api/Slothsoft.Events.ComplexTriggerHit3D.html#Slothsoft_Events_ComplexTriggerHit3D_pointSum_
+  commentId: Overload:Slothsoft.Events.ComplexTriggerHit3D.pointSum
+  isSpec: "True"
+  fullName: Slothsoft.Events.ComplexTriggerHit3D.pointSum
+  nameWithType: ComplexTriggerHit3D.pointSum
+- uid: Slothsoft.Events.CursedEvent
+  name: CursedEvent
+  href: api/Slothsoft.Events.CursedEvent.html
+  commentId: T:Slothsoft.Events.CursedEvent
+  fullName: Slothsoft.Events.CursedEvent
+  nameWithType: CursedEvent
+- uid: Slothsoft.Events.CursedEvent.actions
+  name: actions
+  href: api/Slothsoft.Events.CursedEvent.html#Slothsoft_Events_CursedEvent_actions
+  commentId: F:Slothsoft.Events.CursedEvent.actions
+  fullName: Slothsoft.Events.CursedEvent.actions
+  nameWithType: CursedEvent.actions
+- uid: Slothsoft.Events.CursedEvent.AddListener(Action)
+  name: AddListener(Action)
+  href: api/Slothsoft.Events.CursedEvent.html#Slothsoft_Events_CursedEvent_AddListener_Action_
+  commentId: M:Slothsoft.Events.CursedEvent.AddListener(Action)
+  fullName: Slothsoft.Events.CursedEvent.AddListener(Action)
+  nameWithType: CursedEvent.AddListener(Action)
+- uid: Slothsoft.Events.CursedEvent.AddListener(Action{GameObject})
+  name: AddListener(Action<GameObject>)
+  href: api/Slothsoft.Events.CursedEvent.html#Slothsoft_Events_CursedEvent_AddListener_Action_GameObject__
+  commentId: M:Slothsoft.Events.CursedEvent.AddListener(Action{GameObject})
+  name.vb: AddListener(Action(Of GameObject))
+  fullName: Slothsoft.Events.CursedEvent.AddListener(Action<GameObject>)
+  fullName.vb: Slothsoft.Events.CursedEvent.AddListener(Action(Of GameObject))
+  nameWithType: CursedEvent.AddListener(Action<GameObject>)
+  nameWithType.vb: CursedEvent.AddListener(Action(Of GameObject))
+- uid: Slothsoft.Events.CursedEvent.AddListener(Action{Slothsoft.Events.CollisionInfo})
+  name: AddListener(Action<CollisionInfo>)
+  href: api/Slothsoft.Events.CursedEvent.html#Slothsoft_Events_CursedEvent_AddListener_Action_Slothsoft_Events_CollisionInfo__
+  commentId: M:Slothsoft.Events.CursedEvent.AddListener(Action{Slothsoft.Events.CollisionInfo})
+  name.vb: AddListener(Action(Of CollisionInfo))
+  fullName: Slothsoft.Events.CursedEvent.AddListener(Action<Slothsoft.Events.CollisionInfo>)
+  fullName.vb: Slothsoft.Events.CursedEvent.AddListener(Action(Of Slothsoft.Events.CollisionInfo))
+  nameWithType: CursedEvent.AddListener(Action<CollisionInfo>)
+  nameWithType.vb: CursedEvent.AddListener(Action(Of CollisionInfo))
+- uid: Slothsoft.Events.CursedEvent.AddListener*
+  name: AddListener
+  href: api/Slothsoft.Events.CursedEvent.html#Slothsoft_Events_CursedEvent_AddListener_
+  commentId: Overload:Slothsoft.Events.CursedEvent.AddListener
+  isSpec: "True"
+  fullName: Slothsoft.Events.CursedEvent.AddListener
+  nameWithType: CursedEvent.AddListener
+- uid: Slothsoft.Events.CursedEvent.hasPersistentListeners
+  name: hasPersistentListeners
+  href: api/Slothsoft.Events.CursedEvent.html#Slothsoft_Events_CursedEvent_hasPersistentListeners
+  commentId: P:Slothsoft.Events.CursedEvent.hasPersistentListeners
+  fullName: Slothsoft.Events.CursedEvent.hasPersistentListeners
+  nameWithType: CursedEvent.hasPersistentListeners
+- uid: Slothsoft.Events.CursedEvent.hasPersistentListeners*
+  name: hasPersistentListeners
+  href: api/Slothsoft.Events.CursedEvent.html#Slothsoft_Events_CursedEvent_hasPersistentListeners_
+  commentId: Overload:Slothsoft.Events.CursedEvent.hasPersistentListeners
+  isSpec: "True"
+  fullName: Slothsoft.Events.CursedEvent.hasPersistentListeners
+  nameWithType: CursedEvent.hasPersistentListeners
+- uid: Slothsoft.Events.CursedEvent.Invoke
+  name: Invoke()
+  href: api/Slothsoft.Events.CursedEvent.html#Slothsoft_Events_CursedEvent_Invoke
+  commentId: M:Slothsoft.Events.CursedEvent.Invoke
+  fullName: Slothsoft.Events.CursedEvent.Invoke()
+  nameWithType: CursedEvent.Invoke()
+- uid: Slothsoft.Events.CursedEvent.Invoke(GameObject)
+  name: Invoke(GameObject)
+  href: api/Slothsoft.Events.CursedEvent.html#Slothsoft_Events_CursedEvent_Invoke_GameObject_
+  commentId: M:Slothsoft.Events.CursedEvent.Invoke(GameObject)
+  fullName: Slothsoft.Events.CursedEvent.Invoke(GameObject)
+  nameWithType: CursedEvent.Invoke(GameObject)
+- uid: Slothsoft.Events.CursedEvent.Invoke(Slothsoft.Events.CollisionInfo)
+  name: Invoke(CollisionInfo)
+  href: api/Slothsoft.Events.CursedEvent.html#Slothsoft_Events_CursedEvent_Invoke_Slothsoft_Events_CollisionInfo_
+  commentId: M:Slothsoft.Events.CursedEvent.Invoke(Slothsoft.Events.CollisionInfo)
+  fullName: Slothsoft.Events.CursedEvent.Invoke(Slothsoft.Events.CollisionInfo)
+  nameWithType: CursedEvent.Invoke(CollisionInfo)
+- uid: Slothsoft.Events.CursedEvent.Invoke*
+  name: Invoke
+  href: api/Slothsoft.Events.CursedEvent.html#Slothsoft_Events_CursedEvent_Invoke_
+  commentId: Overload:Slothsoft.Events.CursedEvent.Invoke
+  isSpec: "True"
+  fullName: Slothsoft.Events.CursedEvent.Invoke
+  nameWithType: CursedEvent.Invoke
+- uid: Slothsoft.Events.CursedEvent.RemoveListener(Action)
+  name: RemoveListener(Action)
+  href: api/Slothsoft.Events.CursedEvent.html#Slothsoft_Events_CursedEvent_RemoveListener_Action_
+  commentId: M:Slothsoft.Events.CursedEvent.RemoveListener(Action)
+  fullName: Slothsoft.Events.CursedEvent.RemoveListener(Action)
+  nameWithType: CursedEvent.RemoveListener(Action)
+- uid: Slothsoft.Events.CursedEvent.RemoveListener(Action{GameObject})
+  name: RemoveListener(Action<GameObject>)
+  href: api/Slothsoft.Events.CursedEvent.html#Slothsoft_Events_CursedEvent_RemoveListener_Action_GameObject__
+  commentId: M:Slothsoft.Events.CursedEvent.RemoveListener(Action{GameObject})
+  name.vb: RemoveListener(Action(Of GameObject))
+  fullName: Slothsoft.Events.CursedEvent.RemoveListener(Action<GameObject>)
+  fullName.vb: Slothsoft.Events.CursedEvent.RemoveListener(Action(Of GameObject))
+  nameWithType: CursedEvent.RemoveListener(Action<GameObject>)
+  nameWithType.vb: CursedEvent.RemoveListener(Action(Of GameObject))
+- uid: Slothsoft.Events.CursedEvent.RemoveListener(Action{Slothsoft.Events.CollisionInfo})
+  name: RemoveListener(Action<CollisionInfo>)
+  href: api/Slothsoft.Events.CursedEvent.html#Slothsoft_Events_CursedEvent_RemoveListener_Action_Slothsoft_Events_CollisionInfo__
+  commentId: M:Slothsoft.Events.CursedEvent.RemoveListener(Action{Slothsoft.Events.CollisionInfo})
+  name.vb: RemoveListener(Action(Of CollisionInfo))
+  fullName: Slothsoft.Events.CursedEvent.RemoveListener(Action<Slothsoft.Events.CollisionInfo>)
+  fullName.vb: Slothsoft.Events.CursedEvent.RemoveListener(Action(Of Slothsoft.Events.CollisionInfo))
+  nameWithType: CursedEvent.RemoveListener(Action<CollisionInfo>)
+  nameWithType.vb: CursedEvent.RemoveListener(Action(Of CollisionInfo))
+- uid: Slothsoft.Events.CursedEvent.RemoveListener*
+  name: RemoveListener
+  href: api/Slothsoft.Events.CursedEvent.html#Slothsoft_Events_CursedEvent_RemoveListener_
+  commentId: Overload:Slothsoft.Events.CursedEvent.RemoveListener
+  isSpec: "True"
+  fullName: Slothsoft.Events.CursedEvent.RemoveListener
+  nameWithType: CursedEvent.RemoveListener
+- uid: Slothsoft.Events.IActor
+  name: IActor
+  href: api/Slothsoft.Events.IActor.html
+  commentId: T:Slothsoft.Events.IActor
+  fullName: Slothsoft.Events.IActor
+  nameWithType: IActor
+- uid: Slothsoft.Events.IActor.gameObject
+  name: gameObject
+  href: api/Slothsoft.Events.IActor.html#Slothsoft_Events_IActor_gameObject
+  commentId: P:Slothsoft.Events.IActor.gameObject
+  fullName: Slothsoft.Events.IActor.gameObject
+  nameWithType: IActor.gameObject
+- uid: Slothsoft.Events.IActor.gameObject*
+  name: gameObject
+  href: api/Slothsoft.Events.IActor.html#Slothsoft_Events_IActor_gameObject_
+  commentId: Overload:Slothsoft.Events.IActor.gameObject
+  isSpec: "True"
+  fullName: Slothsoft.Events.IActor.gameObject
+  nameWithType: IActor.gameObject
+- uid: Slothsoft.Events.IActor.isFalling
+  name: isFalling
+  href: api/Slothsoft.Events.IActor.html#Slothsoft_Events_IActor_isFalling
+  commentId: P:Slothsoft.Events.IActor.isFalling
+  fullName: Slothsoft.Events.IActor.isFalling
+  nameWithType: IActor.isFalling
+- uid: Slothsoft.Events.IActor.isFalling*
+  name: isFalling
+  href: api/Slothsoft.Events.IActor.html#Slothsoft_Events_IActor_isFalling_
+  commentId: Overload:Slothsoft.Events.IActor.isFalling
+  isSpec: "True"
+  fullName: Slothsoft.Events.IActor.isFalling
+  nameWithType: IActor.isFalling
+- uid: Slothsoft.Events.IActor.isFlying
+  name: isFlying
+  href: api/Slothsoft.Events.IActor.html#Slothsoft_Events_IActor_isFlying
+  commentId: P:Slothsoft.Events.IActor.isFlying
+  fullName: Slothsoft.Events.IActor.isFlying
+  nameWithType: IActor.isFlying
+- uid: Slothsoft.Events.IActor.isFlying*
+  name: isFlying
+  href: api/Slothsoft.Events.IActor.html#Slothsoft_Events_IActor_isFlying_
+  commentId: Overload:Slothsoft.Events.IActor.isFlying
+  isSpec: "True"
+  fullName: Slothsoft.Events.IActor.isFlying
+  nameWithType: IActor.isFlying
+- uid: Slothsoft.Events.IActor.isGrounded
+  name: isGrounded
+  href: api/Slothsoft.Events.IActor.html#Slothsoft_Events_IActor_isGrounded
+  commentId: P:Slothsoft.Events.IActor.isGrounded
+  fullName: Slothsoft.Events.IActor.isGrounded
+  nameWithType: IActor.isGrounded
+- uid: Slothsoft.Events.IActor.isGrounded*
+  name: isGrounded
+  href: api/Slothsoft.Events.IActor.html#Slothsoft_Events_IActor_isGrounded_
+  commentId: Overload:Slothsoft.Events.IActor.isGrounded
+  isSpec: "True"
+  fullName: Slothsoft.Events.IActor.isGrounded
+  nameWithType: IActor.isGrounded
+- uid: Slothsoft.Events.IActor.MoveBy(Vector2)
+  name: MoveBy(Vector2)
+  href: api/Slothsoft.Events.IActor.html#Slothsoft_Events_IActor_MoveBy_Vector2_
+  commentId: M:Slothsoft.Events.IActor.MoveBy(Vector2)
+  fullName: Slothsoft.Events.IActor.MoveBy(Vector2)
+  nameWithType: IActor.MoveBy(Vector2)
+- uid: Slothsoft.Events.IActor.MoveBy*
+  name: MoveBy
+  href: api/Slothsoft.Events.IActor.html#Slothsoft_Events_IActor_MoveBy_
+  commentId: Overload:Slothsoft.Events.IActor.MoveBy
+  isSpec: "True"
+  fullName: Slothsoft.Events.IActor.MoveBy
+  nameWithType: IActor.MoveBy
+- uid: Slothsoft.Events.IActor.velocity
+  name: velocity
+  href: api/Slothsoft.Events.IActor.html#Slothsoft_Events_IActor_velocity
+  commentId: P:Slothsoft.Events.IActor.velocity
+  fullName: Slothsoft.Events.IActor.velocity
+  nameWithType: IActor.velocity
+- uid: Slothsoft.Events.IActor.velocity*
+  name: velocity
+  href: api/Slothsoft.Events.IActor.html#Slothsoft_Events_IActor_velocity_
+  commentId: Overload:Slothsoft.Events.IActor.velocity
+  isSpec: "True"
+  fullName: Slothsoft.Events.IActor.velocity
+  nameWithType: IActor.velocity
+- uid: Slothsoft.Events.ICollisionMessages
+  name: ICollisionMessages
+  href: api/Slothsoft.Events.ICollisionMessages.html
+  commentId: T:Slothsoft.Events.ICollisionMessages
+  fullName: Slothsoft.Events.ICollisionMessages
+  nameWithType: ICollisionMessages
+- uid: Slothsoft.Events.ICollisionMessages.OnAvatarEnter(Slothsoft.Events.CollisionInfo)
+  name: OnAvatarEnter(CollisionInfo)
+  href: api/Slothsoft.Events.ICollisionMessages.html#Slothsoft_Events_ICollisionMessages_OnAvatarEnter_Slothsoft_Events_CollisionInfo_
+  commentId: M:Slothsoft.Events.ICollisionMessages.OnAvatarEnter(Slothsoft.Events.CollisionInfo)
+  fullName: Slothsoft.Events.ICollisionMessages.OnAvatarEnter(Slothsoft.Events.CollisionInfo)
+  nameWithType: ICollisionMessages.OnAvatarEnter(CollisionInfo)
+- uid: Slothsoft.Events.ICollisionMessages.OnAvatarEnter*
+  name: OnAvatarEnter
+  href: api/Slothsoft.Events.ICollisionMessages.html#Slothsoft_Events_ICollisionMessages_OnAvatarEnter_
+  commentId: Overload:Slothsoft.Events.ICollisionMessages.OnAvatarEnter
+  isSpec: "True"
+  fullName: Slothsoft.Events.ICollisionMessages.OnAvatarEnter
+  nameWithType: ICollisionMessages.OnAvatarEnter
+- uid: Slothsoft.Events.ICollisionMessages.OnAvatarExit(Slothsoft.Events.CollisionInfo)
+  name: OnAvatarExit(CollisionInfo)
+  href: api/Slothsoft.Events.ICollisionMessages.html#Slothsoft_Events_ICollisionMessages_OnAvatarExit_Slothsoft_Events_CollisionInfo_
+  commentId: M:Slothsoft.Events.ICollisionMessages.OnAvatarExit(Slothsoft.Events.CollisionInfo)
+  fullName: Slothsoft.Events.ICollisionMessages.OnAvatarExit(Slothsoft.Events.CollisionInfo)
+  nameWithType: ICollisionMessages.OnAvatarExit(CollisionInfo)
+- uid: Slothsoft.Events.ICollisionMessages.OnAvatarExit*
+  name: OnAvatarExit
+  href: api/Slothsoft.Events.ICollisionMessages.html#Slothsoft_Events_ICollisionMessages_OnAvatarExit_
+  commentId: Overload:Slothsoft.Events.ICollisionMessages.OnAvatarExit
+  isSpec: "True"
+  fullName: Slothsoft.Events.ICollisionMessages.OnAvatarExit
+  nameWithType: ICollisionMessages.OnAvatarExit
+- uid: Slothsoft.Events.ICollisionProvider
+  name: ICollisionProvider
+  href: api/Slothsoft.Events.ICollisionProvider.html
+  commentId: T:Slothsoft.Events.ICollisionProvider
+  fullName: Slothsoft.Events.ICollisionProvider
+  nameWithType: ICollisionProvider
+- uid: Slothsoft.Events.ICollisionProvider.collision
+  name: collision
+  href: api/Slothsoft.Events.ICollisionProvider.html#Slothsoft_Events_ICollisionProvider_collision
+  commentId: P:Slothsoft.Events.ICollisionProvider.collision
+  fullName: Slothsoft.Events.ICollisionProvider.collision
+  nameWithType: ICollisionProvider.collision
+- uid: Slothsoft.Events.ICollisionProvider.collision*
+  name: collision
+  href: api/Slothsoft.Events.ICollisionProvider.html#Slothsoft_Events_ICollisionProvider_collision_
+  commentId: Overload:Slothsoft.Events.ICollisionProvider.collision
+  isSpec: "True"
+  fullName: Slothsoft.Events.ICollisionProvider.collision
+  nameWithType: ICollisionProvider.collision
+- uid: Slothsoft.Events.ICursedAction
+  name: ICursedAction
+  href: api/Slothsoft.Events.ICursedAction.html
+  commentId: T:Slothsoft.Events.ICursedAction
+  fullName: Slothsoft.Events.ICursedAction
+  nameWithType: ICursedAction
+- uid: Slothsoft.Events.ICursedAction.Invoke
+  name: Invoke()
+  href: api/Slothsoft.Events.ICursedAction.html#Slothsoft_Events_ICursedAction_Invoke
+  commentId: M:Slothsoft.Events.ICursedAction.Invoke
+  fullName: Slothsoft.Events.ICursedAction.Invoke()
+  nameWithType: ICursedAction.Invoke()
+- uid: Slothsoft.Events.ICursedAction.Invoke(GameObject)
+  name: Invoke(GameObject)
+  href: api/Slothsoft.Events.ICursedAction.html#Slothsoft_Events_ICursedAction_Invoke_GameObject_
+  commentId: M:Slothsoft.Events.ICursedAction.Invoke(GameObject)
+  fullName: Slothsoft.Events.ICursedAction.Invoke(GameObject)
+  nameWithType: ICursedAction.Invoke(GameObject)
+- uid: Slothsoft.Events.ICursedAction.Invoke(Slothsoft.Events.CollisionInfo)
+  name: Invoke(CollisionInfo)
+  href: api/Slothsoft.Events.ICursedAction.html#Slothsoft_Events_ICursedAction_Invoke_Slothsoft_Events_CollisionInfo_
+  commentId: M:Slothsoft.Events.ICursedAction.Invoke(Slothsoft.Events.CollisionInfo)
+  fullName: Slothsoft.Events.ICursedAction.Invoke(Slothsoft.Events.CollisionInfo)
+  nameWithType: ICursedAction.Invoke(CollisionInfo)
+- uid: Slothsoft.Events.ICursedAction.Invoke*
+  name: Invoke
+  href: api/Slothsoft.Events.ICursedAction.html#Slothsoft_Events_ICursedAction_Invoke_
+  commentId: Overload:Slothsoft.Events.ICursedAction.Invoke
+  isSpec: "True"
+  fullName: Slothsoft.Events.ICursedAction.Invoke
+  nameWithType: ICursedAction.Invoke
+- uid: Slothsoft.Events.ITriggerHit
+  name: ITriggerHit
+  href: api/Slothsoft.Events.ITriggerHit.html
+  commentId: T:Slothsoft.Events.ITriggerHit
+  fullName: Slothsoft.Events.ITriggerHit
+  nameWithType: ITriggerHit
+- uid: Slothsoft.Events.ITriggerHit.pointCount
+  name: pointCount
+  href: api/Slothsoft.Events.ITriggerHit.html#Slothsoft_Events_ITriggerHit_pointCount
+  commentId: P:Slothsoft.Events.ITriggerHit.pointCount
+  fullName: Slothsoft.Events.ITriggerHit.pointCount
+  nameWithType: ITriggerHit.pointCount
+- uid: Slothsoft.Events.ITriggerHit.pointCount*
+  name: pointCount
+  href: api/Slothsoft.Events.ITriggerHit.html#Slothsoft_Events_ITriggerHit_pointCount_
+  commentId: Overload:Slothsoft.Events.ITriggerHit.pointCount
+  isSpec: "True"
+  fullName: Slothsoft.Events.ITriggerHit.pointCount
+  nameWithType: ITriggerHit.pointCount
+- uid: Slothsoft.Events.ITriggerHit.pointSum
+  name: pointSum
+  href: api/Slothsoft.Events.ITriggerHit.html#Slothsoft_Events_ITriggerHit_pointSum
+  commentId: P:Slothsoft.Events.ITriggerHit.pointSum
+  fullName: Slothsoft.Events.ITriggerHit.pointSum
+  nameWithType: ITriggerHit.pointSum
+- uid: Slothsoft.Events.ITriggerHit.pointSum*
+  name: pointSum
+  href: api/Slothsoft.Events.ITriggerHit.html#Slothsoft_Events_ITriggerHit_pointSum_
+  commentId: Overload:Slothsoft.Events.ITriggerHit.pointSum
+  isSpec: "True"
+  fullName: Slothsoft.Events.ITriggerHit.pointSum
+  nameWithType: ITriggerHit.pointSum
+- uid: Slothsoft.Events.MaterialType
+  name: MaterialType
+  href: api/Slothsoft.Events.MaterialType.html
+  commentId: T:Slothsoft.Events.MaterialType
+  fullName: Slothsoft.Events.MaterialType
+  nameWithType: MaterialType
+- uid: Slothsoft.Events.MaterialType.Asphalt
+  name: Asphalt
+  href: api/Slothsoft.Events.MaterialType.html#Slothsoft_Events_MaterialType_Asphalt
+  commentId: F:Slothsoft.Events.MaterialType.Asphalt
+  fullName: Slothsoft.Events.MaterialType.Asphalt
+  nameWithType: MaterialType.Asphalt
+- uid: Slothsoft.Events.MaterialType.Cloud
+  name: Cloud
+  href: api/Slothsoft.Events.MaterialType.html#Slothsoft_Events_MaterialType_Cloud
+  commentId: F:Slothsoft.Events.MaterialType.Cloud
+  fullName: Slothsoft.Events.MaterialType.Cloud
+  nameWithType: MaterialType.Cloud
+- uid: Slothsoft.Events.MaterialType.Dirt
+  name: Dirt
+  href: api/Slothsoft.Events.MaterialType.html#Slothsoft_Events_MaterialType_Dirt
+  commentId: F:Slothsoft.Events.MaterialType.Dirt
+  fullName: Slothsoft.Events.MaterialType.Dirt
+  nameWithType: MaterialType.Dirt
+- uid: Slothsoft.Events.MaterialType.Glass
+  name: Glass
+  href: api/Slothsoft.Events.MaterialType.html#Slothsoft_Events_MaterialType_Glass
+  commentId: F:Slothsoft.Events.MaterialType.Glass
+  fullName: Slothsoft.Events.MaterialType.Glass
+  nameWithType: MaterialType.Glass
+- uid: Slothsoft.Events.MaterialType.Grass
+  name: Grass
+  href: api/Slothsoft.Events.MaterialType.html#Slothsoft_Events_MaterialType_Grass
+  commentId: F:Slothsoft.Events.MaterialType.Grass
+  fullName: Slothsoft.Events.MaterialType.Grass
+  nameWithType: MaterialType.Grass
+- uid: Slothsoft.Events.MaterialType.MetalGrill
+  name: MetalGrill
+  href: api/Slothsoft.Events.MaterialType.html#Slothsoft_Events_MaterialType_MetalGrill
+  commentId: F:Slothsoft.Events.MaterialType.MetalGrill
+  fullName: Slothsoft.Events.MaterialType.MetalGrill
+  nameWithType: MaterialType.MetalGrill
+- uid: Slothsoft.Events.MaterialType.MetalPlate
+  name: MetalPlate
+  href: api/Slothsoft.Events.MaterialType.html#Slothsoft_Events_MaterialType_MetalPlate
+  commentId: F:Slothsoft.Events.MaterialType.MetalPlate
+  fullName: Slothsoft.Events.MaterialType.MetalPlate
+  nameWithType: MaterialType.MetalPlate
+- uid: Slothsoft.Events.MaterialType.Stone
+  name: Stone
+  href: api/Slothsoft.Events.MaterialType.html#Slothsoft_Events_MaterialType_Stone
+  commentId: F:Slothsoft.Events.MaterialType.Stone
+  fullName: Slothsoft.Events.MaterialType.Stone
+  nameWithType: MaterialType.Stone
+- uid: Slothsoft.Events.MaterialType.Unknown
+  name: Unknown
+  href: api/Slothsoft.Events.MaterialType.html#Slothsoft_Events_MaterialType_Unknown
+  commentId: F:Slothsoft.Events.MaterialType.Unknown
+  fullName: Slothsoft.Events.MaterialType.Unknown
+  nameWithType: MaterialType.Unknown
+- uid: Slothsoft.Events.MaterialType.Wood
+  name: Wood
+  href: api/Slothsoft.Events.MaterialType.html#Slothsoft_Events_MaterialType_Wood
+  commentId: F:Slothsoft.Events.MaterialType.Wood
+  fullName: Slothsoft.Events.MaterialType.Wood
+  nameWithType: MaterialType.Wood
+- uid: Slothsoft.Events.ObjectLocators
+  name: Slothsoft.Events.ObjectLocators
+  href: api/Slothsoft.Events.ObjectLocators.html
+  commentId: N:Slothsoft.Events.ObjectLocators
+  fullName: Slothsoft.Events.ObjectLocators
+  nameWithType: Slothsoft.Events.ObjectLocators
+- uid: Slothsoft.Events.ObjectLocators.ITransformLocator
+  name: ITransformLocator
+  href: api/Slothsoft.Events.ObjectLocators.ITransformLocator.html
+  commentId: T:Slothsoft.Events.ObjectLocators.ITransformLocator
+  fullName: Slothsoft.Events.ObjectLocators.ITransformLocator
+  nameWithType: ITransformLocator
+- uid: Slothsoft.Events.ObjectLocators.ITransformLocator.TryLocate(GameObject,Transform@)
+  name: TryLocate(GameObject, out Transform)
+  href: api/Slothsoft.Events.ObjectLocators.ITransformLocator.html#Slothsoft_Events_ObjectLocators_ITransformLocator_TryLocate_GameObject_Transform__
+  commentId: M:Slothsoft.Events.ObjectLocators.ITransformLocator.TryLocate(GameObject,Transform@)
+  name.vb: TryLocate(GameObject, ByRef Transform)
+  fullName: Slothsoft.Events.ObjectLocators.ITransformLocator.TryLocate(GameObject, out Transform)
+  fullName.vb: Slothsoft.Events.ObjectLocators.ITransformLocator.TryLocate(GameObject, ByRef Transform)
+  nameWithType: ITransformLocator.TryLocate(GameObject, out Transform)
+  nameWithType.vb: ITransformLocator.TryLocate(GameObject, ByRef Transform)
+- uid: Slothsoft.Events.ObjectLocators.ITransformLocator.TryLocate*
+  name: TryLocate
+  href: api/Slothsoft.Events.ObjectLocators.ITransformLocator.html#Slothsoft_Events_ObjectLocators_ITransformLocator_TryLocate_
+  commentId: Overload:Slothsoft.Events.ObjectLocators.ITransformLocator.TryLocate
+  isSpec: "True"
+  fullName: Slothsoft.Events.ObjectLocators.ITransformLocator.TryLocate
+  nameWithType: ITransformLocator.TryLocate
+- uid: Slothsoft.Events.ObjectLocators.TransformReference
+  name: TransformReference
+  href: api/Slothsoft.Events.ObjectLocators.TransformReference.html
+  commentId: T:Slothsoft.Events.ObjectLocators.TransformReference
+  fullName: Slothsoft.Events.ObjectLocators.TransformReference
+  nameWithType: TransformReference
+- uid: Slothsoft.Events.ObjectLocators.TransformReference.TryGetTransform(GameObject,Transform@)
+  name: TryGetTransform(GameObject, out Transform)
+  href: api/Slothsoft.Events.ObjectLocators.TransformReference.html#Slothsoft_Events_ObjectLocators_TransformReference_TryGetTransform_GameObject_Transform__
+  commentId: M:Slothsoft.Events.ObjectLocators.TransformReference.TryGetTransform(GameObject,Transform@)
+  name.vb: TryGetTransform(GameObject, ByRef Transform)
+  fullName: Slothsoft.Events.ObjectLocators.TransformReference.TryGetTransform(GameObject, out Transform)
+  fullName.vb: Slothsoft.Events.ObjectLocators.TransformReference.TryGetTransform(GameObject, ByRef Transform)
+  nameWithType: TransformReference.TryGetTransform(GameObject, out Transform)
+  nameWithType.vb: TransformReference.TryGetTransform(GameObject, ByRef Transform)
+- uid: Slothsoft.Events.ObjectLocators.TransformReference.TryGetTransform*
+  name: TryGetTransform
+  href: api/Slothsoft.Events.ObjectLocators.TransformReference.html#Slothsoft_Events_ObjectLocators_TransformReference_TryGetTransform_
+  commentId: Overload:Slothsoft.Events.ObjectLocators.TransformReference.TryGetTransform
+  isSpec: "True"
+  fullName: Slothsoft.Events.ObjectLocators.TransformReference.TryGetTransform
+  nameWithType: TransformReference.TryGetTransform
+- uid: Slothsoft.Events.Timeline
+  name: Slothsoft.Events.Timeline
+  href: api/Slothsoft.Events.Timeline.html
+  commentId: N:Slothsoft.Events.Timeline
+  fullName: Slothsoft.Events.Timeline
+  nameWithType: Slothsoft.Events.Timeline
+- uid: Slothsoft.Events.Timeline.GameObjectTrack
+  name: GameObjectTrack
+  href: api/Slothsoft.Events.Timeline.GameObjectTrack.html
+  commentId: T:Slothsoft.Events.Timeline.GameObjectTrack
+  fullName: Slothsoft.Events.Timeline.GameObjectTrack
+  nameWithType: GameObjectTrack
+- uid: Slothsoft.Events.Timeline.IClip`1
+  name: IClip<T>
+  href: api/Slothsoft.Events.Timeline.IClip-1.html
+  commentId: T:Slothsoft.Events.Timeline.IClip`1
+  name.vb: IClip(Of T)
+  fullName: Slothsoft.Events.Timeline.IClip<T>
+  fullName.vb: Slothsoft.Events.Timeline.IClip(Of T)
+  nameWithType: IClip<T>
+  nameWithType.vb: IClip(Of T)
+- uid: Slothsoft.Events.Timeline.IExpandableClip
+  name: IExpandableClip
+  href: api/Slothsoft.Events.Timeline.IExpandableClip.html
+  commentId: T:Slothsoft.Events.Timeline.IExpandableClip
+  fullName: Slothsoft.Events.Timeline.IExpandableClip
+  nameWithType: IExpandableClip
+- uid: Slothsoft.Events.Timeline.IExpandableClip.inheritDuration
+  name: inheritDuration
+  href: api/Slothsoft.Events.Timeline.IExpandableClip.html#Slothsoft_Events_Timeline_IExpandableClip_inheritDuration
+  commentId: P:Slothsoft.Events.Timeline.IExpandableClip.inheritDuration
+  fullName: Slothsoft.Events.Timeline.IExpandableClip.inheritDuration
+  nameWithType: IExpandableClip.inheritDuration
+- uid: Slothsoft.Events.Timeline.IExpandableClip.inheritDuration*
+  name: inheritDuration
+  href: api/Slothsoft.Events.Timeline.IExpandableClip.html#Slothsoft_Events_Timeline_IExpandableClip_inheritDuration_
+  commentId: Overload:Slothsoft.Events.Timeline.IExpandableClip.inheritDuration
+  isSpec: "True"
+  fullName: Slothsoft.Events.Timeline.IExpandableClip.inheritDuration
+  nameWithType: IExpandableClip.inheritDuration
+- uid: Slothsoft.Events.Timeline.ISettingsBehaviour`1
+  name: ISettingsBehaviour<TSettings>
+  href: api/Slothsoft.Events.Timeline.ISettingsBehaviour-1.html
+  commentId: T:Slothsoft.Events.Timeline.ISettingsBehaviour`1
+  name.vb: ISettingsBehaviour(Of TSettings)
+  fullName: Slothsoft.Events.Timeline.ISettingsBehaviour<TSettings>
+  fullName.vb: Slothsoft.Events.Timeline.ISettingsBehaviour(Of TSettings)
+  nameWithType: ISettingsBehaviour<TSettings>
+  nameWithType.vb: ISettingsBehaviour(Of TSettings)
+- uid: Slothsoft.Events.Timeline.ISettingsBehaviour`1.SetUp(`0)
+  name: SetUp(TSettings)
+  href: api/Slothsoft.Events.Timeline.ISettingsBehaviour-1.html#Slothsoft_Events_Timeline_ISettingsBehaviour_1_SetUp__0_
+  commentId: M:Slothsoft.Events.Timeline.ISettingsBehaviour`1.SetUp(`0)
+  fullName: Slothsoft.Events.Timeline.ISettingsBehaviour<TSettings>.SetUp(TSettings)
+  fullName.vb: Slothsoft.Events.Timeline.ISettingsBehaviour(Of TSettings).SetUp(TSettings)
+  nameWithType: ISettingsBehaviour<TSettings>.SetUp(TSettings)
+  nameWithType.vb: ISettingsBehaviour(Of TSettings).SetUp(TSettings)
+- uid: Slothsoft.Events.Timeline.ISettingsBehaviour`1.SetUp*
+  name: SetUp
+  href: api/Slothsoft.Events.Timeline.ISettingsBehaviour-1.html#Slothsoft_Events_Timeline_ISettingsBehaviour_1_SetUp_
+  commentId: Overload:Slothsoft.Events.Timeline.ISettingsBehaviour`1.SetUp
+  isSpec: "True"
+  fullName: Slothsoft.Events.Timeline.ISettingsBehaviour<TSettings>.SetUp
+  fullName.vb: Slothsoft.Events.Timeline.ISettingsBehaviour(Of TSettings).SetUp
+  nameWithType: ISettingsBehaviour<TSettings>.SetUp
+  nameWithType.vb: ISettingsBehaviour(Of TSettings).SetUp
+- uid: Slothsoft.Events.Timeline.PlayableBehaviorBase`2
+  name: PlayableBehaviorBase<TSettings, TTarget>
+  href: api/Slothsoft.Events.Timeline.PlayableBehaviorBase-2.html
+  commentId: T:Slothsoft.Events.Timeline.PlayableBehaviorBase`2
+  name.vb: PlayableBehaviorBase(Of TSettings, TTarget)
+  fullName: Slothsoft.Events.Timeline.PlayableBehaviorBase<TSettings, TTarget>
+  fullName.vb: Slothsoft.Events.Timeline.PlayableBehaviorBase(Of TSettings, TTarget)
+  nameWithType: PlayableBehaviorBase<TSettings, TTarget>
+  nameWithType.vb: PlayableBehaviorBase(Of TSettings, TTarget)
+- uid: Slothsoft.Events.Timeline.PlayableBehaviorBase`2.duration
+  name: duration
+  href: api/Slothsoft.Events.Timeline.PlayableBehaviorBase-2.html#Slothsoft_Events_Timeline_PlayableBehaviorBase_2_duration
+  commentId: F:Slothsoft.Events.Timeline.PlayableBehaviorBase`2.duration
+  fullName: Slothsoft.Events.Timeline.PlayableBehaviorBase<TSettings, TTarget>.duration
+  fullName.vb: Slothsoft.Events.Timeline.PlayableBehaviorBase(Of TSettings, TTarget).duration
+  nameWithType: PlayableBehaviorBase<TSettings, TTarget>.duration
+  nameWithType.vb: PlayableBehaviorBase(Of TSettings, TTarget).duration
+- uid: Slothsoft.Events.Timeline.PlayableBehaviorBase`2.normalizedTime
+  name: normalizedTime
+  href: api/Slothsoft.Events.Timeline.PlayableBehaviorBase-2.html#Slothsoft_Events_Timeline_PlayableBehaviorBase_2_normalizedTime
+  commentId: P:Slothsoft.Events.Timeline.PlayableBehaviorBase`2.normalizedTime
+  fullName: Slothsoft.Events.Timeline.PlayableBehaviorBase<TSettings, TTarget>.normalizedTime
+  fullName.vb: Slothsoft.Events.Timeline.PlayableBehaviorBase(Of TSettings, TTarget).normalizedTime
+  nameWithType: PlayableBehaviorBase<TSettings, TTarget>.normalizedTime
+  nameWithType.vb: PlayableBehaviorBase(Of TSettings, TTarget).normalizedTime
+- uid: Slothsoft.Events.Timeline.PlayableBehaviorBase`2.normalizedTime*
+  name: normalizedTime
+  href: api/Slothsoft.Events.Timeline.PlayableBehaviorBase-2.html#Slothsoft_Events_Timeline_PlayableBehaviorBase_2_normalizedTime_
+  commentId: Overload:Slothsoft.Events.Timeline.PlayableBehaviorBase`2.normalizedTime
+  isSpec: "True"
+  fullName: Slothsoft.Events.Timeline.PlayableBehaviorBase<TSettings, TTarget>.normalizedTime
+  fullName.vb: Slothsoft.Events.Timeline.PlayableBehaviorBase(Of TSettings, TTarget).normalizedTime
+  nameWithType: PlayableBehaviorBase<TSettings, TTarget>.normalizedTime
+  nameWithType.vb: PlayableBehaviorBase(Of TSettings, TTarget).normalizedTime
+- uid: Slothsoft.Events.Timeline.PlayableBehaviorBase`2.OnBehaviourPause(Playable,FrameData)
+  name: OnBehaviourPause(Playable, FrameData)
+  href: api/Slothsoft.Events.Timeline.PlayableBehaviorBase-2.html#Slothsoft_Events_Timeline_PlayableBehaviorBase_2_OnBehaviourPause_Playable_FrameData_
+  commentId: M:Slothsoft.Events.Timeline.PlayableBehaviorBase`2.OnBehaviourPause(Playable,FrameData)
+  fullName: Slothsoft.Events.Timeline.PlayableBehaviorBase<TSettings, TTarget>.OnBehaviourPause(Playable, FrameData)
+  fullName.vb: Slothsoft.Events.Timeline.PlayableBehaviorBase(Of TSettings, TTarget).OnBehaviourPause(Playable, FrameData)
+  nameWithType: PlayableBehaviorBase<TSettings, TTarget>.OnBehaviourPause(Playable, FrameData)
+  nameWithType.vb: PlayableBehaviorBase(Of TSettings, TTarget).OnBehaviourPause(Playable, FrameData)
+- uid: Slothsoft.Events.Timeline.PlayableBehaviorBase`2.OnBehaviourPause*
+  name: OnBehaviourPause
+  href: api/Slothsoft.Events.Timeline.PlayableBehaviorBase-2.html#Slothsoft_Events_Timeline_PlayableBehaviorBase_2_OnBehaviourPause_
+  commentId: Overload:Slothsoft.Events.Timeline.PlayableBehaviorBase`2.OnBehaviourPause
+  isSpec: "True"
+  fullName: Slothsoft.Events.Timeline.PlayableBehaviorBase<TSettings, TTarget>.OnBehaviourPause
+  fullName.vb: Slothsoft.Events.Timeline.PlayableBehaviorBase(Of TSettings, TTarget).OnBehaviourPause
+  nameWithType: PlayableBehaviorBase<TSettings, TTarget>.OnBehaviourPause
+  nameWithType.vb: PlayableBehaviorBase(Of TSettings, TTarget).OnBehaviourPause
+- uid: Slothsoft.Events.Timeline.PlayableBehaviorBase`2.OnBehaviourPlay(Playable,FrameData)
+  name: OnBehaviourPlay(Playable, FrameData)
+  href: api/Slothsoft.Events.Timeline.PlayableBehaviorBase-2.html#Slothsoft_Events_Timeline_PlayableBehaviorBase_2_OnBehaviourPlay_Playable_FrameData_
+  commentId: M:Slothsoft.Events.Timeline.PlayableBehaviorBase`2.OnBehaviourPlay(Playable,FrameData)
+  fullName: Slothsoft.Events.Timeline.PlayableBehaviorBase<TSettings, TTarget>.OnBehaviourPlay(Playable, FrameData)
+  fullName.vb: Slothsoft.Events.Timeline.PlayableBehaviorBase(Of TSettings, TTarget).OnBehaviourPlay(Playable, FrameData)
+  nameWithType: PlayableBehaviorBase<TSettings, TTarget>.OnBehaviourPlay(Playable, FrameData)
+  nameWithType.vb: PlayableBehaviorBase(Of TSettings, TTarget).OnBehaviourPlay(Playable, FrameData)
+- uid: Slothsoft.Events.Timeline.PlayableBehaviorBase`2.OnBehaviourPlay*
+  name: OnBehaviourPlay
+  href: api/Slothsoft.Events.Timeline.PlayableBehaviorBase-2.html#Slothsoft_Events_Timeline_PlayableBehaviorBase_2_OnBehaviourPlay_
+  commentId: Overload:Slothsoft.Events.Timeline.PlayableBehaviorBase`2.OnBehaviourPlay
+  isSpec: "True"
+  fullName: Slothsoft.Events.Timeline.PlayableBehaviorBase<TSettings, TTarget>.OnBehaviourPlay
+  fullName.vb: Slothsoft.Events.Timeline.PlayableBehaviorBase(Of TSettings, TTarget).OnBehaviourPlay
+  nameWithType: PlayableBehaviorBase<TSettings, TTarget>.OnBehaviourPlay
+  nameWithType.vb: PlayableBehaviorBase(Of TSettings, TTarget).OnBehaviourPlay
+- uid: Slothsoft.Events.Timeline.PlayableBehaviorBase`2.OnStateAbort(Playable@,FrameData@)
+  name: OnStateAbort(Playable, FrameData)
+  href: api/Slothsoft.Events.Timeline.PlayableBehaviorBase-2.html#Slothsoft_Events_Timeline_PlayableBehaviorBase_2_OnStateAbort_Playable__FrameData__
+  commentId: M:Slothsoft.Events.Timeline.PlayableBehaviorBase`2.OnStateAbort(Playable@,FrameData@)
+  name.vb: OnStateAbort(ByRef Playable, ByRef FrameData)
+  fullName: Slothsoft.Events.Timeline.PlayableBehaviorBase<TSettings, TTarget>.OnStateAbort(Playable, FrameData)
+  fullName.vb: Slothsoft.Events.Timeline.PlayableBehaviorBase(Of TSettings, TTarget).OnStateAbort(ByRef Playable, ByRef FrameData)
+  nameWithType: PlayableBehaviorBase<TSettings, TTarget>.OnStateAbort(Playable, FrameData)
+  nameWithType.vb: PlayableBehaviorBase(Of TSettings, TTarget).OnStateAbort(ByRef Playable, ByRef FrameData)
+- uid: Slothsoft.Events.Timeline.PlayableBehaviorBase`2.OnStateAbort*
+  name: OnStateAbort
+  href: api/Slothsoft.Events.Timeline.PlayableBehaviorBase-2.html#Slothsoft_Events_Timeline_PlayableBehaviorBase_2_OnStateAbort_
+  commentId: Overload:Slothsoft.Events.Timeline.PlayableBehaviorBase`2.OnStateAbort
+  isSpec: "True"
+  fullName: Slothsoft.Events.Timeline.PlayableBehaviorBase<TSettings, TTarget>.OnStateAbort
+  fullName.vb: Slothsoft.Events.Timeline.PlayableBehaviorBase(Of TSettings, TTarget).OnStateAbort
+  nameWithType: PlayableBehaviorBase<TSettings, TTarget>.OnStateAbort
+  nameWithType.vb: PlayableBehaviorBase(Of TSettings, TTarget).OnStateAbort
+- uid: Slothsoft.Events.Timeline.PlayableBehaviorBase`2.OnStateEnter(Playable@,FrameData@)
+  name: OnStateEnter(Playable, FrameData)
+  href: api/Slothsoft.Events.Timeline.PlayableBehaviorBase-2.html#Slothsoft_Events_Timeline_PlayableBehaviorBase_2_OnStateEnter_Playable__FrameData__
+  commentId: M:Slothsoft.Events.Timeline.PlayableBehaviorBase`2.OnStateEnter(Playable@,FrameData@)
+  name.vb: OnStateEnter(ByRef Playable, ByRef FrameData)
+  fullName: Slothsoft.Events.Timeline.PlayableBehaviorBase<TSettings, TTarget>.OnStateEnter(Playable, FrameData)
+  fullName.vb: Slothsoft.Events.Timeline.PlayableBehaviorBase(Of TSettings, TTarget).OnStateEnter(ByRef Playable, ByRef FrameData)
+  nameWithType: PlayableBehaviorBase<TSettings, TTarget>.OnStateEnter(Playable, FrameData)
+  nameWithType.vb: PlayableBehaviorBase(Of TSettings, TTarget).OnStateEnter(ByRef Playable, ByRef FrameData)
+- uid: Slothsoft.Events.Timeline.PlayableBehaviorBase`2.OnStateEnter*
+  name: OnStateEnter
+  href: api/Slothsoft.Events.Timeline.PlayableBehaviorBase-2.html#Slothsoft_Events_Timeline_PlayableBehaviorBase_2_OnStateEnter_
+  commentId: Overload:Slothsoft.Events.Timeline.PlayableBehaviorBase`2.OnStateEnter
+  isSpec: "True"
+  fullName: Slothsoft.Events.Timeline.PlayableBehaviorBase<TSettings, TTarget>.OnStateEnter
+  fullName.vb: Slothsoft.Events.Timeline.PlayableBehaviorBase(Of TSettings, TTarget).OnStateEnter
+  nameWithType: PlayableBehaviorBase<TSettings, TTarget>.OnStateEnter
+  nameWithType.vb: PlayableBehaviorBase(Of TSettings, TTarget).OnStateEnter
+- uid: Slothsoft.Events.Timeline.PlayableBehaviorBase`2.OnStateExit(Playable@,FrameData@)
+  name: OnStateExit(Playable, FrameData)
+  href: api/Slothsoft.Events.Timeline.PlayableBehaviorBase-2.html#Slothsoft_Events_Timeline_PlayableBehaviorBase_2_OnStateExit_Playable__FrameData__
+  commentId: M:Slothsoft.Events.Timeline.PlayableBehaviorBase`2.OnStateExit(Playable@,FrameData@)
+  name.vb: OnStateExit(ByRef Playable, ByRef FrameData)
+  fullName: Slothsoft.Events.Timeline.PlayableBehaviorBase<TSettings, TTarget>.OnStateExit(Playable, FrameData)
+  fullName.vb: Slothsoft.Events.Timeline.PlayableBehaviorBase(Of TSettings, TTarget).OnStateExit(ByRef Playable, ByRef FrameData)
+  nameWithType: PlayableBehaviorBase<TSettings, TTarget>.OnStateExit(Playable, FrameData)
+  nameWithType.vb: PlayableBehaviorBase(Of TSettings, TTarget).OnStateExit(ByRef Playable, ByRef FrameData)
+- uid: Slothsoft.Events.Timeline.PlayableBehaviorBase`2.OnStateExit*
+  name: OnStateExit
+  href: api/Slothsoft.Events.Timeline.PlayableBehaviorBase-2.html#Slothsoft_Events_Timeline_PlayableBehaviorBase_2_OnStateExit_
+  commentId: Overload:Slothsoft.Events.Timeline.PlayableBehaviorBase`2.OnStateExit
+  isSpec: "True"
+  fullName: Slothsoft.Events.Timeline.PlayableBehaviorBase<TSettings, TTarget>.OnStateExit
+  fullName.vb: Slothsoft.Events.Timeline.PlayableBehaviorBase(Of TSettings, TTarget).OnStateExit
+  nameWithType: PlayableBehaviorBase<TSettings, TTarget>.OnStateExit
+  nameWithType.vb: PlayableBehaviorBase(Of TSettings, TTarget).OnStateExit
+- uid: Slothsoft.Events.Timeline.PlayableBehaviorBase`2.OnStateUpdate(Playable@,FrameData@)
+  name: OnStateUpdate(Playable, FrameData)
+  href: api/Slothsoft.Events.Timeline.PlayableBehaviorBase-2.html#Slothsoft_Events_Timeline_PlayableBehaviorBase_2_OnStateUpdate_Playable__FrameData__
+  commentId: M:Slothsoft.Events.Timeline.PlayableBehaviorBase`2.OnStateUpdate(Playable@,FrameData@)
+  name.vb: OnStateUpdate(ByRef Playable, ByRef FrameData)
+  fullName: Slothsoft.Events.Timeline.PlayableBehaviorBase<TSettings, TTarget>.OnStateUpdate(Playable, FrameData)
+  fullName.vb: Slothsoft.Events.Timeline.PlayableBehaviorBase(Of TSettings, TTarget).OnStateUpdate(ByRef Playable, ByRef FrameData)
+  nameWithType: PlayableBehaviorBase<TSettings, TTarget>.OnStateUpdate(Playable, FrameData)
+  nameWithType.vb: PlayableBehaviorBase(Of TSettings, TTarget).OnStateUpdate(ByRef Playable, ByRef FrameData)
+- uid: Slothsoft.Events.Timeline.PlayableBehaviorBase`2.OnStateUpdate*
+  name: OnStateUpdate
+  href: api/Slothsoft.Events.Timeline.PlayableBehaviorBase-2.html#Slothsoft_Events_Timeline_PlayableBehaviorBase_2_OnStateUpdate_
+  commentId: Overload:Slothsoft.Events.Timeline.PlayableBehaviorBase`2.OnStateUpdate
+  isSpec: "True"
+  fullName: Slothsoft.Events.Timeline.PlayableBehaviorBase<TSettings, TTarget>.OnStateUpdate
+  fullName.vb: Slothsoft.Events.Timeline.PlayableBehaviorBase(Of TSettings, TTarget).OnStateUpdate
+  nameWithType: PlayableBehaviorBase<TSettings, TTarget>.OnStateUpdate
+  nameWithType.vb: PlayableBehaviorBase(Of TSettings, TTarget).OnStateUpdate
+- uid: Slothsoft.Events.Timeline.PlayableBehaviorBase`2.ProcessFrame(Playable,FrameData,System.Object)
+  name: ProcessFrame(Playable, FrameData, Object)
+  href: api/Slothsoft.Events.Timeline.PlayableBehaviorBase-2.html#Slothsoft_Events_Timeline_PlayableBehaviorBase_2_ProcessFrame_Playable_FrameData_System_Object_
+  commentId: M:Slothsoft.Events.Timeline.PlayableBehaviorBase`2.ProcessFrame(Playable,FrameData,System.Object)
+  fullName: Slothsoft.Events.Timeline.PlayableBehaviorBase<TSettings, TTarget>.ProcessFrame(Playable, FrameData, System.Object)
+  fullName.vb: Slothsoft.Events.Timeline.PlayableBehaviorBase(Of TSettings, TTarget).ProcessFrame(Playable, FrameData, System.Object)
+  nameWithType: PlayableBehaviorBase<TSettings, TTarget>.ProcessFrame(Playable, FrameData, Object)
+  nameWithType.vb: PlayableBehaviorBase(Of TSettings, TTarget).ProcessFrame(Playable, FrameData, Object)
+- uid: Slothsoft.Events.Timeline.PlayableBehaviorBase`2.ProcessFrame*
+  name: ProcessFrame
+  href: api/Slothsoft.Events.Timeline.PlayableBehaviorBase-2.html#Slothsoft_Events_Timeline_PlayableBehaviorBase_2_ProcessFrame_
+  commentId: Overload:Slothsoft.Events.Timeline.PlayableBehaviorBase`2.ProcessFrame
+  isSpec: "True"
+  fullName: Slothsoft.Events.Timeline.PlayableBehaviorBase<TSettings, TTarget>.ProcessFrame
+  fullName.vb: Slothsoft.Events.Timeline.PlayableBehaviorBase(Of TSettings, TTarget).ProcessFrame
+  nameWithType: PlayableBehaviorBase<TSettings, TTarget>.ProcessFrame
+  nameWithType.vb: PlayableBehaviorBase(Of TSettings, TTarget).ProcessFrame
+- uid: Slothsoft.Events.Timeline.PlayableBehaviorBase`2.settings
+  name: settings
+  href: api/Slothsoft.Events.Timeline.PlayableBehaviorBase-2.html#Slothsoft_Events_Timeline_PlayableBehaviorBase_2_settings
+  commentId: P:Slothsoft.Events.Timeline.PlayableBehaviorBase`2.settings
+  fullName: Slothsoft.Events.Timeline.PlayableBehaviorBase<TSettings, TTarget>.settings
+  fullName.vb: Slothsoft.Events.Timeline.PlayableBehaviorBase(Of TSettings, TTarget).settings
+  nameWithType: PlayableBehaviorBase<TSettings, TTarget>.settings
+  nameWithType.vb: PlayableBehaviorBase(Of TSettings, TTarget).settings
+- uid: Slothsoft.Events.Timeline.PlayableBehaviorBase`2.settings*
+  name: settings
+  href: api/Slothsoft.Events.Timeline.PlayableBehaviorBase-2.html#Slothsoft_Events_Timeline_PlayableBehaviorBase_2_settings_
+  commentId: Overload:Slothsoft.Events.Timeline.PlayableBehaviorBase`2.settings
+  isSpec: "True"
+  fullName: Slothsoft.Events.Timeline.PlayableBehaviorBase<TSettings, TTarget>.settings
+  fullName.vb: Slothsoft.Events.Timeline.PlayableBehaviorBase(Of TSettings, TTarget).settings
+  nameWithType: PlayableBehaviorBase<TSettings, TTarget>.settings
+  nameWithType.vb: PlayableBehaviorBase(Of TSettings, TTarget).settings
+- uid: Slothsoft.Events.Timeline.PlayableBehaviorBase`2.SetUp(`0)
+  name: SetUp(TSettings)
+  href: api/Slothsoft.Events.Timeline.PlayableBehaviorBase-2.html#Slothsoft_Events_Timeline_PlayableBehaviorBase_2_SetUp__0_
+  commentId: M:Slothsoft.Events.Timeline.PlayableBehaviorBase`2.SetUp(`0)
+  fullName: Slothsoft.Events.Timeline.PlayableBehaviorBase<TSettings, TTarget>.SetUp(TSettings)
+  fullName.vb: Slothsoft.Events.Timeline.PlayableBehaviorBase(Of TSettings, TTarget).SetUp(TSettings)
+  nameWithType: PlayableBehaviorBase<TSettings, TTarget>.SetUp(TSettings)
+  nameWithType.vb: PlayableBehaviorBase(Of TSettings, TTarget).SetUp(TSettings)
+- uid: Slothsoft.Events.Timeline.PlayableBehaviorBase`2.SetUp*
+  name: SetUp
+  href: api/Slothsoft.Events.Timeline.PlayableBehaviorBase-2.html#Slothsoft_Events_Timeline_PlayableBehaviorBase_2_SetUp_
+  commentId: Overload:Slothsoft.Events.Timeline.PlayableBehaviorBase`2.SetUp
+  isSpec: "True"
+  fullName: Slothsoft.Events.Timeline.PlayableBehaviorBase<TSettings, TTarget>.SetUp
+  fullName.vb: Slothsoft.Events.Timeline.PlayableBehaviorBase(Of TSettings, TTarget).SetUp
+  nameWithType: PlayableBehaviorBase<TSettings, TTarget>.SetUp
+  nameWithType.vb: PlayableBehaviorBase(Of TSettings, TTarget).SetUp
+- uid: Slothsoft.Events.Timeline.PlayableBehaviorBase`2.target
+  name: target
+  href: api/Slothsoft.Events.Timeline.PlayableBehaviorBase-2.html#Slothsoft_Events_Timeline_PlayableBehaviorBase_2_target
+  commentId: F:Slothsoft.Events.Timeline.PlayableBehaviorBase`2.target
+  fullName: Slothsoft.Events.Timeline.PlayableBehaviorBase<TSettings, TTarget>.target
+  fullName.vb: Slothsoft.Events.Timeline.PlayableBehaviorBase(Of TSettings, TTarget).target
+  nameWithType: PlayableBehaviorBase<TSettings, TTarget>.target
+  nameWithType.vb: PlayableBehaviorBase(Of TSettings, TTarget).target
+- uid: Slothsoft.Events.Timeline.PlayableBehaviorBase`2.time
+  name: time
+  href: api/Slothsoft.Events.Timeline.PlayableBehaviorBase-2.html#Slothsoft_Events_Timeline_PlayableBehaviorBase_2_time
+  commentId: F:Slothsoft.Events.Timeline.PlayableBehaviorBase`2.time
+  fullName: Slothsoft.Events.Timeline.PlayableBehaviorBase<TSettings, TTarget>.time
+  fullName.vb: Slothsoft.Events.Timeline.PlayableBehaviorBase(Of TSettings, TTarget).time
+  nameWithType: PlayableBehaviorBase<TSettings, TTarget>.time
+  nameWithType.vb: PlayableBehaviorBase(Of TSettings, TTarget).time
+- uid: Slothsoft.Events.Timeline.PlayableClipBase`3
+  name: PlayableClipBase<TSettings, TBehaviour, TTarget>
+  href: api/Slothsoft.Events.Timeline.PlayableClipBase-3.html
+  commentId: T:Slothsoft.Events.Timeline.PlayableClipBase`3
+  name.vb: PlayableClipBase(Of TSettings, TBehaviour, TTarget)
+  fullName: Slothsoft.Events.Timeline.PlayableClipBase<TSettings, TBehaviour, TTarget>
+  fullName.vb: Slothsoft.Events.Timeline.PlayableClipBase(Of TSettings, TBehaviour, TTarget)
+  nameWithType: PlayableClipBase<TSettings, TBehaviour, TTarget>
+  nameWithType.vb: PlayableClipBase(Of TSettings, TBehaviour, TTarget)
+- uid: Slothsoft.Events.Timeline.PlayableClipBase`3.CreatePlayable(PlayableGraph,GameObject)
+  name: CreatePlayable(PlayableGraph, GameObject)
+  href: api/Slothsoft.Events.Timeline.PlayableClipBase-3.html#Slothsoft_Events_Timeline_PlayableClipBase_3_CreatePlayable_PlayableGraph_GameObject_
+  commentId: M:Slothsoft.Events.Timeline.PlayableClipBase`3.CreatePlayable(PlayableGraph,GameObject)
+  fullName: Slothsoft.Events.Timeline.PlayableClipBase<TSettings, TBehaviour, TTarget>.CreatePlayable(PlayableGraph, GameObject)
+  fullName.vb: Slothsoft.Events.Timeline.PlayableClipBase(Of TSettings, TBehaviour, TTarget).CreatePlayable(PlayableGraph, GameObject)
+  nameWithType: PlayableClipBase<TSettings, TBehaviour, TTarget>.CreatePlayable(PlayableGraph, GameObject)
+  nameWithType.vb: PlayableClipBase(Of TSettings, TBehaviour, TTarget).CreatePlayable(PlayableGraph, GameObject)
+- uid: Slothsoft.Events.Timeline.PlayableClipBase`3.CreatePlayable*
+  name: CreatePlayable
+  href: api/Slothsoft.Events.Timeline.PlayableClipBase-3.html#Slothsoft_Events_Timeline_PlayableClipBase_3_CreatePlayable_
+  commentId: Overload:Slothsoft.Events.Timeline.PlayableClipBase`3.CreatePlayable
+  isSpec: "True"
+  fullName: Slothsoft.Events.Timeline.PlayableClipBase<TSettings, TBehaviour, TTarget>.CreatePlayable
+  fullName.vb: Slothsoft.Events.Timeline.PlayableClipBase(Of TSettings, TBehaviour, TTarget).CreatePlayable
+  nameWithType: PlayableClipBase<TSettings, TBehaviour, TTarget>.CreatePlayable
+  nameWithType.vb: PlayableClipBase(Of TSettings, TBehaviour, TTarget).CreatePlayable
+- uid: Slothsoft.Events.Timeline.PlayableClipBase`3.inheritDuration
+  name: inheritDuration
+  href: api/Slothsoft.Events.Timeline.PlayableClipBase-3.html#Slothsoft_Events_Timeline_PlayableClipBase_3_inheritDuration
+  commentId: P:Slothsoft.Events.Timeline.PlayableClipBase`3.inheritDuration
+  fullName: Slothsoft.Events.Timeline.PlayableClipBase<TSettings, TBehaviour, TTarget>.inheritDuration
+  fullName.vb: Slothsoft.Events.Timeline.PlayableClipBase(Of TSettings, TBehaviour, TTarget).inheritDuration
+  nameWithType: PlayableClipBase<TSettings, TBehaviour, TTarget>.inheritDuration
+  nameWithType.vb: PlayableClipBase(Of TSettings, TBehaviour, TTarget).inheritDuration
+- uid: Slothsoft.Events.Timeline.PlayableClipBase`3.inheritDuration*
+  name: inheritDuration
+  href: api/Slothsoft.Events.Timeline.PlayableClipBase-3.html#Slothsoft_Events_Timeline_PlayableClipBase_3_inheritDuration_
+  commentId: Overload:Slothsoft.Events.Timeline.PlayableClipBase`3.inheritDuration
+  isSpec: "True"
+  fullName: Slothsoft.Events.Timeline.PlayableClipBase<TSettings, TBehaviour, TTarget>.inheritDuration
+  fullName.vb: Slothsoft.Events.Timeline.PlayableClipBase(Of TSettings, TBehaviour, TTarget).inheritDuration
+  nameWithType: PlayableClipBase<TSettings, TBehaviour, TTarget>.inheritDuration
+  nameWithType.vb: PlayableClipBase(Of TSettings, TBehaviour, TTarget).inheritDuration
+- uid: Slothsoft.Events.Timeline.TimelineAssetExtensions
+  name: TimelineAssetExtensions
+  href: api/Slothsoft.Events.Timeline.TimelineAssetExtensions.html
+  commentId: T:Slothsoft.Events.Timeline.TimelineAssetExtensions
+  fullName: Slothsoft.Events.Timeline.TimelineAssetExtensions
+  nameWithType: TimelineAssetExtensions
+- uid: Slothsoft.Events.Timeline.TimelineAssetExtensions.SetAllClipDurations(TimelineAsset,System.Double)
+  name: SetAllClipDurations(TimelineAsset, Double)
+  href: api/Slothsoft.Events.Timeline.TimelineAssetExtensions.html#Slothsoft_Events_Timeline_TimelineAssetExtensions_SetAllClipDurations_TimelineAsset_System_Double_
+  commentId: M:Slothsoft.Events.Timeline.TimelineAssetExtensions.SetAllClipDurations(TimelineAsset,System.Double)
+  fullName: Slothsoft.Events.Timeline.TimelineAssetExtensions.SetAllClipDurations(TimelineAsset, System.Double)
+  nameWithType: TimelineAssetExtensions.SetAllClipDurations(TimelineAsset, Double)
+- uid: Slothsoft.Events.Timeline.TimelineAssetExtensions.SetAllClipDurations*
+  name: SetAllClipDurations
+  href: api/Slothsoft.Events.Timeline.TimelineAssetExtensions.html#Slothsoft_Events_Timeline_TimelineAssetExtensions_SetAllClipDurations_
+  commentId: Overload:Slothsoft.Events.Timeline.TimelineAssetExtensions.SetAllClipDurations
+  isSpec: "True"
+  fullName: Slothsoft.Events.Timeline.TimelineAssetExtensions.SetAllClipDurations
+  nameWithType: TimelineAssetExtensions.SetAllClipDurations
+- uid: Slothsoft.Events.Timeline.TimelineAssetExtensions.TryGetClip*
+  name: TryGetClip
+  href: api/Slothsoft.Events.Timeline.TimelineAssetExtensions.html#Slothsoft_Events_Timeline_TimelineAssetExtensions_TryGetClip_
+  commentId: Overload:Slothsoft.Events.Timeline.TimelineAssetExtensions.TryGetClip
+  isSpec: "True"
+  fullName: Slothsoft.Events.Timeline.TimelineAssetExtensions.TryGetClip
+  nameWithType: TimelineAssetExtensions.TryGetClip
+- uid: Slothsoft.Events.Timeline.TimelineAssetExtensions.TryGetClip``1(TimelineAsset,``0@)
+  name: TryGetClip<T>(TimelineAsset, out T)
+  href: api/Slothsoft.Events.Timeline.TimelineAssetExtensions.html#Slothsoft_Events_Timeline_TimelineAssetExtensions_TryGetClip__1_TimelineAsset___0__
+  commentId: M:Slothsoft.Events.Timeline.TimelineAssetExtensions.TryGetClip``1(TimelineAsset,``0@)
+  name.vb: TryGetClip(Of T)(TimelineAsset, ByRef T)
+  fullName: Slothsoft.Events.Timeline.TimelineAssetExtensions.TryGetClip<T>(TimelineAsset, out T)
+  fullName.vb: Slothsoft.Events.Timeline.TimelineAssetExtensions.TryGetClip(Of T)(TimelineAsset, ByRef T)
+  nameWithType: TimelineAssetExtensions.TryGetClip<T>(TimelineAsset, out T)
+  nameWithType.vb: TimelineAssetExtensions.TryGetClip(Of T)(TimelineAsset, ByRef T)
+- uid: Slothsoft.Events.Timeline.TrackBase
+  name: TrackBase
+  href: api/Slothsoft.Events.Timeline.TrackBase.html
+  commentId: T:Slothsoft.Events.Timeline.TrackBase
+  fullName: Slothsoft.Events.Timeline.TrackBase
+  nameWithType: TrackBase
