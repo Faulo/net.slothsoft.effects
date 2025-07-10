@@ -34,7 +34,7 @@ namespace Slothsoft.Effects {
         /// </summary>
         /// <param name="collision"></param>
         /// <returns></returns>
-        public static CollisionInfo FromTrigger(GameObject self, Collider other) => new(new(self), Vector3.zero, 0);
+        public static CollisionInfo FromTrigger(GameObject self, Collider other) => new(new(self), other.ClosestPoint(self.transform.position), 0);
 
         public void SendCollisionMessage(string name) {
 #if UNITY_EDITOR
