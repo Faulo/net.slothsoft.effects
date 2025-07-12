@@ -9,6 +9,7 @@
   "changelogUrl": "https://faulo.github.io/net.slothsoft.events/",
   "documentationUrl": "https://faulo.github.io/net.slothsoft.events/",
   "dependencies": {
+    "net.slothsoft.unity-extensions": "4.0.0",
     "net.slothsoft.test-runner": "1.0.0-pre.1",
     "com.unity.timeline": "1.8.8",
     "com.domybest.mybox": "1.8.0"
