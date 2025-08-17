@@ -23,14 +23,14 @@ namespace Slothsoft.Effects {
         }
 
         /// <summary>
-        /// @TODO
+        /// Constructs a <see cref="CollisionInfo"/> from a 3D collsiion.
         /// </summary>
         /// <param name="collision"></param>
         /// <returns></returns>
         public static CollisionInfo FromCollision(Collision collision) => new(new(collision.gameObject), Vector3.zero, collision.impulse.magnitude);
 
         /// <summary>
-        /// @TODO
+        /// Constructs a <see cref="CollisionInfo"/> from a <see cref="GameObject"/> hitting a <see cref="Collider"/>.
         /// </summary>
         /// <param name="collision"></param>
         /// <returns></returns>
