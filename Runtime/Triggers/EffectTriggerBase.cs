@@ -14,7 +14,7 @@ namespace Slothsoft.Effects.Triggers {
             /// <summary>
             /// The desired <see cref="EffectEvent"/> to be Invoke'd.
             /// </summary>
-            [SerializeField]
+            [SerializeReference]
             internal EffectEvent callback = new();
         }
 
