@@ -165,6 +165,19 @@ references:
   isSpec: "True"
   fullName: Slothsoft.Effects.CollisionInfo.FromCollision
   nameWithType: CollisionInfo.FromCollision
+- uid: Slothsoft.Effects.CollisionInfo.FromPoint(GameObject,Vector3)
+  name: FromPoint(GameObject, Vector3)
+  href: api/Slothsoft.Effects.CollisionInfo.html#Slothsoft_Effects_CollisionInfo_FromPoint_GameObject_Vector3_
+  commentId: M:Slothsoft.Effects.CollisionInfo.FromPoint(GameObject,Vector3)
+  fullName: Slothsoft.Effects.CollisionInfo.FromPoint(GameObject, Vector3)
+  nameWithType: CollisionInfo.FromPoint(GameObject, Vector3)
+- uid: Slothsoft.Effects.CollisionInfo.FromPoint*
+  name: FromPoint
+  href: api/Slothsoft.Effects.CollisionInfo.html#Slothsoft_Effects_CollisionInfo_FromPoint_
+  commentId: Overload:Slothsoft.Effects.CollisionInfo.FromPoint
+  isSpec: "True"
+  fullName: Slothsoft.Effects.CollisionInfo.FromPoint
+  nameWithType: CollisionInfo.FromPoint
 - uid: Slothsoft.Effects.CollisionInfo.FromTrigger(GameObject,Collider)
   name: FromTrigger(GameObject, Collider)
   href: api/Slothsoft.Effects.CollisionInfo.html#Slothsoft_Effects_CollisionInfo_FromTrigger_GameObject_Collider_
