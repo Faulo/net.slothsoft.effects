@@ -1,5 +1,5 @@
 ﻿namespace Slothsoft.Effects.Triggers {
-    enum PhysicsTriggerType {
+    enum EPhysicsTriggerType {
         OnCollisionEnter,
         OnCollisionExit,
         OnCollisionStay,

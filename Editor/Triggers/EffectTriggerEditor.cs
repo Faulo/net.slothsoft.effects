@@ -2,7 +2,6 @@ using System;
 using Slothsoft.Effects.Triggers;
 using UnityEditor;
 using UnityEngine;
-using UnityEngine.EventSystems;
 using UEditor = UnityEditor.Editor;
 
 namespace Slothsoft.Effects.Editor.Triggers {
@@ -10,7 +9,7 @@ namespace Slothsoft.Effects.Editor.Triggers {
     /// <seealso cref="UnityEditor.EventSystems.EventTriggerEditor"/>
     /// </summary>
     [CustomEditor(typeof(EffectTriggerBase<>), true)]
-    sealed class EventSystemEffectTriggerEditor : UEditor {
+    sealed class EffectTriggerEditor : UEditor {
         SerializedProperty m_DelegatesProperty;
 
         GUIContent m_IconToolbarMinus;
@@ -18,8 +17,12 @@ namespace Slothsoft.Effects.Editor.Triggers {
         GUIContent[] m_EventTypes;
         GUIContent m_AddButonContent;
 
+        Type triggerType => target
+            .GetType()
+            .BaseType.GenericTypeArguments[0];
+
         void OnEnable() {
-            m_DelegatesProperty = serializedObject.FindProperty(nameof(EventSystemEffectTrigger.entries));
+            m_DelegatesProperty = serializedObject.FindProperty(nameof(Slothsoft.Effects.Triggers.PointerEffectTrigger.entries));
             m_AddButonContent = EditorGUIUtility.TrTextContent("Add New Event Type");
             m_EventIDName = new GUIContent("");
             // Have to create a copy since otherwise the tooltip will be overwritten.
@@ -27,7 +30,7 @@ namespace Slothsoft.Effects.Editor.Triggers {
                 tooltip = "Remove all events in this list."
             };
 
-            string[] eventNames = Enum.GetNames(typeof(PhysicsTriggerType));
+            string[] eventNames = Enum.GetNames(triggerType);
             m_EventTypes = new GUIContent[eventNames.Length];
             for (int i = 0; i < eventNames.Length; ++i) {
                 m_EventTypes[i] = new GUIContent(eventNames[i]);
@@ -44,8 +47,8 @@ namespace Slothsoft.Effects.Editor.Triggers {
 
             for (int i = 0; i < m_DelegatesProperty.arraySize; ++i) {
                 var delegateProperty = m_DelegatesProperty.GetArrayElementAtIndex(i);
-                var eventProperty = delegateProperty.FindPropertyRelative(nameof(EventSystemEffectTrigger.Entry.eventID));
-                var callbacksProperty = delegateProperty.FindPropertyRelative(nameof(EventSystemEffectTrigger.Entry.callback));
+                var eventProperty = delegateProperty.FindPropertyRelative(nameof(Slothsoft.Effects.Triggers.PointerEffectTrigger.Entry.eventID));
+                var callbacksProperty = delegateProperty.FindPropertyRelative(nameof(Slothsoft.Effects.Triggers.PointerEffectTrigger.Entry.callback));
                 m_EventIDName.text = eventProperty.enumDisplayNames[eventProperty.enumValueIndex];
 
                 EditorGUILayout.PropertyField(callbacksProperty, m_EventIDName);
@@ -87,7 +90,7 @@ namespace Slothsoft.Effects.Editor.Triggers {
                 // Check if we already have a Entry for the current eventType, if so, disable it
                 for (int p = 0; p < m_DelegatesProperty.arraySize; ++p) {
                     var delegateEntry = m_DelegatesProperty.GetArrayElementAtIndex(p);
-                    var eventProperty = delegateEntry.FindPropertyRelative(nameof(EventSystemEffectTrigger.Entry.eventID));
+                    var eventProperty = delegateEntry.FindPropertyRelative(nameof(Slothsoft.Effects.Triggers.PointerEffectTrigger.Entry.eventID));
                     if (eventProperty.enumValueIndex == i) {
                         active = false;
                     }
@@ -109,7 +112,7 @@ namespace Slothsoft.Effects.Editor.Triggers {
 
             m_DelegatesProperty.arraySize += 1;
             var delegateEntry = m_DelegatesProperty.GetArrayElementAtIndex(m_DelegatesProperty.arraySize - 1);
-            var eventProperty = delegateEntry.FindPropertyRelative(nameof(EventSystemEffectTrigger.Entry.eventID));
+            var eventProperty = delegateEntry.FindPropertyRelative(nameof(Slothsoft.Effects.Triggers.PointerEffectTrigger.Entry.eventID));
             eventProperty.enumValueIndex = selected;
             serializedObject.ApplyModifiedProperties();
         }

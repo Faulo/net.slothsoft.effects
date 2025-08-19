@@ -9,13 +9,13 @@ namespace Slothsoft.Effects.Triggers {
             /// What type of event is the associated callback listening for.
             /// </summary>
             [SerializeField]
-            internal T eventID;
+            internal T eventID = default;
 
             /// <summary>
-            /// The desired TriggerEvent to be Invoked.
+            /// The desired <see cref="EffectEvent"/> to be Invoke'd.
             /// </summary>
             [SerializeField]
-            internal EffectEvent callback;
+            internal EffectEvent callback = new();
         }
 
         [SerializeField]
