@@ -19,7 +19,7 @@ namespace Slothsoft.Effects.Editor.Triggers {
             readonly PropertyField callbackField;
 
             public TriggerElement(string label, Action onRemove) {
-                style.marginTop = EditorGUIUtility.singleLineHeight * 0.5f;
+                style.marginTop = EditorGUIUtility.standardVerticalSpacing;
 
                 var header = new VisualElement {
                     style = {
@@ -34,15 +34,17 @@ namespace Slothsoft.Effects.Editor.Triggers {
                     }
                 };
 
-                var removeButton = new Button { };
+                var removeButton = new Button(() => onRemove?.Invoke());
                 removeButton.Add(new Image { image = iconMinus });
-
-                removeButton.RegisterCallback<ClickEvent>(_ => onRemove?.Invoke());
 
                 header.Add(eventLabel);
                 header.Add(removeButton);
 
-                callbackField = new PropertyField { };
+                callbackField = new PropertyField {
+                    style = {
+                        paddingLeft = EditorGUIUtility.singleLineHeight,
+                    }
+                };
 
                 Add(header);
                 Add(callbackField);
