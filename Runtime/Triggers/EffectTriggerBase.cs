@@ -18,7 +18,7 @@ namespace Slothsoft.Effects.Triggers {
             internal EffectEvent callback = new();
         }
 
-        [SerializeField]
+        [SerializeField, HideInInspector]
         internal Entry[] entries = Array.Empty<Entry>();
 
         bool TryGetValue(T id, out EffectEvent callback) {
