@@ -5,10 +5,14 @@ using UnityEditor;
 
 namespace Slothsoft.Effects.Editor {
     sealed class SerializedPropertyArraySource : IList {
-        readonly SerializedProperty property;
+        readonly SerializedObject serialized;
+        readonly string propertyPath;
+        SerializedProperty property => serialized.FindProperty(propertyPath);
+        readonly Dictionary<int, object> setterBuffer = new();
 
         public SerializedPropertyArraySource(SerializedProperty property) {
-            this.property = property;
+            serialized = property.serializedObject;
+            propertyPath = property.propertyPath;
         }
 
         public int Add(object value) => throw new NotImplementedException();
@@ -36,14 +40,9 @@ namespace Slothsoft.Effects.Editor {
         public object this[int index] {
             get => property.GetArrayElementAtIndex(index);
             set {
-                int oldIndex = IndexOf(value);
-
-                if (oldIndex == index) {
-                    return;
+                if (value is SerializedProperty set) {
+                    setterBuffer[index] = set.managedReferenceValue;
                 }
-
-                property.MoveArrayElement(oldIndex, index);
-                property.serializedObject.ApplyModifiedProperties();
             }
         }
 
@@ -53,7 +52,9 @@ namespace Slothsoft.Effects.Editor {
             }
         }
 
-        public int Count => property.arraySize;
+        public int Count => property is { arraySize: int count }
+            ? count
+            : 0;
         public object SyncRoot => this;
         public bool IsSynchronized => false;
 
@@ -61,6 +62,15 @@ namespace Slothsoft.Effects.Editor {
             for (int i = 0; i < Count; i++) {
                 yield return this[i];
             }
+        }
+
+        internal void ApplyBuffer() {
+            foreach (var (index, obj) in setterBuffer) {
+                property.GetArrayElementAtIndex(index).managedReferenceValue = obj;
+            }
+
+            setterBuffer.Clear();
+            property.serializedObject.ApplyModifiedProperties();
         }
     }
 }

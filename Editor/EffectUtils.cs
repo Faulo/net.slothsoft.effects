@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using Slothsoft.UnityExtensions;
 using UnityEditor;
 using UnityEngine;
@@ -11,7 +12,7 @@ namespace Slothsoft.Effects.Editor {
         static readonly ImplementationLocator<IEffect> locator = new();
         static IReadOnlyList<Implementation<IEffect>> creators => locator.implementations;
 
-        internal static void CreateAddEffectMenu(SerializedProperty effectsProperty) {
+        internal static void CreateAddEffectMenu(SerializedProperty effectsProperty, Action onAdd = default) {
             var menu = new GenericMenu();
             if (creators.Count == 0) {
                 menu.AddDisabledItem(new($"Implement {typeof(IEffect)} and register via {typeof(ImplementationForAttribute)}!"));
@@ -27,6 +28,7 @@ namespace Slothsoft.Effects.Editor {
                         var element = effectsProperty.GetArrayElementAtIndex(index);
                         element.managedReferenceValue = creator.CreateInstance();
                         effectsProperty.serializedObject.ApplyModifiedProperties();
+                        onAdd?.Invoke();
                     }
                 );
             }

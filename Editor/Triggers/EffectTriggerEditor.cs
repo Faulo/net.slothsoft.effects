@@ -9,73 +9,8 @@ using UnityEngine.UIElements;
 using UEditor = UnityEditor.Editor;
 
 namespace Slothsoft.Effects.Editor.Triggers {
-    /// <summary>
-    /// UI Toolkit Port des IMGUI-Editors aus EventTriggerEditor.
-    /// Zeigt die vorhandenen Entries mit Callback an und erlaubt das Hinzufügen weiterer Event-Typen.
-    /// </summary>
     [CustomEditor(typeof(EffectTriggerBase<>), true)]
     sealed class EffectTriggerEditorUITK : UEditor {
-        sealed class TriggerElement : VisualElement {
-            readonly PropertyField callbackField;
-
-            public TriggerElement(string label, Action onRemove) {
-                style.marginTop = EditorGUIUtility.standardVerticalSpacing;
-
-                var header = new VisualElement {
-                    style = {
-                        flexDirection = FlexDirection.Row,
-                    }
-                };
-
-                var eventLabel = new Label(label) {
-                    style = {
-                        unityFontStyleAndWeight = FontStyle.Bold,
-                        flexGrow = 1,
-                    }
-                };
-
-                var removeButton = new Button(() => onRemove?.Invoke());
-                removeButton.Add(new Image { image = iconMinus });
-
-                header.Add(eventLabel);
-                header.Add(removeButton);
-
-                callbackField = new PropertyField {
-                    style = {
-                        paddingLeft = EditorGUIUtility.singleLineHeight,
-                    }
-                };
-
-                Add(header);
-                Add(callbackField);
-
-                Hide();
-            }
-
-            void Hide() {
-                style.display = DisplayStyle.None;
-            }
-
-            void Show() {
-                style.display = DisplayStyle.Flex;
-            }
-
-            public void Unbind() {
-                callbackField.Unbind();
-
-                Hide();
-            }
-
-            public void Bind(SerializedProperty property) {
-                callbackField.Unbind();
-                callbackField.BindProperty(property);
-
-                Show();
-            }
-        }
-
-        static Texture iconMinus => EditorGUIUtility.IconContent("Toolbar Minus").image;
-
         SerializedProperty entriesProperty => serializedObject.FindProperty(nameof(PointerEffectTrigger.entries));
 
         bool TryGetEntry(int type, out ushort index, out SerializedProperty property) {
@@ -93,9 +28,31 @@ namespace Slothsoft.Effects.Editor.Triggers {
         Dictionary<int, string> _eventTypes;
         Dictionary<int, TriggerElement> _eventElements;
 
-        Type triggerEnumType => target.GetType().BaseType.GenericTypeArguments[0];
+        Type _triggerEnumType;
+        Type triggerEnumType {
+            get {
+                if (_triggerEnumType is null) {
+                    for (var type = target.GetType(); type is not null; type = type.BaseType) {
+                        if (type is { GenericTypeArguments: Type[] { Length: > 0 } types }) {
+                            _triggerEnumType = types[0];
+                            break;
+                        }
+                    }
+                }
+
+                if (_triggerEnumType is null) {
+                    Debug.LogError($"Failed to identify generic type for {target}", target);
+                }
+
+                return _triggerEnumType;
+            }
+        }
 
         void OnEnable() {
+            if (!target) {
+                return;
+            }
+
             _eventTypes = Enum
                 .GetValues(triggerEnumType)
                 .Cast<int>()

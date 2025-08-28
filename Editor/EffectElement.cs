@@ -1,4 +1,5 @@
-﻿using UnityEditor;
+﻿using System;
+using UnityEditor;
 using UnityEditor.UIElements;
 using UnityEngine;
 using UnityEngine.UIElements;
@@ -28,23 +29,30 @@ namespace Slothsoft.Effects.Editor {
             Add(body);
         }
 
+        PropertyField effectField;
+        Type effectType;
+
         public void Unbind() {
-            body.Clear();
+            effectField?.Unbind();
         }
 
         public void Bind(SerializedProperty property) {
             Unbind();
 
-            string name = property.managedReferenceFullTypename.Split('.')[^1];
-            header.text = name;
+            if (property.managedReferenceValue is IEffect effect) {
+                if (effectType != effect.GetType()) {
+                    RebuildProperty(property, effect);
+                }
 
-            int startingDepth = property.depth;
-            bool enterChildren = true;
-            while (property.NextVisible(enterChildren) && property.depth > startingDepth) {
-                enterChildren = false;
-                body.Add(new Label(property.propertyPath));
-                body.Add(new PropertyField(property));
+                effectField.BindProperty(property);
             }
+        }
+
+        void RebuildProperty(SerializedProperty property, IEffect effect) {
+            body.Clear();
+            effectField = new PropertyField(property, effect.GetType().Name);
+            effectType = effect.GetType();
+            body.Add(effectField);
         }
     }
 }

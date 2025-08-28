@@ -6,7 +6,8 @@
         "Slothsoft.TestRunner",
         "UnityEngine.TestRunner",
         "UnityEditor.TestRunner",
-        "TNRD.NSubstitute"
+        "TNRD.NSubstitute",
+        "Slothsoft.Effects.Editor"
     ],
     "includePlatforms": [
         "Editor"
