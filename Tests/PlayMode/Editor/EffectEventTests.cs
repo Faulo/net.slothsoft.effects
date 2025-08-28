@@ -23,14 +23,14 @@ namespace Slothsoft.Effects.Tests.PlayMode {
             public void Invoke(GameObject context) => onGameObject?.Invoke(context);
             public void Invoke(CollisionInfo collision) => onCollision?.Invoke(collision);
         }
-        public enum EventType {
+        public enum EEventType {
             Global,
             GameObject,
             Collision
         }
-        public static EventType[] eventTypes = Enum
-            .GetValues(typeof(EventType))
-            .Cast<EventType>()
+        public static EEventType[] eventTypes = Enum
+            .GetValues(typeof(EEventType))
+            .Cast<EEventType>()
             .ToArray();
 
         [TestCase(0, false)]
@@ -44,7 +44,7 @@ namespace Slothsoft.Effects.Tests.PlayMode {
         }
 
         [Test]
-        public void TestCursedAction([ValueSource(nameof(eventTypes))] EventType triggerType) {
+        public void TestCursedAction([ValueSource(nameof(eventTypes))] EEventType triggerType) {
             using var test = new TestGameObject<StubTrigger>();
             var material = new CollisionMaterial();
             var collision = new CollisionInfo(new(test.gameObject, material), Vector3.one, 1);
@@ -65,18 +65,18 @@ namespace Slothsoft.Effects.Tests.PlayMode {
 
             bool wasCalled = false;
             switch (triggerType) {
-                case EventType.Global:
+                case EEventType.Global:
                     substitute.onGlobal += () => {
                         wasCalled = true;
                     };
                     break;
-                case EventType.GameObject:
+                case EEventType.GameObject:
                     substitute.onGameObject += obj => {
                         wasCalled = true;
                         Assert.AreEqual(test.gameObject, obj);
                     };
                     break;
-                case EventType.Collision:
+                case EEventType.Collision:
                     substitute.onCollision += collision => {
                         wasCalled = true;
                         Assert.AreEqual(collision, collision);
@@ -85,13 +85,13 @@ namespace Slothsoft.Effects.Tests.PlayMode {
             }
 
             switch (triggerType) {
-                case EventType.Global:
+                case EEventType.Global:
                     test.sut.onTrigger.Invoke();
                     break;
-                case EventType.GameObject:
+                case EEventType.GameObject:
                     test.sut.onTrigger.Invoke(test.gameObject);
                     break;
-                case EventType.Collision:
+                case EEventType.Collision:
                     test.sut.onTrigger.Invoke(collision);
                     break;
             }
@@ -100,60 +100,60 @@ namespace Slothsoft.Effects.Tests.PlayMode {
         }
 
         [Test]
-        public void TestAddListener([ValueSource(nameof(eventTypes))] EventType actionType, [ValueSource(nameof(eventTypes))] EventType triggerType) {
+        public void TestAddListener([ValueSource(nameof(eventTypes))] EEventType actionType, [ValueSource(nameof(eventTypes))] EEventType triggerType) {
             using var test = new TestGameObject();
             var material = new CollisionMaterial();
             var collision = new CollisionInfo(new(test.gameObject, material), Vector3.one, 1);
 
             object action = actionType switch {
-                EventType.Global => Substitute.For<Action>(),
-                EventType.GameObject => Substitute.For<Action<GameObject>>(),
-                EventType.Collision => Substitute.For<Action<CollisionInfo>>(),
+                EEventType.Global => Substitute.For<Action>(),
+                EEventType.GameObject => Substitute.For<Action<GameObject>>(),
+                EEventType.Collision => Substitute.For<Action<CollisionInfo>>(),
                 _ => throw new NotImplementedException(actionType.ToString()),
             };
 
             var sut = new EffectEvent();
 
             switch (actionType) {
-                case EventType.Global:
+                case EEventType.Global:
                     sut.AddListener(action as Action);
                     break;
-                case EventType.GameObject:
+                case EEventType.GameObject:
                     sut.AddListener(action as Action<GameObject>);
                     break;
-                case EventType.Collision:
+                case EEventType.Collision:
                     sut.AddListener(action as Action<CollisionInfo>);
                     break;
             }
 
 
             switch (triggerType) {
-                case EventType.Global:
+                case EEventType.Global:
                     sut.Invoke();
                     break;
-                case EventType.GameObject:
+                case EEventType.GameObject:
                     sut.Invoke(test.gameObject);
                     break;
-                case EventType.Collision:
+                case EEventType.Collision:
                     sut.Invoke(collision);
                     break;
             }
 
             switch (actionType) {
-                case EventType.Global:
+                case EEventType.Global:
                     (action as Action).Received(1).Invoke();
                     break;
-                case EventType.GameObject:
-                    var expectedGameObject = triggerType == EventType.Global
+                case EEventType.GameObject:
+                    var expectedGameObject = triggerType == EEventType.Global
                         ? default
                         : test.gameObject;
                     (action as Action<GameObject>).Received(1).Invoke(expectedGameObject);
                     break;
-                case EventType.Collision:
+                case EEventType.Collision:
                     var expectedCollision = triggerType switch {
-                        EventType.Global => CollisionInfo.empty,
-                        EventType.GameObject => new CollisionInfo(test.gameObject),
-                        EventType.Collision => collision,
+                        EEventType.Global => CollisionInfo.empty,
+                        EEventType.GameObject => new CollisionInfo(test.gameObject),
+                        EEventType.Collision => collision,
                         _ => throw new NotImplementedException(),
                     };
                     (action as Action<CollisionInfo>).Received(1).Invoke(expectedCollision);
@@ -162,55 +162,55 @@ namespace Slothsoft.Effects.Tests.PlayMode {
         }
 
         [Test]
-        public void TestRemoveActionListener([ValueSource(nameof(eventTypes))] EventType actionType, [ValueSource(nameof(eventTypes))] EventType triggerType) {
+        public void TestRemoveActionListener([ValueSource(nameof(eventTypes))] EEventType actionType, [ValueSource(nameof(eventTypes))] EEventType triggerType) {
             using var test = new TestGameObject();
             var material = new CollisionMaterial();
             var collision = new CollisionInfo(new(test.gameObject, material), Vector3.one, 1);
 
             object action = actionType switch {
-                EventType.Global => Substitute.For<Action>(),
-                EventType.GameObject => Substitute.For<Action<GameObject>>(),
-                EventType.Collision => Substitute.For<Action<CollisionInfo>>(),
+                EEventType.Global => Substitute.For<Action>(),
+                EEventType.GameObject => Substitute.For<Action<GameObject>>(),
+                EEventType.Collision => Substitute.For<Action<CollisionInfo>>(),
                 _ => throw new NotImplementedException(actionType.ToString()),
             };
 
             var sut = new EffectEvent();
 
             switch (actionType) {
-                case EventType.Global:
+                case EEventType.Global:
                     sut.AddListener(action as Action);
                     sut.RemoveListener(action as Action);
                     break;
-                case EventType.GameObject:
+                case EEventType.GameObject:
                     sut.AddListener(action as Action<GameObject>);
                     sut.RemoveListener(action as Action<GameObject>);
                     break;
-                case EventType.Collision:
+                case EEventType.Collision:
                     sut.AddListener(action as Action<CollisionInfo>);
                     sut.RemoveListener(action as Action<CollisionInfo>);
                     break;
             }
 
             switch (triggerType) {
-                case EventType.Global:
+                case EEventType.Global:
                     sut.Invoke();
                     break;
-                case EventType.GameObject:
+                case EEventType.GameObject:
                     sut.Invoke(test.gameObject);
                     break;
-                case EventType.Collision:
+                case EEventType.Collision:
                     sut.Invoke(collision);
                     break;
             }
 
             switch (actionType) {
-                case EventType.Global:
+                case EEventType.Global:
                     (action as Action).DidNotReceiveWithAnyArgs().Invoke();
                     break;
-                case EventType.GameObject:
+                case EEventType.GameObject:
                     (action as Action<GameObject>).DidNotReceiveWithAnyArgs().Invoke(default);
                     break;
-                case EventType.Collision:
+                case EEventType.Collision:
                     (action as Action<CollisionInfo>).DidNotReceiveWithAnyArgs().Invoke(default);
                     break;
             }

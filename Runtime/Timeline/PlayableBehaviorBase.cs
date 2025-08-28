@@ -5,7 +5,7 @@ namespace Slothsoft.Effects.Timeline {
     public abstract class PlayableBehaviorBase<TSettings, TTarget> : PlayableBehaviour, ISettingsBehaviour<TSettings>
         where TSettings : IPlayableAsset
         where TTarget : Object {
-        enum PlayableState {
+        enum EPlayableState {
             Unknown,
             FirstFrame,
             Running,
@@ -19,20 +19,20 @@ namespace Slothsoft.Effects.Timeline {
         protected float normalizedTime => (float)(time / duration);
 
         PlayableDirector director;
-        PlayableState state = PlayableState.Unknown;
+        EPlayableState state = EPlayableState.Unknown;
 
         public virtual void SetUp(TSettings settings) {
             this.settings = settings;
         }
 
         public override void OnBehaviourPlay(Playable playable, FrameData info) {
-            state = PlayableState.FirstFrame;
+            state = EPlayableState.FirstFrame;
         }
 
         public override void ProcessFrame(Playable playable, FrameData info, object playerData) {
             switch (state) {
-                case PlayableState.FirstFrame:
-                    state = PlayableState.Running;
+                case EPlayableState.FirstFrame:
+                    state = EPlayableState.Running;
 
                     target = playerData as TTarget;
                     if (!target) {
@@ -46,13 +46,13 @@ namespace Slothsoft.Effects.Timeline {
                     OnStateEnter(playable, info);
                     break;
 
-                case PlayableState.Running:
+                case EPlayableState.Running:
                     if (target) {
                         time += info.deltaTime * info.effectiveSpeed;
                         if (time < duration || director.extrapolationMode == DirectorWrapMode.Loop) {
                             OnStateUpdate(playable, info);
                         } else {
-                            state = PlayableState.Done;
+                            state = EPlayableState.Done;
                             OnStateExit(playable, info);
                         }
                     }
@@ -71,9 +71,9 @@ namespace Slothsoft.Effects.Timeline {
 
         public override void OnBehaviourPause(Playable playable, FrameData info) {
             switch (state) {
-                case PlayableState.Running:
+                case EPlayableState.Running:
                     if (target) {
-                        state = PlayableState.Done;
+                        state = EPlayableState.Done;
 
                         time += info.deltaTime * info.effectiveSpeed;
                         if (time >= duration) {
